@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<status>
+<team teamID="Dolan">
+<mission missionID="battleTech">
+<start>1440500829259</start>
+<stop>1440506586168</stop>
+</mission>
+<mission missionID="bountyHunter">
+<start>1440506588304</start>
+<stop>1440509543992</stop>
+</mission>
+<mission missionID="findKenobi">
+<start>1440509675192</start>
+<stop>1440510232724</stop>
+</mission>
+<mission missionID="findC3PO">
+<start>1440510279884</start>
+</mission>
+<mission missionID="getBomb">
+<start>1440510524014</start>
+<stop>1440510524182</stop>
+</mission>
+</team>
+<team teamID="FyrkantSvampbob">
+<mission missionID="bountyHunter">
+<start>1440500829259</start>
+<stop>1440506445881</stop>
+</mission>
+<mission missionID="smuggleSpices">
+<start>1440506494273</start>
+<stop>1440509265448</stop>
+</mission>
+<mission missionID="falcon">
+<start>1440509319847</start>
+<stop>1440512040118</stop>
+</mission>
+<mission missionID="getBomb">
+<start>1440510533958</start>
+<stop>1440510534124</stop>
+</mission>
+<mission missionID="train">
+<start>1440512052510</start>
+</mission>
+</team>
+<team teamID="Bamse">
+<mission missionID="findPlan">
+<start>1440500829259</start>
+<stop>1440510000664</stop>
+</mission>
+<mission missionID="findGoods">
+<start>1440510002008</start>
+<stop>1440510002864</stop>
+</mission>
+<mission missionID="battleTech">
+<start>1440510055816</start>
+<stop>1440511046900</stop>
+</mission>
+<mission missionID="findC3PO">
+<start>1440510511414</start>
+<stop>1440510511567</stop>
+</mission>
+</team>
+<team teamID="IcaStig">
+<mission missionID="helpLuke">
+<start>1440500829259</start>
+<stop>1440507619572</stop>
+</mission>
+<mission missionID="getBomb">
+<start>1440507671708</start>
+<stop>1440509319816</stop>
+</mission>
+<mission missionID="genealogy">
+<start>1440509341984</start>
+</mission>
+<mission missionID="findC3PO">
+<start>1440510564318</start>
+<stop>1440510564503</stop>
+</mission>
+</team>
+<team teamID="LillaMy">
+<mission missionID="findKenobi">
+<start>1440503118346</start>
+<stop>1440509418780</stop>
+</mission>
+<mission missionID="freeLeia">
+<start>1440508798028</start>
+<stop>1440508798892</stop>
+</mission>
+<mission missionID="getBomb">
+<start>1440509446676</start>
+<stop>1440510769696</stop>
+</mission>
+<mission missionID="falcon">
+<start>1440510581887</start>
+<stop>1440510582055</stop>
+</mission>
+<mission missionID="findC3PO">
+<start>1440510788320</start>
+</mission>
+</team>
+<team teamID="KimPossible">
+<mission missionID="findKenobi">
+<start>1440500885109</start>
+<stop>1440503645109</stop>
+</mission>
+<mission missionID="smuggleSpices">
+<start>1440504230452</start>
+<stop>1440506697376</stop>
+</mission>
+<mission missionID="battleTech">
+<start>1440506722480</start>
+<stop>1440508024208</stop>
+</mission>
+<mission missionID="findC3PO">
+<start>1440508083688</start>
+<stop>1440509703688</stop>
+</mission>
+<mission missionID="falcon">
+<start>1440510494934</start>
+<stop>1440510495726</stop>
+</mission>
+<mission missionID="train">
+<start>1440511347539</start>
+<stop>1440511348755</stop>
+</mission>
+<mission missionID="forcefield">
+<start>1440511685354</start>
+<stop>1440511686202</stop>
+</mission>
+<mission missionID="getBomb">
+<start>1440511719154</start>
+</mission>
+</team>
+<team teamID="EnPokemon">
+<mission missionID="genealogy">
+<start>1440500829259</start>
+<stop>1440508237044</stop>
+</mission>
+<mission missionID="battleTech">
+<start>1440508250984</start>
+<stop>1440511275154</stop>
+</mission>
+<mission missionID="falcon">
+<start>1440510528398</start>
+<stop>1440510529055</stop>
+</mission>
+<mission missionID="findC3PO">
+<start>1440511291858</start>
+</mission>
+</team>
+<team teamID="JohnnyBravo">
+<mission missionID="findGoods">
+<start>1440500829259</start>
+<stop>1440510460478</stop>
+</mission>
+<mission missionID="findPlan">
+<start>1440506636921</start>
+<stop>1440506637081</stop>
+</mission>
+<mission missionID="falcon">
+<start>1440510571247</start>
+<stop>1440510571407</stop>
+</mission>
+<mission missionID="train">
+<start>1440511447245</start>
+<stop>1440512123778</stop>
+</mission>
+<mission missionID="getBomb">
+<start>1440511453382</start>
+<stop>1440511454517</stop>
+</mission>
+<mission missionID="findKenobi">
+<start>1440512128106</start>
+</mission>
+</team>
+<team teamID="GrodanBoll">
+<mission missionID="findC3PO">
+<start>1440500829259</start>
+<stop>1440505940121</stop>
+</mission>
+<mission missionID="forcefield">
+<start>1440505949712</start>
+<stop>1440507403260</stop>
+</mission>
+<mission missionID="falcon">
+<start>1440507437628</start>
+<stop>1440510184780</stop>
+</mission>
+<mission missionID="train">
+<start>1440510218462</start>
+<stop>1440511625236</stop>
+</mission>
+<mission missionID="getBomb">
+<start>1440510550751</start>
+<stop>1440511666164</stop>
+</mission>
+<mission missionID="findKenobi">
+<start>1440511639380</start>
+</mission>
+</team>
+<team teamID="CruelladeVil">
+<mission missionID="falcon">
+<start>1440500829259</start>
+<stop>1440507733412</stop>
+</mission>
+<mission missionID="train">
+<start>1440507740500</start>
+<stop>1440509060500</stop>
+</mission>
+<mission missionID="findKenobi">
+<start>1440509064044</start>
+</mission>
+<mission missionID="getBomb">
+<start>1440510518742</start>
+<stop>1440510518918</stop>
+</mission>
+</team>
+<team teamID="Hocaponas">
+<mission missionID="freeLeia">
+<start>1440500829259</start>
+<stop>1440505886883</stop>
+</mission>
+<mission missionID="getBomb">
+<start>1440505904131</start>
+<stop>1440507425420</stop>
+</mission>
+<mission missionID="findKenobi">
+<start>1440507486101</start>
+<stop>1440508789944</stop>
+</mission>
+<mission missionID="helpLuke">
+<start>1440508829256</start>
+<stop>1440509880464</stop>
+</mission>
+<event eventID="epidemic">
+<start>1440509916448</start>
+<stop>1440510371740</stop>
+</event>
+<mission missionID="findC3PO">
+<start>1440510399623</start>
+<stop>1440512363583</stop>
+</mission>
+<mission missionID="falcon">
+<start>1440510558311</start>
+<stop>1440510558478</stop>
+</mission>
+<mission missionID="train">
+<start>1440511344731</start>
+<stop>1440511345131</stop>
+</mission>
+<mission missionID="forcefield">
+<start>1440512380120</start>
+</mission>
+</team>
+<team teamID="MojoJojo">
+<mission missionID="freeHanSolo">
+<start>1440505688384</start>
+<stop>1440509561096</stop>
+</mission>
+<mission missionID="findPlan">
+<start>1440501852896</start>
+<stop>1440506652896</stop>
+</mission>
+<mission missionID="freeLeia">
+<start>1440508818260</start>
+<stop>1440508820260</stop>
+</mission>
+<mission missionID="findC3PO">
+<start>1440510584367</start>
+<stop>1440510584519</stop>
+</mission>
+<mission missionID="findKenobi">
+<start>1440510657079</start>
+<stop>1440511561263</stop>
+</mission>
+<mission missionID="getBomb">
+<start>1440509586031</start>
+<stop>1440510666031</stop>
+</mission>
+<mission missionID="falcon">
+<start>1440511600400</start>
+</mission>
+</team>
+<team teamID="Aladdin">
+<mission missionID="smuggleSpices">
+<start>1440500829260</start>
+<stop>1440506146880</stop>
+</mission>
+<mission missionID="findC3PO">
+<start>1440506176416</start>
+<stop>1440510053532</stop>
+</mission>
+<mission missionID="getBomb">
+<start>1440510103012</start>
+<stop>1440510935584</stop>
+</mission>
+<mission missionID="falcon">
+<start>1440510500358</start>
+<stop>1440510500502</stop>
+</mission>
+<mission missionID="findKenobi">
+<start>1440510946969</start>
+<stop>1440512327592</stop>
+</mission>
+<mission missionID="forcefield">
+<start>1440512343224</start>
+</mission>
+</team>
+</status>

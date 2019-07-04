@@ -1,0 +1,22 @@
+{
+    "id": "inspektor",
+    "name": "Imperiets inspektör",
+    "location": "Längst ner i Cloud City",
+    "area": "Cloud City",
+    "persona": "Inspektör. Livrädd för att göra något fel som skulle få honnom ansvarig för något. Agerar bara på underskrivna order eller om nØllan lyckas övertala honom att han inte kommer att bli anmäld ifall han gör fel. Ursäktar sig ofta om byråkratin som krävs för att få bomber inspekterade (“Men tänk om folk använde bomber som inte är godkända! Vart skulle vårt samhälle gå då?”)",
+    "props": "Penna och “Order om Inspektion-papper”. 26 kopior (alltså 26*2 papper). Byråkratiska papper kan hittas på driven.",
+    "missions": [
+        {
+            "id": "ritningar:0",
+            "comment": "När nØllan kommer till Cloud City söker de upp Administratören. Han ger dem “Ansökan om order av Inspektion” där båda kopiorna (Administratörens & ansökarens) ska fyllas i osv. Administratören behåller den ena kopian. Administratören fyller i den och stämplar den och skickar nØllan till Inspektören. Om Inspektören finner ansökan giltig stämplar han den samt ber nØllan fylla i Order om Inspektion (båda kopiorna osv). Han stämplar den (på checkrutan Inspektion utförd) och skickar ner nØllan till Administratören igen, som då kryssar i rutan Objektet godkänt samt sätter än stämpel över denna ruta. Ansökan är nu godkänd och nØllan kan bege sig tillbaka till rebellbasen. *Både Inspektören och Adminstratören skall vara mycket noggranna och gärna klaga på om vissa fält inte är ifyllda.(Dra inte ut på det alltför mycket bara) Mutor tas gärna emot och om muta har givits så måste belopp fyllas i samt att en stämpel måste sättas över mutebeloppet. Antalet fält som då måste fyllas i minskar drastiskt.",
+            "response": ""
+        },
+        {
+            "id": "wmd:0",
+            "comment": "Samma sak som för ritningar:0",
+            "response": ""
+        }
+    ],
+    "events": [
+    ]
+}

@@ -1,0 +1,47 @@
+{
+	"id" : "prisjagare",
+	"main" : {
+		"title" : "Prisjägare",
+		"background" : "Sedan huvudjägarna råkade åka vilse i hyperrymden finns det alltid för få prisjägare. Att mot betalning hämta in åtråvärda personer är tillräckligt lukrativt för att de flesta med kapacitet nog ska åta sig såna uppdrag.",
+		"goal" : "nØllan ska skaffa sig ett kontrakt och utföra det med bravur, allt för att få den inte så speciellt dåligt tilltagna belöningen.",
+		"reward" : "Belöningen består av, förutom känslan av att ha utfört ett hyggligt dagsverke, 2000 krediter.",
+		"hint" : "Ni och er uppdragsgivare, Boba Fett, har bestämt träff i Wild Space."
+	},
+	"clues" : [
+		{
+			"id" : "1",
+			"text" : "Jag vill att Joruus C'baoth skall röjas ur vägen. Leverera hans huvud till min kumpan i rebellbasen. Jag har hört att R2D2 vet var han befinner sig. Namnet Joruus C'baoth kanske kan väcka robotens minne till liv. R2D2 såg jag senast i baren i Mos Eisley.",
+			"comment" : "Det här ledtråden ger Boba Fett i Wild Space muntligen om nØllan frågar om prisjakt. ",
+			"characters" : []
+		},
+		{
+			"id" : "2",
+			"text" : "Det var ett par jawas från Tatooine som drog förbi med ett antal robotar på släp för tre månar sedan...",
+			"comment" : "Den här ledtråden ges av barpersonalen i Mos Eisley och trycks på ett »Hitta R2D2»-ledtrådskort (via r2d2.json) så att de inte skall behöva fråga vilket uppdrag nØllan håller på med.",
+			"characters" : []
+		},
+		{
+			"id" : "3",
+			"text" : "Här i trakterna finns det inte så många köpare, så vi lät vår vän Albeback ta robotarna norrut, han bör inte hunnit ut ur Correlia System än...",
+			"comment" : "Den här ledtråden ges av Jawas på Tatooine och trycks på ett »Hitta R2D2»-ledtrådskort (via r2d2.json) så att de inte skall behöva fråga vilket uppdrag nØllan håller på med.",
+			"characters" : []
+		},
+		{
+			"id" : "4",
+			"text" : "Han gömmer sig i norra Borderland Regions och har en förkärlek till färgen brun.",
+			"comment" : "Den här ledtråden ges av R2D2 om man skriver in koden »joruus c'baoth».",
+			"characters" : []
+		},
+		{
+			"id" : "5",
+			"text" : "Grattis nØllan! Efter en hård strid tog ni slutligen kål på Joruus C'baoth. Ta med hans huvud till rebellbasen som bevis på att ni klarat uppdraget. Det kan hända att det ligger fler huvuden här och i sådant fall skall nØllan bara ta med sig ett av dem.",
+			"comment" : "Tillsammans med ledtråden ligger 13 stycken kålhuvuden.",
+			"characters" : []
+		}
+	],
+	"meta" : {
+		"resolution" : "nØllan tar med sig ett kålhuvud från plats 56 och beger sig mot rebellbasen.",
+		"requirements" : "Uppdraget redovisas genom att nØllan lämnar in kålhuvudet i rebellbasen och inkasserar 2000 krediter.",
+		"props" : "För det här uppdraget krävs 13 stycken kålhuvuden (eller 13 halva kålhuvuden) som skall symbolisera Joruus C'baoths huvud. Vidare behövs Boba Fett i Wild Space samt en fungerande R2D2 med tillhörande vakter, barpersonalen i Mos Eisley och Jawas på Tatooine. Dessa är dock ej specifika för uppdraget."
+	}
+}

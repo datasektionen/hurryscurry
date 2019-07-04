@@ -1,0 +1,15 @@
+Välkommen till Rebellklienten!
+
+Denna klient används för att visa hur det går för alla lag. Lagen finns listade till vänster med en progress bar som visar hur långt de har kommit totalt, medaljer ifall de är bland de 3 bästa lagen samt en siffra som visar hur många minuter laget har hållit på med det nuvarande uppdraget. 
+
+Genom att klicka på ett lag får du fram detaljerad information om hur det går för laget och vilket uppdrag de håller på med. Små bockar markerar hur många checkpoints laget har klarat på det nuvarande uppdraget. 
+
+Högerklickar du på ett uppdrag så kan du lägga till och ta bort checkpoints för ett lag. Vilka du kan lägga till och ta bort bestäms av vem du är inloggad som. De filtreras efter din roll.
+
+Ifall du klickar på menyraden kommer du till översikten där du kan se hur det går för alla lagen. Ett litet huvud till vänster under ett uppdrag markerar att ett lag håller på med uppdraget, ett huvud till höger att laget är klart med uppdraget. 
+
+Om du vänsterklickar på ett uppdrag så får du mer information om uppdraget.
+
+F2 tar dig till chatfönstret. Där kan du chatta med alla andra funktionärer på HS.
+
+F5 och F6 sorterar om uppdragen.

@@ -1,0 +1,27 @@
+{
+    "id": "obi-wan",
+    "name": "Obi-Wan Kenobi",
+    "location": "Mos Eisley (Meta)",
+    "area": "",
+    "persona": "Lång, klok gammal man. Klär sig i ökenfärgad kåpa. Gärna vitt hår och skägg. Obi Wan ska ligga ganska lågt i baren när nØllan är där. Han ska vara hemlig och nØllan måste leta upp honom. Önska nØllan lycka till och upprepa “må kraften vara med dig”. Om nØllan säger fel kodord, ignorera dem och verka mystisk.",
+    "props": "En ljussabel (lysande plastsvärd från Buttericks eller motsvarande) för varje lag (13 st) och ett inspelat röstmeddelande som säger att de har nått Obi-Wan Kenobi.",
+    "missions": [
+        {
+            "id": "kenobi:0",
+            "comment": "Om nØllan knackar 5 ggr på axeln och viskar “Vill ni se min ljussnabel” svara med något passande för en jedi-riddare och ge nØllan en ljussabel.",
+            "response": "“Jag ser att kraften är med er”"
+        },
+        {
+            "id": "smuggelgods:1",
+            "comment": "Om nØllan frågar efter smuggelgods så vill du inte ge dig det innan du fått tag i imperiets guldtackor som finns på Alderaan.",
+            "response": "“Jag tog paketet i tron om att det var imperiets guldtackor, men jag hade fel. Ni måste ta hit guldtackorna innan jag ger er någonting! Jag skulle leta på Alderaan”"
+        },
+        {
+            "id": "smuggelgods:3",
+            "comment": "När nØllan kommer tillbaka med en guldtacka (sten målad guld) säger du att du gav smuggelgodset till de gulliga Ewoksen vid Forest Moon of Endor då du inte kunde motstå dem.",
+            "response": "“Ge hit guldtackorna, de är inte för nybörjare!.... Tyvärr har jag alltid varit svag för Ewoker. De kom och ville ha godset, och medan deras lurviga päls förtrollade mig, så lyckades de ta det ifrån mig. Det ryktas om att Ewokerna håller hus på sin hemplanet, Endors skogsmåne.”"
+        }
+    ],
+    "events": [
+    ]
+}

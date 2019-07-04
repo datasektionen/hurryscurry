@@ -1,0 +1,47 @@
+{
+	"id" : "leia",
+	"main" : {
+		"title" : "Rädda Prinsessan Leia",
+		"background" : "Prinsessan Leia Organa har blivit tillfångatagen av en Imperial Star Destroyer. Skeppet fördes av Darth Vader i egen hög person. Hon stoppades när hon var på väg till Obi-Wan Kenobi för att övertala honom att samarbeta med rebellerna. Hon har sett ritningarna till dödsstjärnan och är dessutom en riktig snygging.",
+		"goal" : "nØllan måste lokalisera Leias cell och komma på något sätt att ta sig förbi hennes vakter. Ju längre nØllan väntar desto mer otäck och obehaglig tortyr utsätts hon för. Om inte annat så är hon värd att räddas för sina läckra flätor och sin, inte så lite, sensuella mun.",
+		"reward" : "Om nØllan lyckas med det här uppdraget så belönas nØllan med, utöver prinsessan Leias gunst, 1100 krediter.",
+		"hint" : "Big Bunji är en ganska otrevlig typ som brukar hänga i baren i Mos Eisley. Han får höra en hel del från folk som stannar i stan för att fylla på med nebulamunkar och annat mumsigt, han kan veta något som hjälper er att hitta Leia."
+	},
+	"clues" : [
+		{
+			"id" : "1",
+			"text" : "Leia? Han Solo beskrev henne som ättrig och bortskämd. Dessutom verkade hon bara bry sig om den där Like, Lajka.. Luke? Ja, i alla fall så var det senaste jag hörde om deras lilla äventyr att prinsessan blev tillfångatagen och Luke hamnade i någon form av knipa. Han håller visst till någonstans djupt nere i Wild Space nu för tiden.",
+			"comment" : "Den här ledtråden ges av Big Bunji om nØllan frågar om Leia.",
+			"characters" : []
+		},
+		{
+			"id" : "2",
+			"text" : "Koden är 'JUNGFRU MARIA'! Ta er till R2D2, han kan hjälpa er! Senast sågs han i Mos Eisley!",
+			"comment" : "Den här ledtråden ges av Luke när nØllan frågar om Leia. Han räcker fram lappar med bokstäver som nØllan ska lägga i en ordning som bildar lösenordet “Jungfru Maria”.  När nØllan har knäckt koden skickar Luke vidare nØllan till R2D2 via Mos Eisley.",
+			"characters" : []
+		},
+		{
+			"id" : "3",
+			"text" : "Det var ett par jawas från Tatooine som drog förbi med ett antal robotar på släp för tre månar sedan...",
+			"comment" : "Den här ledtråden ges av barpersonalen i Mos Eisley och trycks på ett »Hitta R2D2»-ledtrådskort (via r2d2.json) så att de inte skall behöva fråga vilket uppdrag nØllan håller på med.",
+			"characters" : []
+		},
+		{
+			"id" : "4",
+			"text" : "Här i trakterna finns det inte så många köpare, så vi lät vår vän Albeback ta robotarna norrut, han bör inte hunnit ut ur Correlia System än...",
+			"comment" : "Den här ledtråden ges av Jawas på Tatooine och trycks på ett »Hitta R2D2»-ledtrådskort (via r2d2.json) så att de inte skall behöva fråga vilket uppdrag nØllan håller på med.",
+			"characters" : []
+		},
+		{
+			"id" : "5",
+			"text" : "Leia sitter i cell 2187, Detention Block AA-23, area E33 i södra Borderland Regions.",
+			"comment" : "Den här ledtråden ges av R2D2 om man skriver in koden »jungfru maria».",
+			"characters" : []
+		}
+	],
+	"meta" : {
+		"resolution" : "Väl framme på plats vid Leias cell, nekas nØllan tillträde av vakterna med motiveringen att de inte är Stormtroopers. På platsen alldeles bredvid cellen, ligger emellertid ett rum med skylten »Stormtroopers omklädningsrum» i vilket det finns mängder med kopieringspapper och tejp, eller ännu bättre stormtrooperförklädnadsmaterial. Om nØllan klär ut sig till Stormtroopers är det bara att vandra in i cellen och befria Leia.",
+		"requirements" : "Uppdraget redovisas genom att gruppen beger sig tillbaka till rebellbasen och där uppvisar ett pussmärke från Prinsessan Leias läckra läppar på en av lagmedlemmarnas kind samt inkasserar 1100 krediter för besväret. ",
+		"props" : "Det som krävs i rekvisitaväg är mängder med A4 eller dylikt kopieringspapper som skall ligga i Stormtroopers omklädningsrum tillsammans med massa tejp. Alternativt en vit ovve och stormtrooper hjälm om det finns kvar. Vidare behövs minst två vakter som iklädda Stormtroopermundering vaktar Leias cell. Ej specifikt för det här uppdraget, men ändå nödvändigt, är barpersonalen i Mos Eisley, Jawas på Tatooine samt en fungerande R2D2 med tillhörande vakter."
+	}
+}

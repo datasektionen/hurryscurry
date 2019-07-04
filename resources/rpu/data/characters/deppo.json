@@ -1,0 +1,41 @@
+{
+    "id": "deppo",
+    "name": "Deppo",
+    "location": "Junkfort Station",
+    "area": "Nar Shaddaa",
+    "persona": "Deppo är en mekaniker som går klädd i blåställ och gärna har lite skiftnycklar och skruvmejslar i fickor och händer. Oljig i ansiktet och kan prata i timmar om en förgasare. Deppo får höra en del från folk som kommer in med sina skepp för reparation och har därför ganska bra koll på vad som händer under radarn i cyberspace. ",
+    "props": "Silvertejp/eltejp, 13 st bokmärken (gärna söta änglar), 13 st plåster och 13 st 3CPO huvuden.",
+    "missions": [
+        {
+            "id": "1000arsservice:2",
+            "comment": "Om nØllan ber att du ska utföra 1000-årsservice på falken skickar du dem vidare till R2D2 i Mos Eisley på jakt efter en »hyperdrive motivator». När nØllan återvänder med ett autentiskt pappersplan med sig så gör du en 1000-års service på Falken för 1000 krediter, signerar flygplanet och bockar av dess kod på listan du fått (E139GI485993, G293MER3984, IOP235667980, PLAN7146387, VIGG2988756, NO123495MN, FR0GG298347, SLAV12457690, GOOG2203452, KLÄG253401G, GMHRL249D14, NLS50106Q40, TJOS0256KFD).",
+            "response": "”Det enda som behövs är en ny »hyperdrive motivator». Skaffa en åt mig så kan jag laga ert skepp R2D2 vet förmodligen var ni kan få tag på en. Sist jag såg R2D2 var han i baren i Mos Eisley.”"
+        },
+        {
+            "id": "c3po:1",
+            "comment": "Om nØllan frågar om C3PO, ta upp C3POs huvud och sitt med det i knät. Berätta för nØllan hur några jawas kommit och stulit C3PO’s resterande tre reservdelar då han skulle repareras. Be nØllan att hämta tillbaka delarna till dig så att du kan montera ihop C3PO igen. Säg att jawas är ganska läskiga varelser som brukar hålla till på ökenplaneten Tatooine.",
+            "response": ""
+        }, {
+            "id": "c3po:3",
+            "comment": "När nØllan kommer tillbaka med C3POs delar, tackar du nØllan och sätter du ihop de med lite silvertejp och ger den hela roboten till nØllan. nØllan ska sedan ta med sig C3PO till rebellbasen för att redovisa uppdraget.",
+            "response": ""
+        }
+    ],
+    "events": [
+        {
+            "id": "negative:1",
+            "comment": "Efter ett misslyckat hopp i hyperrymden hamnar nØllan i ett asteroidbälte. Vid en hård kollision med en av asteroiderna böjdes nØllans parabol till och nØllan får numera bara in FTV. För minst 500 krediter lagar du skeppet. Beviset utgörs av den bit silvertejp du sätter runt fingret på en av nØllan.",
+            "response" : ""
+        },
+        {
+            "id": "negative:4",
+            "comment": "Förste skytten på nØllans skepp har fastnat med tandställningen i slutstycket på laserkanonen. Du har god hand med skiftnycklar och en tandläkarutbildning i bakfickan. För 300 krediter räddar du nØllan ur den pinsamma situationen och ger dem ett bokmärke som belöning (bevis).",
+            "response" : ""
+        },
+        {
+            "id": "negative:8",
+            "comment": " nØllan har sumobrottats med Jabba the Hut (ett stort misstag). Deppo vet även hur man lagar trasiga nØllan. För 200 krediter lagar du nØllan genom att sätta ett plåster i pannan på den skadade (bevis).",
+            "response" : ""
+        }
+    ]
+}

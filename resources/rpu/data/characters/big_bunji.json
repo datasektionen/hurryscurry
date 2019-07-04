@@ -1,0 +1,32 @@
+{
+    "id": "big_bunji",
+    "name": "Big Bunji",
+    "location": "Baren i Mos Eisley",
+    "area": "Borderland Regions",
+    "persona": "En tvättäkta rymdskurk. Bunji är oärlig, skum och otrevlig. Gärna klädd i kåpa så att han inte visar ansiktet. Sitter och super eller spelar i Mos Eisley.",
+    "props": "13 plastmuggar, en (liten) flaska YES, 13 st ritningar av dödsstjärnan, en penna att signera händelsekortet.",
+    "missions": [
+        {
+            "id": "ritningar:3",
+            "comment": "nØllan kommer till Mos Eisley och letar efter någon som har ritningarna till Dödsstjärnan, kan hända att dom frågar direkt efter dig. Var skeptisk mot dem när de frågar efter dig, men få dom inte att leta efter dig i hundra år. När de har lokaliserat dig kommer de att fråga om ritningarna, spela tuff och motvillig men gå med på att avslöja var ritningarna finns för minst 700 krediter (förhandla!). Ritningarna har du nämligen läckt till Wookieleaks.org. (Kan hända att detta inte funkar, då kommer du att sälja pappersritningar istället).",
+            "response": "Förklara riktigt otrevligt att de måste få ritningarna godkända av Imperiets Ministerie för Inspektion och Övrig Hantering av Massförstörelsevapen och Laserbazookas i Cloud City, sen avslöjar du att ritningarna finns på Wookieleaks.org konspiratoriskt."
+        },
+        {
+            "id": "leia:1",
+            "comment": "nØllan har fått veta att du är en väldigt otrevlig typ som hänger i Mos Eisley och att du kanske har hört något om Leia från de som reser genom staden. När nØllan frågar om Leia ska du leda de till Luke genom att säga något i stil med följande.",
+            "response": "“Leia? Han Solo beskrev henne som ättrig och bortskämd. Dessutom verkade hon bara bry sig om den där Like, Lajka.. Luke? Ja, i alla fall så var det senaste jag hörde om deras lilla äventyr att prinsessan blev tillfångatagen och Luke hamnade i någon form av knipa. Han håller visst till någonstans djupt nere i Wild Space nu för tiden.“"
+        }
+    ],
+    "events": [
+        {
+            "id": "negative:6",
+            "comment": "Du har kidnappat nØllans städare. Nu kommer de och betalar lösen. Lösensumman är ca 300 kred. När du fått pengarna ger du en liten plastmugg till nØllan och fyller det med YES. (Detta fungerar sedan som bevis på att uppdraget är slutfört i rebellbasen)",
+            "response" : ""
+        },
+        {
+            "id": "negative:7",
+            "comment": "Du jobbar också extra som videouthyrare. nØllan kommer för att betala en förseningsavgift för filmen “Tjejen som beamades för mycket”. Det kostar 500 kred. När nØllan har betalat signerar du deras händelsekort.",
+            "response" : ""
+        }
+    ]
+}

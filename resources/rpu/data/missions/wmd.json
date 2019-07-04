@@ -1,0 +1,35 @@
+{
+	"id" : "wmd",
+	"main" : {
+		"title" : "Införskaffa WMD",
+		"background" : "Kriget har nu pågått tämligen rymdlänge och nØllans vapenarsenal börjar tryta. Den sista laserkatapulten gick sönder igår, till och med jonknivarna har blivit slöa och börjat rosta. Det enda vapen som återstår är gummisnoddarna. På sistone har dock Stormtroopers utvecklat rustningen Kevlar Mark III-b som är i stort sett immuna mot gummivapen. Rykten gör gällande att en ljusskygg vapenhandlare säljer ritningarna till ett nytt särdeles kraftfullt vapen som definitivt skulle ge rebellerna en större chans i slaget.",
+		"goal" : "Hitta vapenhandlaren och få hen att ge er ritningarna, samt ansök om alla erfordeliga tillstånd.",
+		"reward" : "nØllans belöning för detta uppdrag kommer inte att bestå av några krediter (giriga nØllan!). Ritningen till ett, inte så lite, potent vapen är belöning nog.",
+		"hint" : "Kan det hända att någon har placerat ut en brevbomb vid valvet mellan Borderland Regions och Corellia System kanske..."
+	},
+	"clues" : [
+		{
+			"id" : "1",
+			"text" : "Här i Mos Eisley är allting bra! Om du söker mig så gå in i baren i Mos Eisley och fråga efter adressen till Wookieleaks. Hälsningar Gallandro, vapenhandlare.",
+			"comment" : "Den här ledtråden skall skrivas på ett vykort som tejpas upp i valvet mellan E- och D-huset.",
+			"characters" : []
+		},
+		{
+			"id" : "2",
+			"text" : "Gallandro håller till runt Roche Asteroidbälte och kanske kan sälja er en puffra, eller något mer effektivt än så…",
+			"comment" : "Den här ledtråden ger rebellagenten i Mos Eisley muntligen om någon frågar efter »Wookieleaks».",
+			"characters" : []
+		},
+		{
+			"id" : "3",
+			"text" : "nØllan har nu ritningen. Nu måste nØllan bara få den godkänd av Imperiets Ministerie för Inspektion och Övrig Hantering av Massförstörelsevapen och Laserbazookas i Cloud City.",
+			"comment" : "Den här ledtråden ges av Gallandro efter att han har sålt ritningarna för 1000 krediter.",
+			"characters" : []
+		}
+	],
+	"meta" : {
+		"resolution" : "När nØllan kommer till Cloud City söker de upp Administratören. Han ger dem “Ansökan om order av Inspektion” där båda kopiorna (Administratörens & ansökarens) ska fyllas i. Administratören behåller den ena kopian. Administratören fyller i den och stämplar den och skickar nØllan till Inspektören. Om Inspektören finner ansökan och ritningen (en diskett) giltig, stämplar han den samt ber nØllan fylla i ”Order om Inspektion” (båda kopiorna). Han stämplar den (på checkrutan Inspektion utförd) och skickar ner nØllan till Administratören igen.  Administratören stämplar sedan åläggandet ytterligare några gånger, varpå n0llan har klarat uppdraget. Mellan varje kontakt med Administratören/Inspektören krävs en del köande och byråkrati.",
+		"requirements" : "Uppdraget redovisas genom att nØllan tar med sig sin nyinköpta ritning och intyg och visar dem i rebellbasen.",
+		"props" : "Den enda rekvisita som behövs är ett vykort samt 13 stycken disketter, som tillhandahålls av Gallandro. Vad det ankommer personer så behövs rebellagenten i Mos Eisley samt vapenhandlaren Gallandro (alla måste givetvis vara informerade om vad som skall sägas). Inga av dessa är dock specifika för uppdraget. Dessutom behövs Inspektören och Administratören sittandes vid bord med titelskylt (“Inspektör” respektive “Administratör”), officiella papper och mycket stämplar. Inspektören kan med fördel ha en våg som hen använder för att inspektera disketten med. “All electrons accounted for”, och även möjligen en “Administratör”-skylt (så att hen kan låtsas vara administratören för att lura nØllan)."
+	}
+}

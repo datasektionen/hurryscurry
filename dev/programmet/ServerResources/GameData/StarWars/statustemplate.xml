@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE status [<!ELEMENT status (team+)>
+<!ELEMENT team (mission*,event*)>
+<!ELEMENT mission (start,stop?, checkpoint*)>
+<!ELEMENT checkpoint (#PCDATA)> <!--PCDATA is the time of the checkpoint-->
+<!ELEMENT event (start,stop?)>
+<!ELEMENT start (#PCDATA)>
+<!ELEMENT stop (#PCDATA)>
+
+<!ATTLIST checkpoint checkpointID CDATA #REQUIRED>
+<!ATTLIST team teamID CDATA #REQUIRED>
+<!ATTLIST mission missionID CDATA #REQUIRED>
+<!ATTLIST event eventID CDATA #REQUIRED>
+]>
+
+<status>
+<team teamID="AhlgrensBilar">
+</team>
+</status>

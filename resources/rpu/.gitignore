@@ -1,0 +1,26 @@
+# ignore all files in the data/
+data/*
+
+# ignore everything but README and .json files from characters/
+!data/characters
+data/characters/*
+!data/characters/*.json
+!data/characters/README.md
+
+# ignore everything but README and .json files from drifters/
+!data/drifters
+data/drifters/*
+!data/drifters/*.json
+!data/drifters/README.md
+
+# ignore everything but README and .json files from events/
+!data/events
+data/events/*
+!data/events/*.json
+!data/events/README.md
+
+# ignore everything but README and .json files from missions/
+!data/missions
+data/missions/*
+!data/missions/*.json
+!data/missions/README.md

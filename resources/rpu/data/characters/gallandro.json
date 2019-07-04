@@ -1,0 +1,32 @@
+{
+    "id": "gallandro",
+    "name": "Gallandro",
+    "location": "Roche Asteroidbälte",
+    "area": "",
+    "persona": "Cool person, handelsresande, skum och egen företagare. Trenchcoat och hatt eller nåt sånt. Om glasögon så attans coola sådana. Gatuförsäljarstilen, öppna rocken och visa dina varor!",
+    "props": "13 ritningar på massförstörelsevapen/WMD/diskett, 13 påsar med schampo (små testexemplar liksom...), ca 2500 krediter och en penna att signera kort med. Sen skadar det inte om Gallandro har med sig alla möjliga nödvändiga och onödiga saker utöver de här, han är ju trots allt en “Go-to-guy”!",
+    "missions": [
+        {
+            "id": "wmd:3",
+            "comment": "När nØllan kommer och frågar om en ritning för ett massförstörelsevapen verkar du först lite besvärad, men sen säljer du en ritning(diskett) till nØllan för ca 1000 krediter. Förhandla gärna men håll dig inom intervallet 800-1200. Berätta sedan för nØllan att de *måste* få den godkänd av Imperiets Ministerie för Inspektion och Övrig Hantering av Massförstörelsevapen och Laserbazookas i Cloud City.",
+            "response": ""
+        },
+        {
+            "id": "ritningar:2",
+            "comment": "nØllan kommer att fråga dig om ritningarna till Dödsstjärnan. Du vet ingenting förrän du fått lite pengar (ca 300 krediter, förhandla!). Sen seger du att någon i Mos Eisley ska ha ritningarna, samt att de måste godkännas av Imperiets Ministerie för Inspektion och Övrig Hantering av Massförstörelsevapen och Laserbazookas i Cloud City.",
+            "response": "“Det ryktas om att en en skum typ som brukar hänga i Mos Eisley har ritningarna i sin ägo. Om detta rykte skulle visa sig vara sant, så måste ni får ritningarna godkända Imperiets Ministerie för Inspektion och Övrig Hantering av Massförstörelsevapen och Laserbazookas i Cloud City”"
+        }
+    ],
+    "events": [
+      {
+          "id": "negative:2",
+          "comment": "nØllan är i stort behov av mjällschampo. Sälj en liten påse med schampo till nØllan för ca 100 krediter.",
+          "response" : ""
+      },
+      {
+          "id": "positive:6",
+          "comment": "Space'r'Us: nØllan har vunnit en slogantävling med bidraget “Om det ryms i rymden så säljer vi det” till hårdvarujätten Space'r'Us. Kolla att de har korrekt händelsekort och betala dem 400 kred. Signera sedan kortet.",
+          "response" : ""
+      }
+    ]
+}

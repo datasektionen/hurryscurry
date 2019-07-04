@@ -1,0 +1,35 @@
+{
+	"id" : "stridsteknik",
+	"main" : {
+		"title" : "Ny stridsteknik",
+		"background" : "Jedi-riddarna har stridit mot Imperiet länge och deras teknik är välkänd av den Mörka Sidan. För att rebellerna fortfarande ska kunna utgöra ett hot måste de hitta nya sätt att strida på. Ryktet går att rymdpiraten och wärdshusägaren Maz Kanata har en effektiv stridsteknik att lära ut.",
+		"goal" : "nØllan måste lokalisera Maz Kanata och få henne att lära ut denna avancerade och effektiva stridsteknik. Denna teknik skall därefter utövas framför en Stormtrooper och nØllan ska därefter återvända med bildbevis på hur effektiv den var.",
+		"reward" : "Som om inte stridstekniken vore belöning nog så får nØllan även 1000 krediter för väl genomfört uppdrag.",
+		"hint" : "Senaste gången Maz Kanata skymtades var hon hårt arbetandes i sitt wärdshus, som ligger i Borderland Regions."
+	},
+	"clues" : [
+		{
+			"id" : "1",
+			"text" : "Jag lär er ingenting förrän jag får en autografbild av min älskade Chewbacca igen. Senaste gången jag såg honom var han i kareokebaren i Corellia System.",
+			"comment" : "Ges av Maz Kanata när nØllan vill lära sig stridstekniken (utan att ha bilden).",
+			"characters" : []
+		},
+		{
+			"id" : "2",
+			"text" : "Nu när ni har en strålande vacker signerad bild på Chewbaccas välansade lekamen får ni snabbt röra er tillbaka till Maz Kanata så hon kan lära er hennes stridsteknik!",
+			"comment" : "När nØllan kommer upp till Chewbacca och ber om en autografbild ger Chewbacca en av de 13 autografbilderna han har och  nØllan springer då självmant iväg till Maz Kanata igen.",
+			"characters" : []
+		},
+		{
+			"id" : "3",
+			"text" : "Använd den här stridstekniken på en Stormtrooper. Den är riktigt effektiv!",
+			"comment" : "Efter att nØllan visat upp Chewies autografbild för Maz Kanata så lär hon ut den “avancerade stridstekniken” genom att lära nØllan ”floss”-dansen (Backpack kid) till Swish Swish låten (Katy Perry). Se till så att så många som möjligt är med på dansen (minst 5st) då stridstekniken har exponentiell kraft ju fler som använder den. nØllan förstår sedan själv att de måste hitta en Stormtrooper, utföra dansen och ta en bild för att visa upp i rebellbasen.",
+			"characters" : []
+		}
+	],
+	"meta" : {
+		"resolution" : "När nØllan väl har lärt sig floss-dansen (Backpack kid) så ska de ta sig till en valfri Stormtrooper för att visa upp dansen för denna. När detta händer visar Stromtroopern en tydlig skräck, och nØllan tar en bild på detta för att visa upp i rebellbasen.",
+		"requirements" : "Uppdraget redovisas genom att nØllan visar upp en bild där de utför dansen framför en Stormtrooper (som på något sätt visar att de är rädda för dansen).",
+		"props" : "De personer som involveras i uppdraget är Maz Kanata, Chewbacca och slumpmässig Stormtrooper. Maz Kanata behöver en högtalare för att kunna spela upp en låt när hen lär ut dansen. Chewbacca behöver 13 st autografbilder (finns på driven “Hurry Scurry 2016/Trycksaker/Rekvisita/Chewie Wallet Pic”), som antingen försigneras av någon eller så signerar hen som spelar Chewbacca bilderna på plats."
+	}
+}

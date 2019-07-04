@@ -1,0 +1,32 @@
+{
+    "id": "luke",
+    "name": "Luke",
+    "location": "Wild Space (i arkitekthålet)",
+    "area": "Wild Space",
+    "persona": "Luke Skywalker är en nyfiken och härlig kille som för det mesta leker jediriddare. Han är oftast glad och trevlig. Dock verkar han sitta fast med en orm runt benet djupt i något som skulle kunna vara ett sopprum fullt av vatten, men han håller humöret uppe ändå!",
+    "props": "Inplastade lappar med bokstäver som bildar “Jungfru Maria”, en gosedjursorm att ha runt benet och en telefon nära till hands. ",
+    "missions": [
+        {
+            "id": "solo:2",
+            "comment": "När nØllan kommer förbi och frågar om svensexan känner du nostalgi kring den, men känner dig lite väl stel för att kunna den där koden som nØllan vill ha till Han Solos fängelse. När nØllan ger dig massage stönar du ut koden 750 samt att Boba Fett i Wild Space vet mer. Se response för ordagran replik!",
+            "response": "“Åhhh svensexan, den var trevlig den. Det var då jag Bobba Fett, Jarjar Binks, Bianca Ingrosso och Han Solo avnjöt en romantisk trapetskväll under stjärnorna. Vi drack champagne, åt jordgubbar och fiskade fiskdamm på McSpace. Det var en fin dag, en mörk dag, det var den, eller vänta? Varför berättar jag detta? Jag känner mig plötsligt väldigt stel, om jag ska kunna minnas denna viktiga kod behöver jag nog lite massage. ÅÅÅÅÅÅÅÅH. STÖN. SJUUUUHUUUUNDRAFEEEMTIOOOOO!. Boba fett minns kanske mer från den kvällen. Ni hittar honom i Wild Space. KOM IHÅG DEN KODEN!!“"
+        },
+        {
+            "id": "luke:1",
+            "comment": "När nØllan kommer för att rädda dig undan ditt hemska öde (du sitter ju faktiskt fast i en soprumspress) är du väldigt tacksam. Du ber de finna en kompis till ormen (jätteviktigt!) och finna R2D2 i Mos Eisley.",
+            "response": "“Schysst att ni vill hjälpa mig! Jag verkar ha fastnat.. Bara R2D2 kan rädda mig från att dö i den här hålet, men för att han ska kunna stänga av väggarna som rör sig mot mig måste han veta i vilken sektor jag är. Kan ni hjälpa mig att ta reda på det och berätta för R2D2? R2D2 sågs senast i baren i Mos Eisley. Dessutom börjar den här ormen gå mig lite på nerverna. Den verkar vara permanent boende här i sektorn och är ganska kärlekskrank, se om ni kan hitta en kompis till den i baren när ni ändå är i farten.“"
+        },
+        {
+            "id": "luke:0",
+            "comment": "När nØllan kommer tillbaka efter att du har fått ett sms från R2D2 vakten att pressen har stoppats så är du superglad och säger att nØllan ska ta en bild tillsammans med dig! När de har gjort det ska de ta med bilden till rebellbasen för att visa att du är oskadd.",
+            "response": ""
+        },
+        {
+            "id": "leia:2",
+            "comment": "När nØllan frågar om Leia berättar du att Leia lyckades lämna lite information hos R2D2, som de kan få ut om de löser koden. Du räcker fram lappar med bokstäver som nØllan ska lägga i en ordning som bildar lösenordet “Jungfru Maria”. När nØllan har knäckt koden skickar du dem vidare till R2D2 som senast sågs i Mos Eisley.",
+            "response": "“Koden är 'JUNGFRU MARIA'! Ta er till R2D2, han kan hjälpa er! Senast sågs han i Mos Eisley!“"
+        }
+    ],
+    "events": [
+    ]
+}

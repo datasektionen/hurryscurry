@@ -1,0 +1,17 @@
+{
+    "id": "r2d2-vakt",
+    "name": "Albeback",
+    "location": "Norra Corellia System (plan 4, vid trapphuset)",
+    "area": "Corellia System",
+    "persona": "R2D2-vakten är en Jawa (talar därför inte direkt) som håller R2D2 fånge men för en summa av 200 krediter låter du nØllan motvilligt använda R2D2. Du har nämligen (motvilligt) fått lämna din hemplanet Tatooine för att sälja R2D2, därav ditt namn (“I'll be back”).\nDu ska ha kåpa så att ansiktet inte syns och gärna lysande ögon. Det vore skitcoolt om man byggde en ståltrådsställning med två röda lysdioder som man fäster innanför kåpan sen drar man fram kåpan ordentligt och ser till att rummet är mörkt så att bara dioderna syns under kåpan. (det sägs att det går och ser skithäftigt ut)\nnØllan kommer i samband med 6 st olika uppdrag vara tvungna att fråga R2D2 om råd. De kan också, när de vill, komma och fråga R2D2 om något. nØllan får bara prata med R2D2 under en kort tid. Släng ut dem när de verkar ha fått den information de behöver. Du måste undvika köbildning.\nOm R2D2 går och hänger sig så får du ta över hans roll genom att använda en utskriven lista över R2D2:s databas.",
+    "props": "En pappersskylt “Köp droid så jag kan åka tillbaka till mina vänner på Tatooine”, samt en R2D2 som helst ser ut precis som den riktige. Den baseras på en dator med skärm, tangentbord och helst högtalare (laptop), beroende på vilken version av programmet som körs. Bygg in honom i en papperskorg, tunna, papp eller liknande (dvs använd läsksoptunnan i meta). Om R2D2 pajar, se till att ha hela databasen utskriven på papper. R2D2 programmet med tillhörande databas finns på Github.",
+    "missions": [
+        {
+            "id": "luke:5",
+            "comment": "När nØllan skrivit in koden “GE2130” eller “sektor GE2130” så MÅSTE du meddela Luke (sms eller Slack) att det har hänt. R2D2 kommer att säga att avfallspressen har stoppats.",
+            "response": ""
+        }
+    ],
+    "events": [
+    ]
+}

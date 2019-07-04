@@ -1,0 +1,111 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "additionalProperties": false,
+    "definitions": {},
+    "id": "missions-schema",
+    "properties": {
+        "clues": {
+            "id": "/properties/clues",
+            "items": {
+                "additionalProperties": false,
+                "id": "/properties/clues/items",
+                "properties": {
+                    "characters": {
+                        "id": "/properties/clues/items/properties/characters",
+                        "items": {},
+                        "type": "array"
+                    },
+                    "comment": {
+                        "id": "/properties/clues/items/properties/comment",
+                        "type": "string"
+                    },
+                    "id": {
+                        "id": "/properties/clues/items/properties/id",
+                        "type": "string"
+                    },
+                    "text": {
+                        "id": "/properties/clues/items/properties/text",
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "comment",
+                    "text",
+                    "id",
+                    "characters"
+                ],
+                "type": "object"
+            },
+            "type": "array"
+        },
+        "id": {
+            "id": "/properties/id",
+            "type": "string"
+        },
+        "main": {
+            "additionalProperties": false,
+            "id": "/properties/main",
+            "properties": {
+                "background": {
+                    "id": "/properties/main/properties/background",
+                    "type": "string"
+                },
+                "goal": {
+                    "id": "/properties/main/properties/goal",
+                    "type": "string"
+                },
+                "hint": {
+                    "id": "/properties/main/properties/hint",
+                    "type": "string"
+                },
+                "reward": {
+                    "id": "/properties/main/properties/reward",
+                    "type": "string"
+                },
+                "title": {
+                    "id": "/properties/main/properties/title",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "hint",
+                "reward",
+                "goal",
+                "background",
+                "title"
+            ],
+            "type": "object"
+        },
+        "meta": {
+            "additionalProperties": false,
+            "id": "/properties/meta",
+            "properties": {
+                "props": {
+                    "id": "/properties/meta/properties/props",
+                    "type": "string"
+                },
+                "requirements": {
+                    "id": "/properties/meta/properties/requirements",
+                    "type": "string"
+                },
+                "resolution": {
+                    "id": "/properties/meta/properties/resolution",
+                    "type": "string"
+                }
+            },
+            "required": [
+                "requirements",
+                "resolution",
+                "props"
+            ],
+            "type": "object"
+        }
+    },
+    "required": [
+        "main",
+        "meta",
+        "id",
+        "clues"
+    ],
+    "type": "object"
+}

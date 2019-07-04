@@ -1,0 +1,47 @@
+{
+	"id" : "1000arsservice",
+	"main" : {
+		"title" : "1000-årsservice av Falken",
+		"background" : "Falken har börjat hacka betänkligt den senaste tiden. Speciellt är det hyperdriven som inte verkar fungera som den ska... Minns med fasa senaste gången då nØllan var jagad av ett par asteroider och nØllan ville gå in i hyperrymden. Det resulterade i ett par rejäla bucklor i aktern och en och annan, inte så lite, spräckt bakruta då backen gick i istället. Falken är numera belagd med körförbud, och för att nØllan skall kunna genomgå Jedi-träning lååångt borta måste den repareras.",
+		"goal" : "nØllan måste hitta en mekaniker dum nog att vilja försöka reparera Falken. Dessutom kommer det antagligen att behövas en och annan reservdel till skrothögen.",
+		"reward" : "Belöningen kommer, förutom ett fungerande (nåja) rymdskepp, troligtvis att bli en ömmande plånbok.",
+		"hint" : "Boba Fett fick sin rymdmoped saboterad förra veckan och att han var tvungen att reparera den. Ta er till Wild Space och fråga Boba Fett om han känner någon bra mekaniker."
+	},
+	"clues" : [
+		{
+			"id" : "1",
+			"text" : "Jag reparerade min rymdmoped hos mekanikern Deppo i Junkfort Station vid Nar Shaddaa.",
+			"comment" : "Den här ledtråden ger Boba Fett i Wild Space muntligen om nØllan frågar honom om hans rymdmoped eller var man kan hitta en mekaniker.",
+			"characters" : []
+		},
+		{
+			"id" : "2",
+			"text" : "Det enda som behövs är en ny »hyperdrive motivator». Skaffa en åt mig så kan jag laga ert skepp. R2D2 vet förmodligen var ni kan få tag på en. Sist jag såg R2D2 var han i baren i Mos Eisley.",
+			"comment" : "Den här ledtråden ger Deppo i Junkfort Station muntligen om nØllan frågar om han kan reparera Falken.",
+			"characters" : []
+		},
+		{
+			"id" : "3",
+			"text" : "Det var ett par jawas från Tatooine som drog förbi med ett antal robotar på släp för tre månar sedan...",
+			"comment" : "Den här ledtråden ges av barpersonalen i Mos Eisley och trycks på ett »Hitta R2D2»-ledtrådskort (via r2d2.json) så att de inte skall behöva fråga vilket uppdrag nØllan håller på med.",
+			"characters" : []
+		},
+		{
+			"id" : "4",
+			"text" : "Här i trakterna finns det inte så många köpare, så vi lät vår vän Albeback ta robotarna norrut, han bör inte hunnit ut ur Correlia System än...",
+			"comment" : "Den här ledtråden ges av Jawas på Tatooine och trycks på ett »Hitta R2D2»-ledtrådskort (via r2d2.json) så att de inte skall behöva fråga vilket uppdrag nØllan håller på med.",
+			"characters" : []
+		},
+		{
+			"id" : "5",
+			"text" : "Tydligen har Chewbacca också varit på vift i stjärnrymden och letat efter en hyperdrive motivator. Men han verkar visst ha blivit distraherad av några cyber-synthar. Gå till karaokebaren i södra delen av Correlia System och hjälp honom!",
+			"comment" : "Den här ledtråden ges av R2D2 om man skriver in koden »hyperdrive motivator».",
+			"characters" : []
+		}
+	],
+	"meta" : {
+		"resolution" : "Vid plats 54 har Chewie åtta stycken papperflyplan med texten »hyperdrive motivator». Varje flygplan är märkt med ett serienummer (E139GI485993, G293MER3984, IOP235667980, PLAN7146387, VIGG2988756, NO123495MN, FR0GG298347, SLAV12457690, GOOG2203452, KLÄG253401G, GMHRL249D14, NLS50106Q40, TJOS0256KFD). Det enda nØllan behöver göra är hjälpa Chewie sjunga en duo i SingStar för att få flygplanet, sen kan de gå till Junkfort Station med det och ge det till Deppo. Efter att ha fått reservdelen och efter att han kontrollerat att den är autentisk, kräver Deppo 1000 krediter för att laga Falken och det är bara för nØllan att hysta upp alltsammans för att klara uppdraget. När Deppo fått pengarna signerar han pappersflygplanet som bevis på att nØllan klarat uppdraget.",
+		"requirements" : "Uppdraget redovisas genom att visa upp sitt papperflygplan komplett med Deppos signatur i rebellbasen.",
+		"props" : "För det här uppdraget behövs åtta stycken pappersflygplan märkta med texten »hyperdrive motivator» samt med unika serienummer (E139GI485993, G293MER3984, IOP235667980, PLAN7146387, VIGG2988756, NO123495MN, FR0GG298347, SLAV12457690, GOOG2203452, KLÄG253401G, GMHRL249D14, NLS50106Q40, TJOS0256KFD). En lista med dessa serienummer skall finnas hos Deppo i Junkfort Station så att han kan pricka av varje plan som kommer in så att nØllan inte tillverkar egna. Utöver pappersflygplanen behövs Deppo själv och Chewbacca samt en fungerande R2D2 med tillhörande vakter, barpersonalen i Mos Eisley och Jawas på Tatooine (är inte enbart för det här uppdraget). Utöver det krävs ett SingStar."
+	}
+}

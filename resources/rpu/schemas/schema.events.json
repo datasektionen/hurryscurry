@@ -1,0 +1,56 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "additionalProperties": false,
+    "definitions": {},
+    "id": "events-schema",
+    "properties": {
+        "comment": {
+            "id": "/properties/comment",
+            "type": "string"
+        },
+        "events": {
+            "id": "/properties/events",
+            "items": {
+                "additionalProperties": false,
+                "id": "/properties/events/items",
+                "properties": {
+                    "characters": {
+                        "id": "/properties/events/items/properties/characters",
+                        "items": {},
+                        "type": "array"
+                    },
+                    "id": {
+                        "id": "/properties/events/items/properties/id",
+                        "type": "string"
+                    },
+                    "text": {
+                        "id": "/properties/events/items/properties/text",
+                        "type": "string"
+                    },
+                    "title": {
+                        "id": "/properties/events/items/properties/title",
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "text",
+                    "id",
+                    "characters",
+                    "title"
+                ],
+                "type": "object"
+            },
+            "type": "array"
+        },
+        "id": {
+            "id": "/properties/id",
+            "type": "string"
+        }
+    },
+    "required": [
+        "comment",
+        "id",
+        "events"
+    ],
+    "type": "object"
+}

@@ -1,0 +1,48 @@
+{
+    "id" : "positive",
+    "comment" : "Positiva händelser",
+    "events" : [
+        {
+            "id" : "1",
+            "title" : "Efterlyst",
+            "text" : "Du skymtar den efterlyste Xim the Despot när han flyr in på ett utedass på planeten Churba. Denna information är värd pengar. Rapportera detta till Chief Muskov, som håller till i ljusgården i  Corellia System, och tjäna en hacka. Se upp så ni inte ger informationen till fel person (Brasck) för då får ni inga krediter alls. Chief Muskov talar alltid sanning, och Brasck ljuger konsekvent. Båda kan bara svara på ja- och nej-frågor.",
+            "characters" : []
+        },
+        {
+            "id" : "2",
+            "title" : "Jeopardy",
+            "text" : "Gå in på baren i Mos Eisley och säg “Vem i helvete är Arhul Hextrophon?”, och inkassera förstapriset i Stjärn-Jeopardy.",
+            "characters" : []
+        },
+        {
+            "id" : "3",
+            "title" : "Sångartalang",
+            "text" : "Du får ett erbjudande att bli solosångare i Max Rebo's jizz-wailing band då den ordinarie lead-sångaren Sy Snootles har blivit täppt i näsan. Bege dig till Mos Eisley och provsjung för barpersonalen för att tjäna en hacka.",
+            "characters" : []
+        },
+        {
+            "id" : "4",
+            "title" : "Sprickskytt",
+            "text" : "En av dina besättningsmän har vunnit den årliga prickskyttetävlingen “Sikta mot Stjärnorna”. Imponera på Boba Fett i Wild Space genom att visa honom detta kort.",
+            "characters" : []
+        },
+        {
+            "id" : "5",
+            "title" : "Tråkig humor",
+            "text" : "Rymdfånen Latara i Cloud City är känd för att ha en mycket torftig humor. Dra en godtycklig vits som innehåller orden “tomat” och “går vi” för henne så kommer ni att bli rikligt belönade.",
+            "characters" : []
+        },
+        {
+            "id" : "6",
+            "title" : "Space'R'Us",
+            "text" : "Du har vunnit en slogan-tävling med bidraget “Om det ryms I rymden så säljer vi det” till hårdvarujätten Space'R'Us. Inkassera priset från handelsresande Gallandro I Roche Asteroidbälte.",
+            "characters" : []
+        },
+        {
+            "id" : "7",
+            "title" : "Långnäsa",
+            "text" : "Ni har blivit lurade av den legendariske rymdfånen Latara. Hon har sålt er hudkräm med vitamintillskott som inte alls uppfyllde det som utlovades i reklamen. Gå till Latara i Cloud City och kräv pengarna tillbaka.",
+            "characters" : []
+        }
+    ]
+}

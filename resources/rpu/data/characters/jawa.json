@@ -1,0 +1,32 @@
+{
+    "id": "jawa",
+    "name": "Jawa",
+    "location": "Tatooine (D33)",
+    "area": "Corellia System",
+    "persona": "Jawas är sandfolk som är kända för att bedra andra i sin omgivning. De är ohederliga varelser som livnär sig på att stjäla/lägga vantarna på robotar och teknik som de sedan kan sälja.\nEn jawa är till utseendet kort och klädd i en brun rock med en huva som kastar skuggor över ansiktet. Hemlighetsfull och svårtydig. ",
+    "props": "3 hinkar, havregrynsgröt, lingonsylt, ett paket med flingor, några kannor med vatten och ett eller flera paket med ägg. Papper behövs också, samt 3 ögonbindlar och lock av något slag till hinkarna. ",
+    "missions": [
+        {
+            "id": "r2d2:2",
+            "comment": "När nØllan kommer och frågar om R2D2 (kommer hända 13 ggr) så hänvisar du dem till din buddy Albeback som tagit ut R2D2 för att säljas i norra Corellia System",
+            "response": "“Här i trakterna finns det inte så många köpare, så vi lät vår vän Albeback ta robotarna norrut, han bör inte hunnit ut ur Corelia System än...”"
+        },
+        {
+            "id": "c3po:2",
+            "comment": "nØllan kommer och letar efter C3PO. När de kommer till dig ska de utsättas för 3 prövningar för att få tag på alla delar som hör till C3PO, eftersom att du är uttråkad och vill ha något roligt att titta på. Innan Hurry Scurry börjar ska det därför fixas i ordning 3 hinkar. I varje hink läggs 13 st av en sorts C3PO-del i botten av hinken, sen fylls den med icky stuff. Glöm inte att täcka för hinkarna så att nØllan inte ser vad som finns i! nØllans prövning består då av: Ta fram 3 nØllan som ska få hjälpa dig att hitta C3PO, sätt på de ögonbindlar och ställ de andra i gruppen bakom hinkarna. Instruera dem att de ska ta upp endast en C3PO del. Hink nr 1 är full med havregrynsgröt, i botten på den ligger C3POs arm. Du glömde nog armen där när du åt frukost och den serverade som sked. Hink nr 2 är full av lingonsylt blandat med vatten och flingor. Där ligger C3POs kropp som du trodde att du hade lagt i ett oljebad. Ooops. Hink nr 3 är full med råa ägg. Där i finns C3POs ben som började se så dammigt ut och behövde få tillbaka lite av sin fina gula färg. Ha några kannor med vatten och lite papper när till hands så att både du och nØllan kan torka av sig.",
+            "response": ""
+        },
+        {
+            "id": "kryddor:1",
+            "comment": "nØllan kommer till dig för att hjälpa dig att genomföra ett uppdrag som kryddsmugglare. Du är hemlighetsfull och viker bort blicken när de kommer fram, sen säger du att de som första uppdrag ska ta sig till baren i Mos Eisley och viska den överenskomna koden »Chubb Scutt skickade mig»",
+            "response": ""
+        },
+        {
+            "id": "kryddor:3",
+            "comment": "När nØllan kommer tillbaka med kryddor (en tepåse) säger du att de ska bege sig till ljusgården i Corellia System för avlämning.",
+            "response": "“Bege er till ljusgården i Corellia System för avlämning. Ryktet säger att platsen utmärkts med lysande bokstäver...”"
+        }
+    ],
+    "events": [
+    ]
+}

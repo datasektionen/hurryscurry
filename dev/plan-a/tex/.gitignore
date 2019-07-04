@@ -1,0 +1,11 @@
+# ignore all files in this directory
+*
+!.gitignore
+!rebel.png
+!scurry.cls
+
+!templates
+!templates/*
+
+!fonts
+!fonts/*

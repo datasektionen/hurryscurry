@@ -1,0 +1,46 @@
+{
+    "id": "barpersonal",
+    "name": "Barpersonalen i Mos Eisley",
+    "location": "Mos Eisley (Meta)",
+    "area": "",
+    "persona": "Två barmänniskor och eventuellt en blackjackare. Barmänniskorna får gärna se ut som aliens från tre olika planeter. De ska vara pratsamma och trevliga. Blackjackaren får gärna se ut som en spetälsk med bindor (gas alltså) runt ansiktet och händerna eller något liknande. Bete dig mystiskt och agera trovärdigt. I bakgrunden ska “Mos Eisley-låten” spelas.",
+    "props": "Låda med tepåsar, plus bärbaren",
+    "missions": [
+        {
+            "id": "r2d2:1",
+            "comment": "När nØllan kommer och frågar om R2D2 (kommer hända 13 ggr) så hänvisar du dem till din att några Jawas från Tatooine drog förbi med några robotar ett tag sen",
+            "response": "“Det var ett par jawas från Tatooine som drog förbi med ett antal robotar på släp för tre månar sedan...”"
+        },
+        {
+            "id": "kryddor:2",
+            "comment": "Om nØllan säger »Chubb Scutt skickade mig» så langar du upp lådan och låter nØllan läsa ledtråden samt ta en kryddpåse.",
+            "response": "“Ta med er ett paket exklusiv krydda och gå tillbaka för att prata med er smuggelkumpan...”"
+        },
+        {
+            "id": "dodsstjarnan:2",
+            "comment": "Om nØllan frågar efter en “Death Star” så svarar ni att ni inte känner till Dödstjärnans rymdkoordinater, men det vet däremot rymdspionen Latara i Cloud City.",
+            "response": "“Här hittar ni inga “Death Stars”. Ni bör söka upp rymdspionen Latara i Cloud City om ni vill ha tag i Dödstjärnans rymdkoordinater, för att spränga den eller något liknande.”"
+        }
+    ],
+    "events": [
+        {
+            "id": "positive:2",
+            "comment": "Om nØllan säger “Vem i helvete är Arhul Hextrophon?” (som är en jeopardyfråga på 200-kreditersnivån) belöna med 200 krediter. Signera nØllans händelsekort efter utförd Jeopardy-tävling.",
+            "response" : ""
+        },
+        {
+            "id": "positive:3",
+            "comment": "nØllan vill provsjunga för barpersonalen för att få jobb som sångarvikarie i baren. Belöna nØllan med 100-500 kred beroende på utförande. Signera nØllans händelsekort efter utförd sång.",
+            "response" : ""
+        },{
+            "id": "positive:6",
+            "comment": "Om nØllan visar upp ett kort som säger att de vunnit en slogantävling till företaget Space'R'us ska de belönas med 200 krediter.",
+            "response" : ""
+        },
+        {
+            "id": "negative:7",
+            "comment": "Om nØllan har glömt att lämna tillbaka videofilmen “Snakes on a space shuttle” ska de betala 500 krediter.",
+            "response" : ""
+        }
+    ]
+}

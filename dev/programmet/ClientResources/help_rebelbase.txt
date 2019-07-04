@@ -1,0 +1,23 @@
+Välkommen till Rebellbasen!
+
+Rebellbasen används för att uppdatera när lag startar eller avslutar uppdrag samt 
+att hantera händelsekort. 
+Till vänster finns en meny med alla lag, med tid på det uppdrag som de håller på med, 
+hur långt de har kommit och en medalj om de är på top 3. 
+Genom att klicka på ett lag får du upp en detaljerad vy med information om hur det 
+går för just detta lag. 
+Om du högerklickar på laget så kan du lägga till, avsluta eller ta bort händelsekort. 
+
+I lagvyn så kan du vänsterklicka på uppdrag för att starta eller stoppa dem. 
+Lagen får medaljer ifall de är bland de 3 snabbaste. Du kan återstarta ett stoppat uppdrag. 
+ 
+Högerklickar du får du upp en specialmeny som ger möjlighet att avbryta uppdrag 
+samt att sätta tiden på uppdraget. 
+
+Genom att klicka på menyraden så kommer du tillbaka till huvudfönstret. 
+Här finns symboler som markerar vilka uppdrag som lag håller på med och har avslutat. 
+Att vänsterklicka på ett uppdrag här ger detaljinformation om uppdraget. 
+
+F5 och F6 används för att ändra hur lagen sorteras. 
+
+Lycka till!

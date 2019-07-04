@@ -1,0 +1,35 @@
+{
+	"id" : "dodsstjarnan",
+	"main" : {
+		"title" : "Förstör Dödsstjärnan",
+		"background" : "Imperiet har länge slipat på sitt senaste, inte så lite farliga vapen; Dödsstjärnan. Nu står deras verk inför fullbordans rand. Inom en inte alltför lång tid kommer kejsaren ge order till sina horder att inviga detta vapen genom att bjuda en slumpmässigt vald oskyldig planet på en hejdundrande fyrverkerishow.",
+		"goal" : "nØllan måste finna Dödsstjärnan och oskadliggöra denna. Eftersom nØllan nu har koden till kraftfältet borde det bli en enkel (jo, eller hur...) sak att förstöra Dödsstjärnan i triljoner bitar.",
+		"reward" : "nØllans belöning kommer vara, förutom evig ära och berömmelse, en snabb placering som minst sist i Hurry Scurryn.",
+		"hint" : "Innan ni tar itu med det svåra och farliga uppdraget att spränga Dödsstjärnan tar ni en uppfriskande kopp engelskt te i närheten av Nar Shaddaa."
+	},
+	"clues" : [
+		{
+			"id" : "1",
+			"text" : "Aj! Ni brände tungan på det heta engelska teet! Fråga efter en “Death Star” med extra is i baren i Mos Eisley istället.",
+			"comment" : "Sitter som en lapp på en bänk i Engelska parken.",
+			"characters" : []
+		},
+		{
+			"id" : "2",
+			"text" : "Här hittar ni inga “Death Stars”. Ni bör söka upp rymdspionen Latara i Cloud City om ni vill ha tag i Dödstjärnans rymdkoordinater, för att spränga den eller något liknande.",
+			"comment" : "Ges muntligt av barpersonalen i Mos Eisley",
+			"characters" : []
+		},
+		{
+			"id" : "3",
+			"text" : "Dödsstjärnan kan skådas som något stort, mörkt och runt i solsystemet Endor.",
+			"comment" : "Den här ledtråden ger Latara i Cloud City när nØllan frågar om Dödsstjärnan.",
+			"characters" : []
+		}
+	],
+	"meta" : {
+		"resolution" : "Hela Drifveriet väntar på nØllan vid Millespottan, tillsammans med alla andra nØllan om Daddornas slack (alternativt någon annan slags chatt) har fungerat. ÖD pratar svulstigt och hela skiten sprängs i luften (med ett basebollträ) när det laget som kommit minst sist har spöat Darth Vader i en duell. Slut.",
+		"requirements" : "Uppdraget behöver inte redovisas. nØllan har kommit minst sist!",
+		"props" : "Dödsstjärnan är en piñata som nØllan slår sönder med vapnet som är ett Jesper Brännbollsträ."
+	}
+}

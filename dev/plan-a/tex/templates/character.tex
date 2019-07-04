@@ -1,0 +1,29 @@
+% purpose:  LaTeX template for Hurry Scurry characters
+% author:   albinwi@kth.se
+% date:     2018-08-08 (revised: 2018-08-10 by albinre@kth.se)
+
+\documentclass{article}
+\usepackage[quiet]{fontspec}
+\usepackage[parfill]{parskip}
+\usepackage[margin=1.5in]{geometry}
+
+\usepackage{draftwatermark}
+\SetWatermarkLightness{0.9}
+\SetWatermarkText{nØlleosäkert}
+
+\pagenumbering{gobble}
+\begin{document}
+
+\title{ {{name}} }
+\date{}
+\maketitle
+
+\textbf{ID:} {{id}} \\
+\textbf{Plats:} {{area}} \textit{({{location}})} \\
+\section{Persona} {{persona}}
+\section{Rekvisita} {{props}}
+
+\section{Uppdrag} {{missions}}
+\section{Händelser} {{events}}
+
+\end{document}

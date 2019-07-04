@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!ELEMENT rules (mission, event*, role*, resource*)>
+<!ELEMENT mission (name, description, proof, reward, checkpoint*, resource*, dependency*)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT description (#PCDATA)>
+<!ELEMENT proof (#PCDATA)>
+<!ELEMENT reward (#PCDATA)>
+<!ELEMENT checkpoint (#PCDATA)>
+<!ELEMENT dependency (mission+)>
+<!ELEMENT event (#PCDATA)>
+<!ELEMENT role (#PCDATA)>
+<!ELEMENT resource (#PCDATA)>
+
+<!ATTLIST mission missionID ID #REQUIRED> 
+<!ATTLIST checkpoint checkpointID ID #REQUIRED>
+<!ATTLIST dependency required  CDATA #REQUIRED>
+<!ATTLIST event eventID ID #REQUIRED>
+<!ATTLIST role checkpoints IDREFS #IMPLIED>
+<!ATTLIST role admin CDATA #REQUIRED>
+<!ATTLIST resource type CDATA #REQUIRED>
+

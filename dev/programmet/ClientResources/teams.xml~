@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE teams [
+<!ELEMENT teams (team+)>
+<!ELEMENT team (name, firstMission?, resource*, phonenumber?, member*)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT firstMission (#PCDATA)>
+<!ELEMENT phonenumber (#PCDATA)>
+<!ELEMENT member (#PCDATA)>
+<!ELEMENT resource (#PCDATA)>
+
+<!ATTLIST team teamID ID #REQUIRED>
+<!ATTLIST resource type CDATA #REQUIRED>
+
+]>
+
+<teams>
+<team teamID="HanSolo1">
+<name>Han Solo1</name>
+<firstMission>freeLeia</firstMission>
+<resource type="backgroundImage">Solo.jpg</resource>
+<resource type="teamLogo">soloFace.png</resource>
+<phonenumber>4711</phonenumber>
+<member>Nollan1</member>
+<member>Nollan2</member>
+<member>Nollan3... NOLLAN!</member>
+</team>
+
+<team teamID="HanSolo2">
+<name>Han Solo2</name>
+<firstMission>freeLeia</firstMission>
+<resource type="backgroundImage">Solo.jpg</resource>
+<resource type="teamLogo">soloFace.png</resource>
+<phonenumber>4711</phonenumber>
+<member>Nollan1</member>
+<member>Nollan2</member>
+<member>Nollan3... NOLLAN!</member>
+</team>
+
+<team teamID="Leia">
+<name>Prinsessan Leia</name>
+<firstMission>freeHanSolo</firstMission>
+<resource type="backgroundImage">Leia.jpg</resource>
+<resource type="teamLogo">leiaFace.png</resource>
+</team>
+
+<team teamID="Chewbacca">
+<name>Chewbacca</name>
+<firstMission>falcon</firstMission>
+<resource type="backgroundImage">Chewbacca.jpg</resource>
+<resource type="teamLogo">chewbaccaFace.png</resource>
+</team>
+
+<team teamID="BobaFett">
+<name>Boba Fett</name>
+<firstMission>bountyHunter</firstMission>
+<resource type="backgroundImage">BobaFett.jpg</resource>
+<resource type="teamLogo">bobaFace.png</resource>
+</team>
+
+<team teamID="Lando">
+<name>Lando Calrissian</name>
+<firstMission>smuggleSpices</firstMission>
+<resource type="backgroundImage">Lando.jpg</resource>
+<resource type="teamLogo">landoFace.png</resource>
+</team>
+
+<team teamID="Luke">
+<name>Luke Skywalker</name>
+<firstMission>genealogy</firstMission>
+<resource type="backgroundImage">Luke.jpg</resource>
+<resource type="teamLogo">lukeFace.png</resource>
+</team>
+
+<team teamID="C3PO">
+<name>C-3PO</name>
+<firstMission>findC3PO</firstMission>
+<resource type="backgroundImage">C3PO.jpg</resource>
+<resource type="teamLogo">c3poFace.png</resource>
+</team>
+
+<team teamID="Kenobi">
+<name>Obi-Wan Kenobi</name>
+<firstMission>findKenobi</firstMission>
+<resource type="backgroundImage">ObiWanKenobi.jpg</resource>
+<resource type="teamLogo">kenobiFace.png</resource>
+</team>
+
+<team teamID="Yoda">
+<name>Yoda</name>
+<firstMission>fixLuke</firstMission>
+<resource type="backgroundImage">Yoda.jpg</resource>
+<resource type="teamLogo">yodaFace.png</resource>
+</team>
+
+<team teamID="MonMothma">
+<name>Mon Mothma</name>
+<firstMission>getBomb</firstMission>
+<resource type="backgroundImage">MonMothma.jpg</resource>
+<resource type="teamLogo">mothmaFace.png</resource>
+</team>
+
+</teams>

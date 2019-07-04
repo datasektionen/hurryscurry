@@ -1,0 +1,35 @@
+{
+	"id" : "c3po",
+	"main" : {
+		"title" : "Hitta C3PO",
+		"background" : "Det finns många språk i rymden, detta har lett till ett och annat missförstånd genom åren. Tolkrobotar uppfanns för att råda bot på detta och en av de mest sympatiska av dessa plåtburkar är C3PO. Han har dessutom en förkärlek för att gå i små bitar. nØllan kan tänkas träffa på saker i rymden som nØllan inte förstår och då kan C3PO komma väl till pass.",
+		"goal" : "nØllans mål är att leta reda på den ofantligt händiga roboten C3PO och ta med honom tillbaka till rebellbasen i ett stycke.",
+		"reward" : "nØllans belöning är, förutom ett mycket trevligt sällskap långa mörka vinterkvällar, en mycket användbar översättare.",
+		"hint" : "C3PO behöver regelbundet service. Den utförs av en del mer eller mindre kompetenta mekaniker. Senast så beställde han en uppsättning reservdelar som skulle monteras av Deppo i Junkfort Station vid Nar Shaddaa."
+	},
+	"clues" : [
+		{
+			"id" : "1",
+			"text" : "Deppo sitter med C3PO’s huvud och berättar för nØllan hur några jawas kommit och stulit C3PO’s resterande tre reservdelar då han skulle repareras. Deppo ber nØllan att hämta tillbaka delarna till honom så att han kan montera ihop C3PO igen. Han nämner även att jawas brukar hålla till på ökenplaneten Tatooine.",
+			"comment" : "Ges muntligen av Deppo när nØllan frågar. Deppo lämnar ifrån sig C3PO först när han är lagad.",
+			"characters" : []
+		},
+		{
+			"id" : "2",
+			"text" : "På Tatooine utsätts nØllan för 3 prövningar för att vinna jawasarnas respekt. På så sätt får de tillbaka C3PO’s delar, en för varje avklarad prövning. nØllan bör efter detta bege sig tillbaka till Deppo.",
+			"comment" : "Ges av Jawan efter att nØllan klarat de tre prövningarna.",
+			"characters" : []
+		},
+		{
+			"id" : "3",
+			"text" : "Deppo är tacksam för de återfunna delarna och reparerar C3PO med eltejp/silvertejp. Han lämnar därefter ifrån sig C3PO till nØllan och tackar åter för hjälpen.",
+			"comment" : "Deppo bör ha 13 stycken C3PO-huvuden på plats och någon bra form av tejp, då han efter varje reparation lämnar ifrån sig hela roboten till nØllan.",
+			"characters" : []
+		}
+	],
+	"meta" : {
+		"resolution" : "nØllan återvänder till rebellbasen där de visar upp sin nya kompanjon.",
+		"requirements" : "Uppdraget redovisas genom att visa upp en komplett och ihopsatt C3PO i rebellbasen. Om det är lag »C3PO» som klarat uppdraget får de 1000 krediter som belöning.",
+		"props" : "Uppdraget kräver 13 stycken exemplar av C3PO i fyra delar. Dessa skapas genom att printa ut C3PO i A4-storlek, som sedan plastas in och skärs upp i de 4 delarna (huvud, armar, mage och ben). De personer som behövs är jawas vid Tatooine och Deppo i Junkfort Station vid Nar Shaddaa. Deppo ska ha alla C3PO-huvuden samt eltejp/silvertejp för reparation av C3PO. Jawas ska ha de resterande C3PO-delarna. För de 3 prövningar hos jawas krävs 3 ögonbindlar och 3 hinkar. I varje hink ska det finnas 13 st av en slags C3PO-del, samt någon slags icky stuff. Låt kreativiteten flöda när det kommer till icky stuff, men tidigare har det i alla fall använts havregrynsgröt, lingonsylt+flingor+vatten och ägg+vatten."
+	}
+}

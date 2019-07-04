@@ -1,0 +1,59 @@
+
+ Dokumentation av hack för R2D2-frågelåda.
+ 990822 20:08   
+ o/of --  d94-oli@nada.kth.se
+
+ 0. Om du ska ändra
+
+    Filen databas.txt hanteras med RCS för att man ska kunna titta
+    tillbaka på vad som ändrats tidigare år. För att ändra i den,
+    tryck C-x C-q i emacs, gör dina ändringar och tryck sedan
+    C-x C-q igen och beskriv vad du gjorde för något. Allt blir
+    säkert mycket roligare då.
+
+ 1. Överblick.
+
+    Meningen med programmet är att användaren skriver in 
+    sökord eller söksträngar som sedan kollas upp i en databas.
+
+    Är söksträngen en tom rad rensas svarssträngen. Bra om 
+    en ny grupp kommer.
+
+    Det är ingen skillnad på stora och små bokstäver. Programmet
+    konverterar söksträngen till små bokstäver innan den går ut
+    i databasen och söker.
+
+ 2. Starta programmet.
+
+    Programmet startas med 
+
+       java R2D2 datafil
+
+    Om ingen datafil specificeras försöker programmet ladda in
+    en fil i aktuell katalog som heter databas.txt. Bilden
+    som laddas in skall ligga i aktuell ./images och heta
+    artoo.jpg.
+
+    Förstora sedan fönstret till önskade proportioner, ganska
+    stort är att rekomendera.
+
+ 3. Databasen
+
+    Databasen är väldigt enkel och i ren textformat. Formatet är:
+
+    #söksträng1~söksträng2~  ...
+    Svarstext
+    @
+
+    Exempel:
+
+    #luke~skywalker~luke skywalker
+    En trevlig typ.
+    @
+
+    Nu kan användaren söka på antingen luke, skywalker eller 
+    luke skywalker, och då få upp texten "En trevlig typ".
+
+ 4. Övrigt
+ 
+    Oj, vad trött jag är.

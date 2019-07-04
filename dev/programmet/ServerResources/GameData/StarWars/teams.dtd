@@ -1,0 +1,10 @@
+<!ELEMENT teams (team+)>
+<!ELEMENT team (name, firstMission?, resource*, phonenumber?, member*)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT firstMission (#PCDATA)>
+<!ELEMENT phonenumber (#PCDATA)>
+<!ELEMENT member (#PCDATA)>
+<!ELEMENT resource (#PCDATA)>
+
+<!ATTLIST team teamID ID #REQUIRED>
+<!ATTLIST resource type CDATA #REQUIRED>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?> 
+<!ELEMENT team (mission*,event*)>
+<!ELEMENT mission (start,stop?, checkpoint*)>
+<!ELEMENT checkpoint (#PCDATA)>
+<!ELEMENT event (start,stop?)>
+<!ELEMENT start (#PCDATA)>
+<!ELEMENT stop (#PCDATA)>
+
+<!ATTLIST checkpoint checkpointID CDATA #REQUIRED>
+<!ATTLIST team teamID CDATA #REQUIRED>
+<!ATTLIST mission missionID CDATA #REQUIRED>
+<!ATTLIST event eventID CDATA #REQUIRED>

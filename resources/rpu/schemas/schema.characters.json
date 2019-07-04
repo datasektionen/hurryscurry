@@ -1,0 +1,99 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "additionalProperties": false,
+    "definitions": {},
+    "id": "characters-schema",
+    "properties": {
+        "area": {
+            "id": "/properties/area",
+            "type": "string"
+        },
+        "events": {
+            "id": "/properties/events",
+            "items": {
+                "additionalProperties": false,
+                "id": "/properties/events/items",
+                "properties": {
+                    "comment": {
+                        "id": "/properties/events/items/properties/comment",
+                        "type": "string"
+                    },
+                    "id": {
+                        "id": "/properties/events/items/properties/id",
+                        "type": "string"
+                    },
+                    "response": {
+                        "id": "/properties/events/items/properties/response",
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "comment",
+                    "id",
+                    "response"
+                ],
+                "type": "object"
+            },
+            "type": "array"
+        },
+        "id": {
+            "id": "/properties/id",
+            "type": "string"
+        },
+        "location": {
+            "id": "/properties/location",
+            "type": "string"
+        },
+        "missions": {
+            "id": "/properties/missions",
+            "items": {
+                "additionalProperties": false,
+                "id": "/properties/missions/items",
+                "properties": {
+                    "comment": {
+                        "id": "/properties/missions/items/properties/comment",
+                        "type": "string"
+                    },
+                    "id": {
+                        "id": "/properties/missions/items/properties/id",
+                        "type": "string"
+                    },
+                    "response": {
+                        "id": "/properties/missions/items/properties/response",
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "comment",
+                    "id",
+                    "response"
+                ],
+                "type": "object"
+            },
+            "type": "array"
+        },
+        "name": {
+            "id": "/properties/name",
+            "type": "string"
+        },
+        "persona": {
+            "id": "/properties/persona",
+            "type": "string"
+        },
+        "props": {
+            "id": "/properties/props",
+            "type": "string"
+        }
+    },
+    "required": [
+        "persona",
+        "name",
+        "area",
+        "events",
+        "location",
+        "props",
+        "id",
+        "missions"
+    ],
+    "type": "object"
+}

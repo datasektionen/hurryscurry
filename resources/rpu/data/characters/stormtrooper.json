@@ -1,0 +1,17 @@
+{
+    "id": "stormtrooper",
+    "name": "Stormtrooper",
+    "location": "Roche Asteroidbälte men snarare överallt.",
+    "area": "",
+    "persona": "Typiska stormtroopers. Vit rustning, skarpladdade vapen (vattengevär) och taskig attityd. Dränk nØllan så fort det går (endast utomhus dock)!! Skräm skiten ur nØllan. Stormtroopers är jätteelaka. Var misstänksamma och skeptiska mot nØllan. -> Stormtroopers ska byta av med Leias vakter lite då och då, så att de också får ha lite roligt! Läs därför rollbeskrivningen för Leias vakter också! <-",
+    "props": "Ett ständigt fulladdat vattengevär.",
+    "missions": [
+        {
+            "id": "stridsteknik:3",
+            "comment": "Det kan hända att nØllan visar upp sin nya stridsteknik för er (“floss”-dansen (Backpack kid)). Låtsas då vara rädda, men spring inte iväg (speciellt om ni vaktar Leia)! Gör detta tills nollan har tagit en bild på det. Om nØllan försöker missbruka detta, så kan ni förklara att det bara fungerar en gång eller liknande.",
+            "response": "Visa rädsla på något vis, MEN spring absolut inte iväg!"
+        }
+    ],
+    "events": [
+    ]
+}

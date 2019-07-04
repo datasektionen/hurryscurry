@@ -1,0 +1,22 @@
+{
+    "id": "administrator",
+    "name": "Imperiets administratör",
+    "location": "Högst upp i Cloud City",
+    "area": "Cloud City",
+    "persona": "Administratör, lämpligen av den mycket strikta sorten. Det enda som är viktigt är papper. Utan dig slutar imperiet att fungera. Gör det klart för nØllan att du är en mycket viktig och högt uppsatt person. De papper som du skriver är grunden som imperiet står på. Allt måste skötas enligt regelboken. Administratören är rätt så dryg och kan till exempel be nØllan ställa upp sig på led sorterade exempelvis efter mellannamn medan de väntar på en underskrift. ",
+    "props": "Penna och “Ansökan om order av Inspektion-papper”. Lämpligtvis 26 kopior (alltså 26*2 papper). Byråkratiska papper kan hittas på driven.",
+    "missions": [
+        {
+            "id": "ritningar:0",
+            "comment": "När nØllan kommer till Cloud City söker de upp Administratören. Han ger dem “Ansökan om order av Inspektion” där båda kopiorna (Administratörens & ansökarens) ska fyllas i osv. Administratören behåller den ena kopian. Administratören fyller i den och stämplar den och skickar nØllan till Inspektören. Om Inspektören finner ansökan giltig stämplar han den samt ber nØllan fylla i Order om Inspektion (båda kopiorna osv). Han stämplar den (på checkrutan Inspektion utförd) och skickar ner nØllan till Administratören igen, som då kryssar i rutan Objektet godkänt samt sätter än stämpel över denna ruta. Ansökan är nu godkänd och nØllan kan bege sig tillbaka till rebellbasen. *Både Inspektören och Adminstratören skall vara mycket noggranna och gärna klaga på om vissa fält inte är ifyllda.(Dra inte ut på det alltför mycket bara) Mutor tas gärna emot och om muta har givits så måste belopp fyllas i samt att en stämpel måste sättas över mutebeloppet. Antalet fält som då måste fyllas i minskar drastiskt.",
+            "response": ""
+        },
+        {
+            "id": "wmd:0",
+            "comment": "Samma sak som för ritningar:0",
+            "response": ""
+        }
+    ],
+    "events": [
+    ]
+}

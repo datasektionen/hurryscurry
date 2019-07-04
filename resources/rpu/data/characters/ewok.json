@@ -1,0 +1,22 @@
+{
+    "id": "ewok",
+    "name": "Ewok",
+    "location": "Forest Moon of Endor",
+    "area": "",
+    "persona": "Ewoks låter och ser ut som en liten teddybjörn som har växt upp i skogen. Ewokerna talar ett pipigt och lite grinigt språk som bara C3PO kan tolka. För att nØllan ska förstå det du säger kan det vara en ide att tala pipig svenska... Ewokerna har koden som nØllan behöver för att stänga av Dödsstjärnans kraftfält.",
+    "props": "En oändlig mängd nallebjörnar, en mobil, 1 ljudfil med ewok-pip, 1 ljudfil med nallegåtan, fler ewoker! Shampoo/balsam/handkräm eller liknande i en igentejpad påse (13st).",
+    "missions": [
+        {
+            "id": "smuggelgods:0",
+            "comment": "Om nØllan kommer och frågar om smuggelgods så förklara att “mysighet” uppskattas och att alla nØllan som är bekväma med det ska krama samtliga Ewoks i rummet innan de får smuggelgodset, vilket kommer vara en lypsyl i en påse.",
+            "response": ""
+        },
+        {
+            "id": "kraftfalt:0",
+            "comment": "Om nØllan kommer och frågar om kraftfältet, så sätter du igång ljudfilen med Ewok-pip om de inte har C3PO framme. När nØllan tar fram C3PO så tillber du guden C3P0 och sedan sätter du igång den andra ljudfilen som är i klarspråk. Filen kommer att rada upp en viss ordning som nallebjörnarna i salen ska ligga i. Nallebjörnarna har nämligen nummer på huvudet. Dessa nummer bildar koden nØllan vill ha! Koden är 12221550 (Dubbelkolla med nallebjörnarna så att koden stämmer). Om nØllan inte fattar nånting så kan du hinta om att de kanske behöver en tolk.",
+            "response": ""
+        }
+    ],
+    "events": [
+    ]
+}

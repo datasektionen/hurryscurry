@@ -1,0 +1,462 @@
+head	1.3;
+access;
+symbols;
+locks; strict;
+comment	@# @;
+
+
+1.3
+date	2000.08.30.17.40.33;	author mattiasa;	state Exp;
+branches;
+next	1.2;
+
+1.2
+date	2000.08.30.17.38.21;	author mattiasa;	state Exp;
+branches;
+next	1.1;
+
+1.1
+date	2000.08.30.15.30.08;	author mattiasa;	state Exp;
+branches;
+next	;
+
+
+desc
+@@
+
+
+1.3
+log
+@bugfix
+@
+text
+@#jungfru maria
+Leia sitter i cell 2187, Detention Block AA-23,
+Circarpous major.
+@@
+#2d1352~2d1353
+Tor tog armen och flög iväg mot Wild Space. 
+@@
+#2d1354
+Kurskoden är okänd ..
+@@
+#dagobah~dagobah starsystem
+Planeten Dagobah ligger vid PDC på plan 5 i Borderland
+Regions.
+@@
+#b-2332-54
+Öppna skåpet vid tavlan i E3 i Borderland Regions.
+@@
+#hyperdrive~motivator~hyperdrive motivator
+Gå till rymdskeppshangaren som är belägen
+bredvid tavlan i E52 i Borderland Regions.
+@@
+#joruus c'baoth
+Joruus gömmer sig bakom gardinerna utanför D35 i 
+Corellia System.
+@@
+#a-9 vigilance interceptor~a-9~vigilance
+Den nyaste skeppet som Imperiet har.
+@@
+#a-wing
+Ett lätt krigsskepp som används av rebellerna.
+@@
+#ackbar
+Amiral Ackbar kämpar på rebellernas sida. Han är
+en högt aktad medlem Mon Calamari-släktet.
+@@
+#alderaan
+Leia Organas hemplanet. Det ryktas att det var
+på denna planet som rebellerna startade sitt 
+uppror.
+@@
+#anakin
+Lukes och Leias far.
+@@
+#at-at
+All Terrain Armored Transport.
+Denna fyrbenta krigsmaskin fungerar både
+som trupptransport och som stridsmaskin.
+@@
+#at-st
+All terrain Scout Transport.
+Tvåbent krigsmaskin som i första hand har
+rekogniserings- och eskortuppdrag. Den är
+lätt och snabb.
+@@
+#b-wing
+Ett av de skepp som har mest eldkraft.
+@@ 
+#beru
+Beru Lars var gift med Owen Lars och det var de 
+som tog hand om Luke Skywalker under hans uppväxt.
+@@
+#borderland regions~borderland
+Borderland Regions ligger mellan New Republic
+och Imperial space. Båda hävdar att området är
+deras men ingen av dem har kontrollen över det.
+@@
+#brasck
+Brasck är en av de stora smugglingscheferna som
+opererar ifrån Borderland Regions, men han
+sågs senast i Corellia System. Han bär alltid 
+hatt!
+@@
+#c3po~see-threepio~c-3po~threepio
+En guldfärgad robot med enorma språkkunskaper.
+@@
+#lando calrissian~lando~calrissian
+Lando Calrissian, "soldier-of-fortune" och mäster- 
+spelare. Han styrde i Cloud City innan Imperiet 
+kom och lurade honom att jobba för dem.
+@@
+#chewbacca~chewie
+Chewbacca är en 2 meter hög Wookiee som är andre-
+pilot på Millenium Falcon. Han är över 200 år 
+gammal.
+De senaste årtiondena har han tillbringat vid Han 
+Solos sida.
+@@
+#circarpous major~circarpous
+Circarpous Major är ett solsystem som består av 
+14 planeter.
+@@
+#cloud city
+Cloud City är en gruv- och handelsstad.
+@@
+#corellia system~corellia
+Corellia star system och dess planeter var bland 
+de första medlemmarna av den gamla republiken. 
+Systemet är mest känt för sina snabba skepp och
+sina skickliga handelsmän.
+@@
+#dadderiet
+31 kramgoa och snuttiga teknologer som aldrig
+skulle spränga någonting .. 
+@@
+#death star~dödsstjärnan
+Det ultimata vapnet.
+@@
+#deep core~deep core security zone
+Deep Core Security Zone består av avskärmande
+sektorer av den inre Galactic Core. Planeten Byss
+ligger gömd i Deep Core Security Zone. 
+@@
+#deppo
+Deppo är en kalibrationsingenjör som tidigare 
+arbetade på en mobil fabrik inuti en imperial
+World devastator.
+@@
+#drifveriet~driveriet~drifvare~drivare
+De nio mest fruktade varelserna i universum.
+lyckligtvis överstiges deras makt endast av
+deras oändliga godhet, därför är de egentligen
+inte alls farliga... 
+Om man inte är n0llan så klart.
+@@
+#endor starsystem~endorsystemet~endor
+Den andra dödsstjärnan byggdes i Endors
+stjärnsystem pga dess avlägsna läge. Rebellerna
+lyckades senare förstöra dödsstjärnan och döda
+kejsaren i detta stjärnsystem.
+@@
+#ewoker~ewok~ewoks
+På planeten Endors trädmåne bor Ewokerna. De är
+lurviga björnlika varelser som blir ca en meter
+långa. Ewokerna har inte kommit längre i
+utvecklingen än till spjut och pilbågar, men
+spelade en stor roll när rebellerna lyckades
+stänga av kraftfältet till dödsstjärnan. Tokiga
+som de är har de fått för sig att C3PO är någon
+slags gud.
+@@
+#bobba fett~boba fett
+Bobba Fett är en prisjägare som är känd över hela
+galaxen. Han är klädd i en stridsrustning full
+utav otäcka vapen. Bobba Fett utför uppdrag för
+den som har råd att betala och har jobbat för både
+Jabba the Hutt och Imperiet. Han var den
+prisjägare som lyckades få tag på Han Solo och
+förde tillbaka honom nedfryst till Jabba. Bobba
+Fett ses nu för tiden stryka omkring i Wild Space.
+@@
+#gallandro
+Ökänd vapenhandlare.
+Gallandro är en "blaster for hire" och en 
+väldigt duktig en. Han har vid två tilfällen
+mött Han Solo i duell. Första gången lurade
+Han honom att vidröra en högspänningsledare.
+Ställd inför valet att möta den ambidextiösa Han
+med fel arm så valde han att ge upp. 
+Senaste kända vistelsen: Roches Asteroidbälte.
+@@
+#jabba hutt
+Jabba the Hutt är en korpulent, överviktig, fet, 
+rymdskurk med dålig moral och munhygien.
+Han styrde en tvivelaktig organisation från
+planeten Tatooine och låg bland annat bakom
+priset på Han Solos huvud. Solo jobbade tidigare
+som smugglare åt Jabba.
+@@
+#junkfort station
+Junkfort Station är en rymdhamn där rymdskepp
+kan bli modifierade med allsköns olaglig extra
+utrustning.
+@@
+#kejsaren~palpatine~emperor
+Kejsaren styrde galaxen som diktaror av Imperiet. 
+hans namn är Palpatine och han var senator i den 
+gamla republiken.
+@@
+#obi-wan kenobi~obi-wan~ben kenobi~kenobi
+Ben Kenobi är en eremit som lever på planeten
+Tatooine. Han hänger ibland i baren i Mos Eisley.
+Lokalbefolkningen tror att han är galen, men i
+själva verket är han en gammal Jedi-riddare som
+kallas Obi-Wan. Han blev upplärd till Jedi av
+Yoda, och försökte senare även lära upp Anakin
+Skywalker, Lukes far, till Jedi-riddare. När
+Anakin blev Darth Vader gömde Ben Kenobi Luke och
+Leia för att de inte skulle bli dödade av
+Darth. När Leia långt senare blev tillfångatagen
+av Imperiet kallades Obi-Wan in för att hjälpa
+henne. Det är då Luke träffar honom för första
+gången.
+@@
+#latara
+Latara är en kvinnlig ewok som gillar att spela
+folk spratt. Hon gillar också att spela flöjt.
+@@
+#prinsessan leia~leia
+Leia Organa är prinsessa och kommer från planeten
+Alderaan. Hon och Luke är tvillingar men blev
+separerade som små och plaserade i fosterhem för
+att undkomma Darth Vader, deras far. Leia var med
+och startade upproret mot kejsaren och lyckades
+komma över ritningarna till den första
+dödsstjärnan. I samma veva blev hon tillfångatagen
+av Imperiet. Hennes första möte med Luke och Han
+Solo är när de försöker befria henne från 
+Imperiet.
+@@
+#ljussabel
+En ljussabel är det eleganta vapen som Jedi-
+riddarna bär.
+@@
+#millenium falcon~årtusende falken~falken~falcon
+Årtusende falken är Han Solos rymdskepp. Det är 
+ett ombyggt fraktskepp på ungefär 26 meter. Det 
+har tidigare tillhört Lando Calrissian.
+@@
+#mon calamari
+Mon Calamari-släktet kommer från planeten med
+samma namn. Denna fridfulla ras blev starka
+rebellanhängare så imperiet invadere deras värld.
+Rebellerna fick då, förutom ett stort antal nya
+anhängare, även en efterlängtad utökning av
+sin rymdflotta och även hjälp av en stark ledare:
+Amiral Ackbar.
+@@
+#mos eisley~eisley
+Mos Eisley är en stad byggd runt en rymdhamn.
+Till staden kommer det alla sorters rymdvarelser
+för att vila upp sig. Det pågår mycket handel i
+staden. Eftersom Mos Eisley ligger långt ifrån
+Imperiets centrum finns det mycket kriminella
+individer i staden. 
+@@
+#nollan
+Schlemm och wydroug klump.
+@@
+#chief muskov~muskov
+Chief Muskov för befälet över The Cloud Police, 
+som vaktar Bespins Cloud City. Numera arbetar
+han som civilspanare mot smugglare i Corellia 
+System.
+@@
+#nar shaddaa
+Nar Shadda är en rymdhamn som ligger på en måne
+som har sin bana runt planeten Nal Hutta.
+@@
+#owen
+Owen Lars var en farmare på planeten Tatooine. Han 
+och hans fru, Beru, tog hand om Luke Skywalker 
+under hans uppväxt. Luke trodde att Owen var hans 
+riktiga farbror, men i själva verket var han Ben 
+Kenobis bror.
+@@
+#r2d2~artoo-detoo~r2-d2
+Det är ju jag!
+@@
+#rancor
+Rancor är ett 5 meter högt monster som hölls 
+fången i Jabba the Hutts öken palats.
+@@
+#rebellbasen
+Så här ser det ut i rebellbasens hangar.
+@@
+#roche~asteroidbälte~asteroid field
+Roche Asteroidbälte är en mängd stenar som
+flyger i en bana i Roche-stjärnsystemet.
+@@
+#kashyyyk
+Kashyyyk är wookieesarnas hemplanet. Denna   
+djungelvärld är full av mysterier och fantastiska 
+vyer.
+@@
+#luke skywalker~luke
+Luke Skywalker är pojken som jobbade på en farm
+och sedan blev rebelhjälte. Luke uppfostrades av
+Owen och Beru Lars på Tatooine. När de blev dödade
+av Imperiets trupper gav sig unge Luke in i 
+rebellernas kamp mot Imperiet. Hans far är den 
+fruktade Darth Vader.
+@@
+#han solo
+Från att ha varit en simpel smugglare har Han 
+blivit en riktig rebelhjälte och dessutom
+skaffat sig barn med Leia, som de döpte till 
+Anakin efter Lukes och Leias far.
+@@
+#stormtrooper~stormtrupper
+Imperiets soldater som är kejsaren lojala.
+@@
+#tatooine
+Tatooine äe huvudplaneten i stjärnsystemet med 
+samma namn. Det var i denna värld som Luke 
+Skywalker växte upp.
+@@
+#thon
+Thon var en kontinent på planeten Alderaan.
+@@
+#tie fighter~tie
+Tie Fighter är imperiets huvudsakliga stridsskepp.
+De är snabba och lätta att manöverera. De kan dock
+inte färdas särskilt långt, utan måste en bas 
+eller ett moderskepp som de opererar ifrån.
+@@
+#tor
+Tor är en gammal direktivdrif som konverterat 
+till Asagud.
+@@
+#darth maul~maul
+Svart och rödklädd med schysst lasersvärdsteknik.
+Ond som bara den.
+@@
+#darth vader~vader
+Svartklädd, 2 meter lång och med svåra andnings-
+problem. Så kan man enklast beskriva Darth Vader.
+Vader var en gång i tiden Anakin Skywalker, 
+lärling hos Obi-Wan Kenobi. Han ville dock lära 
+sig att hantera Kraften snabbare än Obi-Wan lärde 
+ut den och gick därför över till den mörka sidan 
+och blev Darth Vader.
+@@
+#wild space
+Wild Space är en del av rymden där ingen har 
+makten. Wildspace används ofta för mellan-
+landning när man gör hopp i hyperrymden.
+@@ 
+#wicket~warrick
+Wicket W. Warrick var den ewok som först fann
+prinsessan Leia efter att hon hade krashat i 
+skogen. Han hjälpte även till att övertala resten 
+av ewokerna att hjälpa rebellerna i kampen mot 
+imperiet.
+@@ 
+#wookiee
+Wookiees kommer från planeten Kashyyyk. De är
+långa, starka och täckta med en mjuk, tjock päls.
+En normal wookiee blir över 2 meter lång. Fastän
+en wookiee kan verka primitiv, så är de duktiga på
+tekniska prylar. De kan förstå andra språk än sitt
+eget, men de kan inte tala dem ,då de endast kan
+åstadkomma olika sorters grymtningar.
+@@
+#x-wing
+Ett 12.5-meter långt skepp för 1 pilot.
+@@
+#y-wing
+Ett gammalt 16-meter långt skepp som fortfarande
+används av rebellerna. Skeppet har plats för 
+2 piloter.
+@@
+#yoda
+Yoda var en Jedi-mästare som har levat i 900 år.
+Under största delen av sitt liv var han lärare
+åt andra Jedi-riddare. Numera håller han till i 
+ett träsk på planeten Dagobah.
+@@
+#zardra
+Zardra är en lång mörkhårig prisjägare.
+@@
+#zorba
+Zorba the Hutt är Jabba the Hutts far.
+@@
+#george lucas~lucas
+George Lucas är förmodligen världens mest
+överskattade (och rikaste) regissör. Läs 
+DN i torsdags så fattar ni.
+@@
+@
+
+
+1.2
+log
+@updated for 2000
+@
+text
+@d102 1
+a102 1
+29 kramgoa och snuttiga teknologer som aldrig
+d120 1
+a120 1
+lyckligtvis îverstiges deras makt endast av
+@
+
+
+1.1
+log
+@Initial revision
+@
+text
+@d5 1
+a5 1
+#2d1353
+a7 3
+#2d1352
+Är det verkligen rätt kurskod?
+@@
+d12 1
+a12 1
+Planeten Dagobah ligger vid PDC i Borderland
+d20 1
+a20 1
+bredvid tavlan i D32 i Corellia System.
+d23 2
+a24 1
+Gå till D35 i Corellia System. Kolla utanför ...
+d180 13
+a192 12
+Ben Kenobi var en eremit som levde på planeten 
+Tatooine. Lokalbefolkningen trodde att han var
+galen, men i själva verket var han en gammal
+Jedi-riddare som då kallades Obi-Wan. Han blev
+upplärd till Jedi av Yoda, och försökte senare
+även lära upp Anakin Skywalker, Lukes far, till
+Jedi-riddare. När Anakin blev Darth Vader gömde
+Ben Kenobi Luke och Leia för att de inte skulle
+bli dödade av Darth. När Leia långt senare blev
+tillfångatagen av Imperiet kallades Obi-Wan in för
+att hjälpa henne. Det är då Luke träffar honom för
+första gången.
+d239 1
+a239 1
+#chief muskov
+d353 1
+a353 1
+Yoda var en Jedi-mästare som levde i 900 år.
+d355 2
+a356 1
+åt andra Jedi-riddare.
+@

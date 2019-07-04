@@ -1,0 +1,35 @@
+{
+	"id" : "kraftfalt",
+	"main" : {
+		"title" : "Dödsstjärnans Kraftfält",
+		"background" : "Många är de rebeller som tappat huvudet och skadat sig svårt vid attacker mot Dödstjärnan. Sällan har det berott på bristande planering eller sviktande mod hos piloterna. Nej, allt som oftast har uppdragen gått åt fanders på grund av det inte så lite farliga kraftfält som omger det monstruösa bygget.",
+		"goal" : "nØllan ska finna koden som deaktiverar kraftfältet kring Dödsstjärnan.",
+		"reward" : "Förutom att den hemskaste av hemska stjärnor snart kommer ligga öppen för dissekering kommer nØllans belöning bestå av fett stort hål i plånboken.",
+		"hint" : "Dödsstjärnans kraftfält styrs från skogsmånen Endor. Ni beger er in bland träden i Endorsystemets södra del."
+	},
+	"clues" : [
+		{
+			"id" : "1",
+			"text" : "Vilse i skogen inser ni plötsligt att ni glömt skicka vykort till Maz Kanata. Den närmsta intergalaktiska brevlådan finns under det stora KTH-märket norr om solsystemet Endor.",
+			"comment" : "Ledtråden sitter på ett träd nära Östra stationen",
+			"characters" : []
+		},
+		{
+			"id" : "2",
+			"text" : "Just när ni ska posta era semesterselfies hör ni det omisskännliga ljudet av marscherande Stormtroopers! Spring och göm er i den stora krukan norr om Borderland Regions.",
+			"comment" : "Ledtråden sitter vid/på brevlådan under KTH-märket",
+			"characters" : []
+		},
+		{
+			"id" : "3",
+			"text" : "Vad är ni för några krukor? Ligg inte här och tryck utan be Ewokerna om hjälp istället. De befinner sig på Ewokernas hemplanet Forest Moon of Endor.",
+			"comment" : "Ledtråden sitter på en kruka mellan Sing-sing och E-huset",
+			"characters" : []
+		}
+	],
+	"meta" : {
+		"resolution" : "Ewokerna spelar upp en ljud med totalt obegripligt pladder. Om nØllan är smart kommer de med ens på att de kan använda tolkroboten C3PO för att översätta ewokernas rotvälska till något förståeligt (annars får Ewokerna hinta det lite diskret). När väl C3PO används spelas en annan ljudfil upp med ett fullt förståeligt meddelande. Meddelandet talar om hur nØllan skall placera fyra olika nallar i en viss ordning för att få fram koden. Alla nallar vid platsen (ungefär 13 000 stycken) har lappar med en siffra hängande runt halsen och om man placerar rätt fyra nallar i rätt ordning får man fram koden 12221550 (bör dubbelkollas med rekvisita) som behövs i uppdraget »Förstör Dödsstjärnan».",
+		"requirements" : "Uppdraget redovisas genom att nØllan går till rebellbasen och ger rätt kod.",
+		"props" : "Till det här uppdraget krävs en högtalare, ett ljudfil där man spelat in ett »nallepussel» (se exempel under mappen »Övrigt») samt oändligt många nallar. Vidare krävs ewoker, ju fler desto bättre."
+	}
+}

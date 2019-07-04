@@ -1,0 +1,35 @@
+{
+	"id" : "smuggelgods",
+	"main" : {
+		"title" : "Hitta smuggelgodset",
+		"background" : "Rebellerna har sedan en tid haft kännedom av att en av Darth Vaders mest kära ägodelar smugglas genom galaxen. Rebellerna vet inte vad det är men denna ägodel har förflyttas små sträckor åt gången för att inte väcka uppmärksamhet. Ryktet går att detta åtråvärda objekt endast är ett stenkast ifrån rebellbasen, och det är nu hög tid att lägga vantarna på paketet!",
+		"goal" : "nØllan ska lokalisera paketet och sedan föra det till Rebellbasen.",
+		"reward" : "nØllan belönas med 1000 krediter för ett väl genomfört uppdrag.",
+		"hint" : "Ett vittne säger att han såg ett paket trilla av en Cloud Car i norra Correlia System. Med paketet singlade också meddelandet ner “Jag har tagit godset, länge leve rebellerna! Nu vidare på upptåg i Mos Eisley!” //Uncle Ben Kenobi"
+	},
+	"clues" : [
+		{
+			"id" : "1",	
+			"text" : "Jag tog paketet i tron om att det var imperiets guldtackor, men jag hade fel. Ni måste ta hit guldtackorna innan jag ger er någonting! Jag skulle leta på Alderaan",
+			"comment" : "Ges muntligen av Obi-Wan.",
+			"characters" : []
+		},
+		{
+			"id" : "2",
+			"text" : "Imperieguldet! Det kan dock hända att det ligger flera guldtackor här och i sådant fall skall nØllan bara ta med sig en av dem.",
+			"comment" : "Sitter uppe på väggen ovanför guldet.",
+			"characters" : []
+		},
+		{
+			"id" : "3",
+			"text" : "Ge hit guldtackorna, de är inte för nybörjare!.... Tyvärr har jag alltid varit svag för Ewoker. De kom och ville ha godset, och medan deras lurviga päls förtrollade mig, så lyckades de ta det ifrån mig. Det ryktas om att Ewokerna håller hus på sin hemplanet, Endors skogsmåne.",
+			"comment" : "Ges muntligen av Obi-Wan i utbyte mot guldet.",
+			"characters" : []
+		}
+	],
+	"meta" : {
+		"resolution" : "nØllan kommer till Ewokerna där de måste betala med kramar för att få tillbaka paketet som visar sig innehålla mustaschvax och sedan beger de sig till rebellbasen och lämnar paketet.",
+		"requirements" : "Uppdraget redovisas genom att nollan visar upp paketet i rebellbasen.",
+		"props" : "Det behövs (13 st) shampoo/balsam/handkräm eller liknande i en igentejpad påse, guldklimpar (13 st, ska finnas i örådet). Personer som är involverade i uppdraget är: Obi-Wan och ewokerna i Forest moon of Endor."
+	}
+}

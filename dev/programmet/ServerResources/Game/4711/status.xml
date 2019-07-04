@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<status>
+<team teamID="BananaSkids">
+<mission missionID="findPlan">
+<start>1440418403729</start>
+</mission>
+</team>
+<team teamID="gummibjornar">
+<mission missionID="findC3PO">
+<start>1440418403729</start>
+</mission>
+</team>
+<team teamID="Center">
+<mission missionID="falcon">
+<start>1440418403729</start>
+</mission>
+</team>
+<team teamID="Djungelvrål">
+<mission missionID="battleTech">
+<start>1440418403729</start>
+</mission>
+</team>
+<team teamID="FruttiTutti">
+<mission missionID="bountyHunter">
+<start>1440418403729</start>
+</mission>
+</team>
+<team teamID="Jenka">
+<mission missionID="findGoods">
+<start>1440418403729</start>
+</mission>
+</team>
+<team teamID="Maoam">
+<mission missionID="getBomb">
+<start>1440418403729</start>
+</mission>
+</team>
+<team teamID="Hockeypulver">
+<mission missionID="freeLeia">
+<start>1440418403729</start>
+</mission>
+</team>
+<team teamID="Isbergssallad">
+<mission missionID="helpLuke">
+<start>1440418403729</start>
+</mission>
+</team>
+<team teamID="Lakritspipa">
+<mission missionID="freeHanSolo">
+<start>1440418403729</start>
+</mission>
+</team>
+<team teamID="EightAfter">
+<mission missionID="genealogy">
+<start>1440418403729</start>
+</mission>
+</team>
+<team teamID="AhlgrensBilar">
+<mission missionID="smuggleSpices">
+<start>1440418403729</start>
+</mission>
+<mission missionID="findC3PO">
+<start>1440418444996</start>
+</mission>
+</team>
+<team teamID="Kinderagg">
+<mission missionID="findKenobi">
+<start>1440418403729</start>
+</mission>
+</team>
+</status>

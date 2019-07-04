@@ -1,0 +1,45 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "additionalProperties": false,
+    "definitions": {},
+    "id": "drifters-schema",
+    "properties": {
+        "comment": {
+            "id": "/properties/comment",
+            "type": "string"
+        },
+        "missions": {
+            "id": "/properties/missions",
+            "items": {
+                "additionalProperties": false,
+                "id": "/properties/mission/items",
+                "properties": {
+                    "goal": {
+                        "id": "/properties/mission/items/properties/goal",
+                        "type": "string"
+                    },
+                    "id": {
+                        "id": "/properties/mission/items/properties/id",
+                        "type": "string"
+                    },
+                    "name": {
+                        "id": "/properties/mission/items/properties/namn",
+                        "type": "string"
+                    }
+                },
+                "required": [
+                    "id",
+                    "name",
+                    "goal"
+                ],
+                "type": "object"
+            },
+            "type": "array"
+        }
+    },
+    "required": [
+        "comment",
+        "missions"
+    ],
+    "type": "object"
+}

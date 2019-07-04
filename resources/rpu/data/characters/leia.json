@@ -1,0 +1,17 @@
+{
+    "id": "leia",
+    "name": "Leia",
+    "location": "Cell 2187, Detention Block AA-23, (E33).",
+    "area": "Borderland Regions",
+    "persona": "Leia Organa är en prinsessa från Alderaan. En vacker, ganska mager vit kvinna med uppsatt hår som ser ut som gamla stereohörlurar över öronen. Hon är en av hjältarna i rebellalliansen och är en självmedveten kvinna som kan vara ganska dryg mot dem som inte visar henne tillräcklig respekt. Klär sig enfärgat, och inga pastellfärger. Favoritfärger: brunt och ljusbrunt. Leia vill ha chans på Han Solo som hon gärna pratar med nØllan om.",
+    "props": "Ett saftigt rött läppstift. Fint ska det va’!",
+    "missions": [
+        {
+            "id": "leia:0",
+            "comment": "Den nØllan som tar sig in i cellen får en puss på kinden med RIKLIGT med läppstift, denna puss fungerar senare som bevis för att uppdraget är slutfört. När du har blivit räddad ska du med ett glädjetjut be nØllan att ta sig till rebellbasen och visa upp pussmärket så att rebellerna vet att du är friad!",
+            "response": "“Här ska du få ett bevis på att du befriat mig, skynda nu till rebellbasen med det!”"
+        }
+    ],
+    "events": [
+    ]
+}
