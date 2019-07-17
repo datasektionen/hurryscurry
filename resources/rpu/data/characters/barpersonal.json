@@ -1,8 +1,8 @@
 {
     "id": "barpersonal",
     "name": "Barpersonalen i Mos Eisley",
-    "location": "Mos Eisley (Meta)",
-    "area": "",
+    "location": "Meta",
+    "area": "Mos Eisley",
     "persona": "Två barmänniskor och eventuellt en blackjackare. Barmänniskorna får gärna se ut som aliens från tre olika planeter. De ska vara pratsamma och trevliga. Blackjackaren får gärna se ut som en spetälsk med bindor (gas alltså) runt ansiktet och händerna eller något liknande. Bete dig mystiskt och agera trovärdigt. I bakgrunden ska “Mos Eisley-låten” spelas.",
     "props": "Låda med tepåsar, plus bärbaren",
     "missions": [

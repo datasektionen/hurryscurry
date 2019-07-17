@@ -1,8 +1,8 @@
 {
     "id": "yoda",
     "name": "Yoda",
-    "location": "Dagobah / Maz Kanatas Wärdshus (E35)",
-    "area": "Borderland Regions",
+    "location": "E35",
+    "area": "Dagobah / Maz Kanatas Wärdshus / Borderland Regions",
     "persona": "Som en grön nyfödd skrynklig mupp i brun kappa. Plira på nØllan, försök sno saker av den och gnäll oerhört om de klagar. Pratar alltid med taskig grammatik och häver ur sig det ena obegripliga visdomsordet efter det andra (kolla bibeln för exempel).",
     "props": "39 AA batterier (3 st per nollegrupp), pingisboll som det står “bomb” på.",
     "missions": [

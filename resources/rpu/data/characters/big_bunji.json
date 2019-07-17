@@ -1,20 +1,20 @@
 {
     "id": "big_bunji",
     "name": "Big Bunji",
-    "location": "Baren i Mos Eisley",
-    "area": "Borderland Regions",
+    "location": "Meta",
+    "area": "Baren i Mos Eisley",
     "persona": "En tvättäkta rymdskurk. Bunji är oärlig, skum och otrevlig. Gärna klädd i kåpa så att han inte visar ansiktet. Sitter och super eller spelar i Mos Eisley.",
     "props": "13 plastmuggar, en (liten) flaska YES, 13 st ritningar av dödsstjärnan, en penna att signera händelsekortet.",
     "missions": [
         {
             "id": "ritningar:3",
-            "comment": "nØllan kommer till Mos Eisley och letar efter någon som har ritningarna till Dödsstjärnan, kan hända att dom frågar direkt efter dig. Var skeptisk mot dem när de frågar efter dig, men få dom inte att leta efter dig i hundra år. När de har lokaliserat dig kommer de att fråga om ritningarna, spela tuff och motvillig men gå med på att avslöja var ritningarna finns för minst 700 krediter (förhandla!). Ritningarna har du nämligen läckt till Wookieleaks.org. (Kan hända att detta inte funkar, då kommer du att sälja pappersritningar istället).",
-            "response": "Förklara riktigt otrevligt att de måste få ritningarna godkända av Imperiets Ministerie för Inspektion och Övrig Hantering av Massförstörelsevapen och Laserbazookas i Cloud City, sen avslöjar du att ritningarna finns på Wookieleaks.org konspiratoriskt."
+            "comment": "nØllan kommer till Mos Eisley och letar efter någon som har ritningarna till Dödsstjärnan, kan hända att dom frågar direkt efter dig. Var skeptisk mot dem när de frågar efter dig, men få dom inte att leta efter dig i hundra år. När de har lokaliserat dig kommer de att fråga om ritningarna, spela tuff och motvillig men gå med på att avslöja var ritningarna finns för minst 700 krediter (förhandla!). Ritningarna har du nämligen läckt till Wookieleaks.org. (Kan hända att detta inte funkar, då kommer du att sälja pappersritningar istället). Förklara också riktigt otrevligt att de måste få ritningarna godkända av Imperiets Ministeria för Inspektion och Övrig Hantering av Massförstörelsevapen och Laserbazookas i Cloud City. Sen avslöjar du att ritningarna finns på Wookieleaks.org konspiratoriskt",
+            "response": ""
         },
         {
             "id": "leia:1",
-            "comment": "nØllan har fått veta att du är en väldigt otrevlig typ som hänger i Mos Eisley och att du kanske har hört något om Leia från de som reser genom staden. När nØllan frågar om Leia ska du leda de till Luke genom att säga något i stil med följande.",
-            "response": "“Leia? Han Solo beskrev henne som ättrig och bortskämd. Dessutom verkade hon bara bry sig om den där Like, Lajka.. Luke? Ja, i alla fall så var det senaste jag hörde om deras lilla äventyr att prinsessan blev tillfångatagen och Luke hamnade i någon form av knipa. Han håller visst till någonstans djupt nere i Wild Space nu för tiden.“"
+            "comment": "nØllan har fått veta att du är en väldigt otrevlig typ som hänger i Mos Eisley och att du kanske har hört något om Leia från de som reser genom staden. När nØllan frågar om Leia ska du leda dem till Luke genom att säga något i stil med följande.",
+            "response": "Leia? Han Solo beskrev henne som ättrig och bortskämd. Dessutom verkade hon bara bry sig om den där Like, Lajka.. Luke? Ja, i alla fall så var det senaste jag hörde om deras lilla äventyr att prinsessan blev tillfångatagen och Luke hamnade i någon form av knipa. Han håller visst till någonstans djupt nere i Wild Space nu för tiden."
         }
     ],
     "events": [

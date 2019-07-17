@@ -1,8 +1,8 @@
 {
     "id": "leias_vakter",
     "name": "Leias vakter",
-    "location": "Cell 2187, Detention Block AA-23, (E33).",
-    "area": "Borderland Regions",
+    "location": "E33",
+    "area": "Cell 2187, Detention Block AA-23 - Borderland Regions",
     "persona": "Tvättäkta stormtroopers inklusive vapen och en ondsint attityd. Skräm gärna nØllan som springer omkring i D-huset (även om de inte är på väg till Leia) genom att stirra ut dem, smyga på dem eller följa efter dem. Men ni måste vakta dörren till Leia om någon nØllan är på väg dit. -> Dessa vakter kommer att byta av med Stormtroopers lite då och då. Läs därför Stormtroopers beskrivning också! <-",
     "props": "Ett ständigt fulladdat vattengevär (som INTE får användas inomhus!).",
     "missions": [

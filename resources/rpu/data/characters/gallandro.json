@@ -1,8 +1,8 @@
 {
     "id": "gallandro",
     "name": "Gallandro",
-    "location": "Roche Asteroidbälte",
-    "area": "",
+    "location": "Borggården",
+    "area": "Roche Asteroidbälte",
     "persona": "Cool person, handelsresande, skum och egen företagare. Trenchcoat och hatt eller nåt sånt. Om glasögon så attans coola sådana. Gatuförsäljarstilen, öppna rocken och visa dina varor!",
     "props": "13 ritningar på massförstörelsevapen/WMD/diskett, 13 påsar med schampo (små testexemplar liksom...), ca 2500 krediter och en penna att signera kort med. Sen skadar det inte om Gallandro har med sig alla möjliga nödvändiga och onödiga saker utöver de här, han är ju trots allt en “Go-to-guy”!",
     "missions": [

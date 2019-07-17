@@ -1,8 +1,8 @@
 {
     "id": "deppo",
     "name": "Deppo",
-    "location": "Junkfort Station",
-    "area": "Nar Shaddaa",
+    "location": "Engelska parken-ish",
+    "area": "Junkfort Station - Nar Shaddaa",
     "persona": "Deppo är en mekaniker som går klädd i blåställ och gärna har lite skiftnycklar och skruvmejslar i fickor och händer. Oljig i ansiktet och kan prata i timmar om en förgasare. Deppo får höra en del från folk som kommer in med sina skepp för reparation och har därför ganska bra koll på vad som händer under radarn i cyberspace. ",
     "props": "Silvertejp/eltejp, 13 st bokmärken (gärna söta änglar), 13 st plåster och 13 st 3CPO huvuden.",
     "missions": [

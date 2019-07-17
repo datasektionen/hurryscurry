@@ -1,8 +1,8 @@
 {
     "id": "administrator",
     "name": "Imperiets administratör",
-    "location": "Högst upp i Cloud City",
-    "area": "Cloud City",
+    "location": "Högst upp i D-husets övre del",
+    "area": "Högst upp i Cloud City",
     "persona": "Administratör, lämpligen av den mycket strikta sorten. Det enda som är viktigt är papper. Utan dig slutar imperiet att fungera. Gör det klart för nØllan att du är en mycket viktig och högt uppsatt person. De papper som du skriver är grunden som imperiet står på. Allt måste skötas enligt regelboken. Administratören är rätt så dryg och kan till exempel be nØllan ställa upp sig på led sorterade exempelvis efter mellannamn medan de väntar på en underskrift. ",
     "props": "Penna och “Ansökan om order av Inspektion-papper”. Lämpligtvis 26 kopior (alltså 26*2 papper). Byråkratiska papper kan hittas på driven.",
     "missions": [

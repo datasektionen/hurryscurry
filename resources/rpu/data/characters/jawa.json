@@ -1,8 +1,8 @@
 {
     "id": "jawa",
     "name": "Jawa",
-    "location": "Tatooine (D33)",
-    "area": "Corellia System",
+    "location": "D33",
+    "area": "Tatooine - Corellia System",
     "persona": "Jawas är sandfolk som är kända för att bedra andra i sin omgivning. De är ohederliga varelser som livnär sig på att stjäla/lägga vantarna på robotar och teknik som de sedan kan sälja.\nEn jawa är till utseendet kort och klädd i en brun rock med en huva som kastar skuggor över ansiktet. Hemlighetsfull och svårtydig. ",
     "props": "3 hinkar, havregrynsgröt, lingonsylt, ett paket med flingor, några kannor med vatten och ett eller flera paket med ägg. Papper behövs också, samt 3 ögonbindlar och lock av något slag till hinkarna. ",
     "missions": [
