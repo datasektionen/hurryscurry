@@ -2,7 +2,7 @@
 	"id" : "stridsteknik",
 	"main" : {
 		"title" : "Ny stridsteknik",
-		"background" : "Jedi-riddarna har stridit mot Imperiet länge och deras teknik är välkänd av den Mörka Sidan. För att rebellerna fortfarande ska kunna utgöra ett hot måste de hitta nya sätt att strida på. Ryktet går att rymdpiraten och wärdshusägaren Maz Kanata har en effektiv stridsteknik att lära ut.",
+		"background" : "Jedi-riddarna har stridit mot Imperiet länge och deras teknik är välkänd av den Mörka Sidan. När en stormtrooper blir rädd brukar den tappa saker, men nu tappar de aldrig saker längre. För att rebellerna fortfarande ska kunna utgöra ett hot måste de hitta nya sätt att strida på. Ryktet går att rymdpiraten och wärdshusägaren Maz Kanata har en effektiv stridsteknik att lära ut.",
 		"goal" : "nØllan måste lokalisera Maz Kanata och få henne att lära ut denna avancerade och effektiva stridsteknik. Denna teknik skall därefter utövas framför en Stormtrooper och nØllan ska därefter återvända med bildbevis på hur effektiv den var.",
 		"reward" : "Som om inte stridstekniken vore belöning nog så får nØllan även 1000 krediter för väl genomfört uppdrag.",
 		"hint" : "Senaste gången Maz Kanata skymtades var hon hårt arbetandes i sitt wärdshus, som ligger i Borderland Regions."
@@ -28,8 +28,8 @@
 		}
 	],
 	"meta" : {
-		"resolution" : "När nØllan väl har lärt sig floss-dansen (Backpack kid) så ska de ta sig till en valfri Stormtrooper för att visa upp dansen för denna. När detta händer visar Stromtroopern en tydlig skräck, och nØllan tar en bild på detta för att visa upp i rebellbasen.",
-		"requirements" : "Uppdraget redovisas genom att nØllan visar upp en bild där de utför dansen framför en Stormtrooper (som på något sätt visar att de är rädda för dansen).",
-		"props" : "De personer som involveras i uppdraget är Maz Kanata, Chewbacca och slumpmässig Stormtrooper. Maz Kanata behöver en högtalare för att kunna spela upp en låt när hen lär ut dansen. Chewbacca behöver 13 st autografbilder (finns på driven “Hurry Scurry 2016/Trycksaker/Rekvisita/Chewie Wallet Pic”), som antingen försigneras av någon eller så signerar hen som spelar Chewbacca bilderna på plats."
+		"resolution" : "När nØllan väl har lärt sig floss-dansen (Backpack kid) så ska de ta sig till en valfri Stormtrooper för att visa upp dansen för denna. När detta händer visar Stromtroopern en tydlig skräck, och 'tappar' några popcorn på marken. Dessa tar nollan med sig till Rebellbasen som bevis.",
+		"requirements" : "Uppdraget redovisas genom att nØllan visar upp en bild där de utför dansen framför en Stormtrooper (som på något sätt visar att de är rädda för dansen och tappar popcorn).",
+		"props" : "De personer som involveras i uppdraget är Maz Kanata, Chewbacca och slumpmässig Stormtrooper. Maz Kanata behöver en högtalare för att kunna spela upp en låt när hen lär ut dansen. Chewbacca behöver 13 st autografbilder (finns på driven “Hurry Scurry 2016/Trycksaker/Rekvisita/Chewie Wallet Pic”), som antingen försigneras av någon eller så signerar hen som spelar Chewbacca bilderna på plats. Stormtroopers behöver popcorn att tappa"
 	}
 }
