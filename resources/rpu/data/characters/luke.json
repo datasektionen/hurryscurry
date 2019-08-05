@@ -4,7 +4,7 @@
     "location": "I arkitekthålet",
     "area": "Wild Space",
     "persona": "Luke Skywalker är en nyfiken och härlig kille som för det mesta leker jediriddare. Han är oftast glad och trevlig. Dock verkar han sitta fast med en orm runt benet djupt i något som skulle kunna vara ett sopprum fullt av vatten, men han håller humöret uppe ändå!",
-    "props": "Inplastade lappar med bokstäver som bildar “Jungfru Maria”, en gosedjursorm att ha runt benet och en telefon nära till hands. ",
+    "props": "Inplastade lappar med bokstäver som bildar “Jungfru Maria”, en gosedjursorm att ha runt benet och en telefon nära till hands, 13 stycken tack-kort. ",
     "missions": [
         {
             "id": "solo:2",
@@ -18,7 +18,7 @@
         },
         {
             "id": "luke:0",
-            "comment": "När nØllan kommer tillbaka efter att du har fått ett sms från R2D2 vakten att pressen har stoppats så är du superglad och säger att nØllan ska ta en bild tillsammans med dig! När de har gjort det ska de ta med bilden till rebellbasen för att visa att du är oskadd.",
+            "comment": "När nØllan kommer tillbaka efter att du har fått ett sms från R2D2 vakten att pressen har stoppats så är du superglad och säger att du är evigt tacksam. Sen som bevis för din tacksamhet ger du nØllan ett tack-kort. Sedan ska de ta med tack-kortet till rebellbasen för att visa att du är oskadd.",
             "response": ""
         },
         {
