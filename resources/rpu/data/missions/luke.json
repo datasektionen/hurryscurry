@@ -3,7 +3,7 @@
 	"main" : {
 		"title" : "Hjälp Luke",
 		"background" : "Luke Skywalker har en dålig ovana att försöka rädda Rymdprinsessor och därigenom hamna i knipa. Nu har han återigen hamnat i knipa och ramlat ned i ett sopnedkast! Om det inte var nog illa att han följde med resterna av sin McStar-meny när han skulle kasta den så håller väggarna sakta men säkert på att mosa honom lika platt som Darth Vaders plånbok efter att han har köpt en påse hallon/lakrits-skallar en vanlig lördag kväll. Ni måste kvickt rädda Luke från detta hemska öde!",
-		"goal" : "Ta en bild på Luke när ni har hjälpt honom undan hans hemska öde och rapportera till Rebellbasen.",
+		"goal" : "Få ett bevis för Lukes tacksamhet efter ni hjälpt honom undan hans hemska öde och rapportera till Rebellbasen.",
 		"reward" : "nØllan kan inkassera 800 krediter efter ett väl genomfört uppdrag.",
 		"hint" : "Spring till Luke och se vad han behöver hjälp med! Han verkar ha fastnat på ett djupt ställe i Wild Space."
 	},
@@ -40,8 +40,8 @@
 		}
 	],
 	"meta" : {
-		"resolution" : "R2D2-vakten meddelar Luke att han är räddad! nØllan springer tillbaka för att se hur han mår och tar en bild på gruppen tillsammans med honom. ",
-		"requirements" : "Uppdraget redovisas genom att nØllan visar upp bilden för personalen i rebellbasen där de inkasserar 800 krediter.",
+		"resolution" : "R2D2-vakten meddelar Luke att han är räddad! nØllan springer tillbaka för att se hur han mår och får ett tack-kort som bevis för hans tacksamhet. ",
+		"requirements" : "Uppdraget redovisas genom att nØllan visar upp tack-kortet för personalen i rebellbasen där de inkasserar 800 krediter.",
 		"props" : "För det här uppdraget krävs att Luke är på plats i arkitekthålet mellan Meta och Arkitekt. Utöver det behövs en kontaktannons som kan sättas upp i Mos Eisley (finns från tidigare år), ambitionsnivån på den här kan variera men har man tiden gör man bäst i att fixa något som liknar ett tidningsark med “Kontaktannonser” skrivet i stora bokstäver. Där ska det även finnas fler kontaktannonser än just den här ormens. Kanske finns det en del för rymddjur söker rymddjur? Ej specifika för uppdraget krävs även barpersonalen i Mos Eisley, Jawas på Tatooine och en fungerade R2D2 med tillhörande vakt."
 	}
 }
