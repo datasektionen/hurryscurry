@@ -20,7 +20,7 @@ I mappen `ServerResources/GameData/StarWars` finns alla filer för allt det graf
 
 #### nØllegrupper
 `teamstemplate.xml` - Här är det specificerat vilka namn och startuppdrag varje nØllegrupp har. Varje år kommer man behöva gå in i denna fil och uppdatera gruppernas namn.
-> OBS! Se till att grupperna får samma uppdrag i sitt startkit som de faktiskt får via programmet, annars kan det bli knas'
+> OBS! Se till att grupperna får samma uppdrag i sitt startkit som de faktiskt får via programmet, annars kan det bli knas
 
 #### Uppdragen
 `rulestemplate.xml` - Här är alla uppdrag specificerade. Kan vara bra att uppdatera beskrivningarna så att de stämmer överens med JSON-filerna.
@@ -39,7 +39,7 @@ java -Xmx512M -jar HSClient.jar <IP> 4711 -p FuzzyKitten
 Rebellbas-specialklient:
 java -Xmx512M -jar HSRebelBaseClient.jar <IP> 4711 FuzzyKitten
 ```
-skriv `-f` i slutet för att köra med fullscreen.
+Skriv `-f` i slutet för att köra med fullscreen.
 
 Innan programmet startas kommer en inloggningsruta. Det bör inte spela någon roll vad du väljer för karaktär och användarnamn.
 
