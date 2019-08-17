@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?> 
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE rules [
 <!ELEMENT rules (mission, event*, role*, resource*)>
 <!ELEMENT mission (name, description, proof, reward, checkpoint*, resource*, dependency*)>
@@ -13,7 +13,7 @@
 <!ELEMENT resource (#PCDATA)>
 <!ELEMENT checkpointref (#PCDATA)>
 
-<!ATTLIST mission missionID ID #REQUIRED> 
+<!ATTLIST mission missionID ID #REQUIRED>
 <!ATTLIST checkpoint checkpointID ID #REQUIRED>
 <!ATTLIST dependency required  CDATA #REQUIRED>
 <!ATTLIST event eventID ID #REQUIRED>
@@ -23,346 +23,398 @@
 
 <rules>
 
-<mission missionID="deathstar">
-  <name>Förstör Dödsstjärnan</name>
-  <description>Imperiet har länge slipat på sitt senaste, inte så lite farliga vapen: Dödsstjärnan. Nu står deras verk inför fullbordans rand. Inom en inte alltför lång tid kommer kejsaren att ge order till sina horder att inviga detta vapen genom att bjuda en slumpmässigt vald oskyldig planet på en hejdundrande fyrverkerishow.</description>
-  <proof>nØllan kommer minst sist!</proof>
-  <reward>nØllans belöning kommer vara, förutom evig ära och berömmelse, en snabb vinst i Hurry Scurryn på knock-out.</reward>
-  <checkpoint checkpointID="foundDeathstar">
-	<name>Hittat Dödstjärnan</name>
-  </checkpoint>
-  <resource type="backgroundImage">deathstar.jpg</resource>
-  <dependency required="4">
+  <!-- All missions -->
+  <mission missionID="deathstar">
+    <name>Förstör Dödsstjärnan</name>
+    <description>Imperiet har länge slipat på sitt senaste, inte så lite farliga vapen: Dödsstjärnan. Nu står deras verk inför fullbordans rand. Inom en inte alltför lång tid kommer kejsaren att ge order till sina horder att inviga detta vapen genom att bjuda en slumpmässigt vald oskyldig planet på en hejdundrande fyrverkerishow.</description>
+    <proof>nØllan kommer minst sist!</proof>
+    <reward>nØllans belöning kommer vara, förutom evig ära och berömmelse, en snabb vinst i Hurry Scurryn på knock-out.</reward>
+    <checkpoint checkpointID="foundDeathstar">
+      <name>Hittat Dödstjärnan</name>
+    </checkpoint>
+    <resource type="backgroundImage">deathstar.jpg</resource>
 
-    <mission missionID="getBomb">
-      <name>Införskaffa WMD</name>
-      <description>Kriget har nu pågått tämligen rymdlänge och nØllans vapenarsenal börjar tryta. Den sista laserkatapulten gick sönder igår, till och med jonknivarna har blivit slöa och börjat rosta. Det enda vapen som återstår är gummisnoddarna. På sistone har dock Stormtroopers utvecklat rustningen Kevlar IIIb som är i stort sett immuna mot gummivapen.</description>
-      <proof>nØllan visar en inte så lite potent bomb i rebellbasen.</proof>
-      <reward>nØllans belöning för detta uppdrag kommer inte att bestå av några krediter (giriga nØllan!). Innehavandet av en, inte så lite, potent bomb är belöning nog.</reward>
-      <checkpoint checkpointID="soldBomb">
-					<name>Köpt bomben</name>
-		</checkpoint>
-      <resource type="backgroundImage">bomb.jpg</resource>
-    </mission>
+    <dependency required="4">
+      <mission missionID="getBomb">
+        <name>Införskaffa WMD</name>
+        <description>Kriget har nu pågått tämligen rymdlänge och nØllans vapenarsenal börjar tryta. Den sista laserkatapulten gick sönder igår, till och med jonknivarna har blivit slöa och börjat rosta. Det enda vapen som återstår är gummisnoddarna. På sistone har dock Stormtroopers utvecklat rustningen Kevlar IIIb som är i stort sett immuna mot gummivapen.</description>
+        <proof>nØllan visar en inte så lite potent bomb i rebellbasen.</proof>
+        <reward>nØllans belöning för detta uppdrag kommer inte att bestå av några krediter (giriga nØllan!). Innehavandet av en, inte så lite, potent bomb är belöning nog.</reward>
+        <checkpoint checkpointID="soldBomb">
+          <name>Köpt bomben</name>
+        </checkpoint>
+        <resource type="backgroundImage">bomb.jpg</resource>
+      </mission>
 
-    <mission missionID="forcefield">
-    	<name>Dödsstjärnans kraftfält</name>
-    	<description>Många är de rebeller som tappat huvudet och skadat sig svårt vid attacker mot Dödsstjärnan. Sällan har det berott på bristande planering eller sviktande mod hos piloterna. Nej, allt som oftast har uppdragen gått åt fanders på grund av det, inte så lite farliga, kraftfält som omger det monstruösa bygget.</description>
-    	<proof>
-    	nØllan avsöjar den hemliga koden för att deaktivera kraftfältet för rebellerna.
-	</proof>
-	<reward>nØllans belöning kommer bestå av, förutom att den hemskaste av hemska stjärnor snart kommer ligga öppen för dissekering, ett stort hål i plånboken.</reward>
-			<checkpoint checkpointID="foundEwok">
-					<name>Hittat Ewokerna</name>
-				</checkpoint>
-	<resource type="backgroundImage">forcefield.jpg</resource>    	
-		<dependency required="1">
-			<mission missionID="findC3PO">
-				<name>Hitta C3P0</name>
-				<description>Det finns många språk i rymden, detta har lett till ett och annat missförstånd genom åren. Tolkrobotar uppfanns för att råda bot på detta och en av de mest sympatiska av dessa plåtburkar är C3PO. Han har dessutom en förkärlek för att gå i små bitar. nØllan kan tänkas träffa på saker i rymden som nØllan inte förstår och då kan C3PO komma väl till pass.</description>
-				<proof>nØllans mål är att leta reda på den ofantligt händiga roboten C3PO och ta med honom tillbaka till rebellbasen i ett stycke.</proof>
-				<reward>nØllans belöning är, förutom ett mycket trevligt sällskap långa mörka vinterkvällar, en mycket användbar översättare.</reward>
-				<checkpoint checkpointID="c3p0Part">
-					<name>Hittat C3P0 del</name>
-				</checkpoint>
-  				<resource type="backgroundImage">brokenc3po.jpg</resource>
-			</mission>
-		</dependency>
+      <mission missionID="forcefield">
+        <name>Dödsstjärnans kraftfält</name>
+        <description>Många är de rebeller som tappat huvudet och skadat sig svårt vid attacker mot Dödsstjärnan. Sällan har det berott på bristande planering eller sviktande mod hos piloterna. Nej, allt som oftast har uppdragen gått åt fanders på grund av det, inte så lite farliga, kraftfält som omger det monstruösa bygget.</description>
+        <proof>nØllan avsöjar den hemliga koden för att deaktivera kraftfältet för rebellerna.</proof>
+        <reward>nØllans belöning kommer bestå av, förutom att den hemskaste av hemska stjärnor snart kommer ligga öppen för dissekering, ett stort hål i plånboken.</reward>
+        <checkpoint checkpointID="foundEwok">
+          <name>Hittat Ewokerna</name>
+        </checkpoint>
+        <resource type="backgroundImage">forcefield.jpg</resource>
 
-    </mission>
+        <dependency required="1">
+          <mission missionID="findC3PO">
+            <name>Hitta C3P0</name>
+            <description>Det finns många språk i rymden, detta har lett till ett och annat missförstånd genom åren. Tolkrobotar uppfanns för att råda bot på detta och en av de mest sympatiska av dessa plåtburkar är C3PO. Han har dessutom en förkärlek för att gå i små bitar. nØllan kan tänkas träffa på saker i rymden som nØllan inte förstår och då kan C3PO komma väl till pass.</description>
+            <proof>nØllans mål är att leta reda på den ofantligt händiga roboten C3PO och ta med honom tillbaka till rebellbasen i ett stycke.</proof>
+            <reward>nØllans belöning är, förutom ett mycket trevligt sällskap långa mörka vinterkvällar, en mycket användbar översättare.</reward>
+            <checkpoint checkpointID="c3p0Part">
+              <name>Hittat C3P0 del</name>
+            </checkpoint>
+            <resource type="backgroundImage">brokenc3po.jpg</resource>
+          </mission>
+        </dependency>
+      </mission>
 
-    <mission missionID="findKenobi">
-    	<name>Sök upp Obi-Wan Kenobi</name>
-    	<description>Obi-Wan Kenobi är en mycket vis och lärd man. Av honom kan nØllan lära sig mycket. Obi-Wan är dessutom en Jedi-riddare, något som nØllan drömmer om att bli. För att kunna bli en stor och präktig Jedi så behövs förutom ett glatt humör och oömma kläder även en skarpslipad ljussabel.</description>
-    	<proof>nØllan demonstrerar den nya ljussabeln i rebellbasen.</proof>
-	<reward>Skäms, giriga nØllan! Att bli en Jedi är inget man gör för ära eller pengar, det är ett kall. Fast å andra sidan är det ju rätt häftigt att ha Kraften och den är ju inte så mycket att ha utan en ljussabel, eller hur?</reward>
-    <checkpoint checkpointID="foundLight">
-					<name>Fått ljusabel</name>
-				</checkpoint>
-	<resource type="backgroundImage">benkenobi.jpg</resource>
+      <mission missionID="findKenobi">
+        <name>Sök upp Obi-Wan Kenobi</name>
+        <description>Obi-Wan Kenobi är en mycket vis och lärd man. Av honom kan nØllan lära sig mycket. Obi-Wan är dessutom en Jedi-riddare, något som nØllan drömmer om att bli. För att kunna bli en stor och präktig Jedi så behövs förutom ett glatt humör och oömma kläder även en skarpslipad ljussabel.</description>
+        <proof>nØllan demonstrerar den nya ljussabeln i rebellbasen.</proof>
+        <reward>Skäms, giriga nØllan! Att bli en Jedi är inget man gör för ära eller pengar, det är ett kall. Fast å andra sidan är det ju rätt häftigt att ha Kraften och den är ju inte så mycket att ha utan en ljussabel, eller hur?</reward>
+        <checkpoint checkpointID="foundLight">
+          <name>Fått ljusabel</name>
+        </checkpoint>
+        <resource type="backgroundImage">benkenobi.jpg</resource>
+      </mission>
 
-    </mission>
+      <mission missionID="train">
+        <name>Genomgå Jedi-träning</name>
+        <description>För att nØllan ska ha en chans att klara av allt som en rebell kan stå inför så måste nØllan träna för att bli en Jedi-riddare. Det finns en liten konstig krumelur vid namn Yoda som vet ganska mycket om detta. nØllan måste hitta denna man för att få instruktioner och utbildning. Om nØllan lyssnar noga kanske nØllan kan lära sig något om Kraften. Det är känt att Yoda är ett riktigt matvrak och kommer att vara mera samarbetsvillig om nØllan har med sig någonting smaskigt.</description>
+        <proof>nØllan visar att de har kraften.</proof>
+        <reward>Om nØllan lyckas så belönas nØllan med, den inte så lite värdefulla, kraften.</reward>
+        <checkpoint checkpointID="foundDagobah">
+          <name>Hittat Dagobah</name>
+        </checkpoint>
+        <checkpoint checkpointID="gotForce">
+          <name>Fått kraften</name>
+        </checkpoint>
+        <resource type="backgroundImage">jedi.jpg</resource>
 
-    <mission missionID="train">
-		<name>Genomgå Jedi-träning</name>
-	    <description>För att nØllan ska ha en chans att klara av allt som en rebell kan stå inför så måste nØllan träna för att bli en Jedi-riddare. Det finns en liten konstig krumelur vid namn Yoda som vet ganska mycket om detta. nØllan måste hitta denna man för att få instruktioner och utbildning. Om nØllan lyssnar noga kanske nØllan kan lära sig något om Kraften. Det är känt att Yoda är ett riktigt matvrak och kommer att vara mera samarbetsvillig om nØllan har med sig någonting smaskigt.</description>
-	    <proof>nØllan visar att de har kraften.</proof>
-	    <reward>Om nØllan lyckas så belönas nØllan med, den inte så lite värdefulla, kraften.</reward>	    
-		<checkpoint checkpointID="foundDagobah">
-					<name>Hittat Dagobah</name>
-				</checkpoint>
-		<checkpoint checkpointID="gotForce">
-			<name>Fått kraften</name>
-		</checkpoint>	    
-	    <resource type="backgroundImage">jedi.jpg</resource>
-		<dependency required="1">
-			<mission missionID="falcon">
-				<name>1000-årsservice på falken</name>
-				<description>Falken har börjat hacka betänkligt på senaste tiden. Speciellt är det hyperdriven som inte verkar fungera som den ska. Minns med fasa den senaste gången då nØllan var jagad av ett par asteroider och nØllan ville gå in i hyperrymden. Det resulterade i ett par rejäla bucklor i aktern och en och annan, inte så lite, spräckt bakruta eftersom backen gick i istället. Hyperdriven är numera belagd med körförbud. Och för att nØllan ska kunna genomgå Jediträning måste den repareras.</description>
-				<proof>
-				nØllan provkör den nyligen servade Falken i rebellbasen.
-				</proof>
-				<reward>Belöningen kommer, förutom ett fungerande (nåja) rymdskepp, troligtvis att bli en ömmande plånbok.</reward>
-			<checkpoint checkpointID="findMotivator">
-					<name>Ska hitta Hyperdrive motivator</name>
-				</checkpoint>
-			<checkpoint checkpointID="gotMotivator">
-					<name>Hittat platsen för Hyperdrive motivator</name>
-				</checkpoint>
-				<resource type="backgroundImage">falcon.jpg</resource>
-			</mission>				
-		</dependency>
+        <dependency required="1">
+          <mission missionID="falcon">
+            <name>1000-årsservice på falken</name>
+            <description>Falken har börjat hacka betänkligt på senaste tiden. Speciellt är det hyperdriven som inte verkar fungera som den ska. Minns med fasa den senaste gången då nØllan var jagad av ett par asteroider och nØllan ville gå in i hyperrymden. Det resulterade i ett par rejäla bucklor i aktern och en och annan, inte så lite, spräckt bakruta eftersom backen gick i istället. Hyperdriven är numera belagd med körförbud. Och för att nØllan ska kunna genomgå Jediträning måste den repareras.</description>
+            <proof>nØllan provkör den nyligen servade Falken i rebellbasen.</proof>
+            <reward>Belöningen kommer, förutom ett fungerande (nåja) rymdskepp, troligtvis att bli en ömmande plånbok.</reward>
+            <checkpoint checkpointID="findMotivator">
+              <name>Ska hitta Hyperdrive motivator</name>
+            </checkpoint>
+            <checkpoint checkpointID="gotMotivator">
+              <name>Hittat platsen för Hyperdrive motivator</name>
+            </checkpoint>
+            <resource type="backgroundImage">falcon.jpg</resource>
+          </mission>
+        </dependency>
 
-	</mission>
+      </mission>
+    </dependency>
 
-  </dependency>
+    <dependency required="2">
+      <mission missionID="findPlan">
+        <name>Hitta ritning av dödsstjärnan</name>
+        <description>Rymdspionen Latara är en väldigt nyfiken Ewok. Hon har kommit över ritningar till Dödsstjärnan, närmare bestämt de ritningar som exponerar dess svagheter. Rebellbasen är i stort behov av dessa ritningar för att kunna oskadliggöra detta fruktansvärda vapen!</description>
+        <proof>nØllan visar upp ritningarna samt intygen som skall ha (minst) två stämplar (över checkrutorna “Inspektion utförd” samt “Objekt godkänt”).</proof>
+        <reward>Om nØllan lyckas med det här uppdraget så belönas nØllan med 1600 krediter.</reward>
+        <resource type="backgroundImage">battlePlan.jpg</resource>
+      </mission>
 
-  <dependency required="2">
-		
-		<mission missionID="findPlan">
-			<name>Hitta ritning av dödsstjärnan</name>
-			<description>Rymdspionen Latara är en väldigt nyfiken Ewok. Hon har kommit över ritningar till Dödsstjärnan, närmare bestämt de ritningar som exponerar dess svagheter. Rebellbasen är i stort behov av dessa ritningar för att kunna oskadliggöra detta fruktansvärda vapen!</description>
-			<proof>nØllan visar upp ritningarna samt intygen som skall ha (minst) två stämplar (över checkrutorna “Inspektion utförd” samt “Objekt godkänt”).</proof>
-			<reward>Om nØllan lyckas med det här uppdraget så belönas nØllan med 1600 krediter.</reward>
-			<resource type="backgroundImage">battlePlan.jpg</resource>		
-		</mission>
-		
-		<mission missionID="findGoods">
-			<name>Hitta smuggelgodset</name>
-			<description>Rebellerna har sedan en tid haft kännedom av att en av Darth Vaders mest kära ägodelar smugglas genom galaxen. Rebellerna vet inte vad det är men denna ägodel har förflyttas små sträckor åt gången för att inte väcka uppmärksamhet. Ryktet går att detta åtråvärda objekt endast är ett stenkast ifrån rebellbasen, och det är nu hög tid för att lägga vantarna på paketet!</description>
-			<proof>nØllan levererar smuggelgodset till rebellbasen</proof>
-			<reward>nØllan belönas med 1600 krediter för ett väl genomfört uppdrag.</reward>
-			<resource type="backgroundImage">findGoods.jpg</resource>		
-		</mission>
-		
-		<mission missionID="battleTech">
-			<name>Ny Stridsteknik</name>
-			<description>Jedi-riddarna har stridit mot Imperiet länge och deras teknik är välkänd av den Mörka Sidan. För att rebellerna fortfarande ska kunna utgöra ett hot måste de hitta nya sätt att strida på. Ryktet går att den före detta generalen och rebellen Yambo har en effektiv stridsteknik att lära ut.</description>
-			<proof>nØllan har bildbevis på stridsteknikens effektivitet</proof>
-			<reward>Som om inte stridstekniken vore belöning nog så får nØllan även 900 krediter för väl genomfört uppdrag.</reward>
-			<resource type="backgroundImage">battleTech.jpg</resource>		
-		</mission>
-		
-		<mission missionID="freeLeia">
-			<name>Rädda Prinsessan Leia</name>
-			<description>Prinsessan Leia Organa har blivit tillfångatagen av en Imperial Star Destroyer. Skeppet fördes av Darth Vader i egen hög person. Hon stoppades när hon var på väg till Obi-Wan Kenobi för att övertala honom att samarbeta med rebellerna. Hon har sett ritningarna till dödsstjärnan och är dessutom en riktig snygging.</description>
-			<proof>nØllan får en kyss från den vackra Prinsessan Leia.</proof>
-			<reward>Om nØllan lyckas med det här uppdraget så belönas nØllan med, utöver prinsessan Leias gunst, 1100 krediter.</reward>
-			<resource type="backgroundImage">freeleia.jpg</resource>		
-		</mission>
+      <mission missionID="findGoods">
+        <name>Hitta smuggelgodset</name>
+        <description>Rebellerna har sedan en tid haft kännedom av att en av Darth Vaders mest kära ägodelar smugglas genom galaxen. Rebellerna vet inte vad det är men denna ägodel har förflyttas små sträckor åt gången för att inte väcka uppmärksamhet. Ryktet går att detta åtråvärda objekt endast är ett stenkast ifrån rebellbasen, och det är nu hög tid för att lägga vantarna på paketet!</description>
+        <proof>nØllan levererar smuggelgodset till rebellbasen</proof>
+        <reward>nØllan belönas med 1600 krediter för ett väl genomfört uppdrag.</reward>
+        <resource type="backgroundImage">findGoods.jpg</resource>
+      </mission>
 
-		<mission missionID="freeHanSolo">
-			<name>Befria Han Solo</name>
-			<description>Han Solo är skyldig rymdfettot Jabba the Hutt en stor summa pengar. Detta har gjort honom väldigt efterlyst och numera väldigt tillfångatagen av den otäcka prisjägaren Boba Fett. Leias intensiva uppvaktning har lämnat honom helt kall. Boba Fett tänker inom en snar framtid överlämna den stackars huttrande Han till den fasansfulla Jabba the Hutt (ett namn som väger, inte så lite, tungt inom den intergalaktiska undre världen).</description>
-			<proof>nØllan hjälper Han Solo till rebellbasen.</proof>
-			<reward>Detta uppdrag är värt 1600 krediter och dessutom Han Solos eviga tacksamhet.</reward>
-			<checkpoint checkpointID="cryochamber">
-					<name>Hittat cryochamber</name>
-			</checkpoint>
-			<checkpoint checkpointID="choosenBrother">
-					<name>Räddat Solo</name>
-			</checkpoint>
-			<resource type="backgroundImage">freesolo.jpg</resource>			
-		</mission>
+      <mission missionID="battleTech">
+        <name>Ny Stridsteknik</name>
+        <description>Jedi-riddarna har stridit mot Imperiet länge och deras teknik är välkänd av den Mörka Sidan. För att rebellerna fortfarande ska kunna utgöra ett hot måste de hitta nya sätt att strida på. Ryktet går att den före detta generalen och rebellen Yambo har en effektiv stridsteknik att lära ut.</description>
+        <proof>nØllan har bildbevis på stridsteknikens effektivitet</proof>
+        <reward>Som om inte stridstekniken vore belöning nog så får nØllan även 900 krediter för väl genomfört uppdrag.</reward>
+        <resource type="backgroundImage">battleTech.jpg</resource>
+      </mission>
 
-		<mission missionID="bountyHunter">
-			<name>Prisjägare</name>
-			<description>Sedan huvudjägarna råkade åka vilse i hyperrymden finns det alltid för få prisjägare. Att mot betalning hämta in åtråvärda personer är tillräckligt lukrativt för att det flesta med kapacitet nog åtar sig såna uppdrag.</description>
-			<proof>nØllan skall visa huvudet de jagat i rebellbasen.</proof>
-			<reward>Belöningen består av, förutom känslan av att utfört ett hyggligt dagsverke, 2000 krediter.</reward>
-			<checkpoint checkpointID="startHunt">
-					<name>Jagar Joruus C'baoth</name>
-			</checkpoint>
-			<checkpoint checkpointID="foundHideout">
-					<name>Hittat Joruus C'baoth's gömställe</name>
-			</checkpoint>
-			<resource type="backgroundImage">bountyhunters.jpg</resource>
-		</mission>
+      <mission missionID="freeLeia">
+        <name>Rädda Prinsessan Leia</name>
+        <description>Prinsessan Leia Organa har blivit tillfångatagen av en Imperial Star Destroyer. Skeppet fördes av Darth Vader i egen hög person. Hon stoppades när hon var på väg till Obi-Wan Kenobi för att övertala honom att samarbeta med rebellerna. Hon har sett ritningarna till dödsstjärnan och är dessutom en riktig snygging.</description>
+        <proof>nØllan får en kyss från den vackra Prinsessan Leia.</proof>
+        <reward>Om nØllan lyckas med det här uppdraget så belönas nØllan med, utöver prinsessan Leias gunst, 1100 krediter.</reward>
+        <resource type="backgroundImage">freeleia.jpg</resource>
+      </mission>
 
-		<mission missionID="smuggleSpices">
-			<name>Smuggla kryddor</name>
-			<description>I den rymd som hårt kontrolleras av Kejsarens lakejer finns det allt färre möjligheter att tjäna en ärlig hacka. Smugglingen har länge varit ett sätt för många att dryga ut hushållskassan. Nyligen kom ett kejserligt förbud enligt vilket det blivit förbjudet att krydda maten.</description>
-			<proof>nØllan har ett signerat bevis på att smugglingen lyckats.</proof>
-			<reward>Belöningen till nØllan kommer att, förutom glädjen i att veta att tusentals familjer återigen kommer kunna krydda sin mat, bestå av 2200 krediter.</reward>
-			<checkpoint checkpointID="gotSpice">
-					<name>Hämtat kryddorna</name>
-			</checkpoint>
-			<checkpoint checkpointID="leftSpice">
-					<name>Lämnat Kryddorna</name>
-			</checkpoint>
-			<resource type="backgroundImage">spices.jpg</resource>
-		</mission>
+      <mission missionID="freeHanSolo">
+        <name>Befria Han Solo</name>
+        <description>Han Solo är skyldig rymdfettot Jabba the Hutt en stor summa pengar. Detta har gjort honom väldigt efterlyst och numera väldigt tillfångatagen av den otäcka prisjägaren Boba Fett. Leias intensiva uppvaktning har lämnat honom helt kall. Boba Fett tänker inom en snar framtid överlämna den stackars huttrande Han till den fasansfulla Jabba the Hutt (ett namn som väger, inte så lite, tungt inom den intergalaktiska undre världen).</description>
+        <proof>nØllan hjälper Han Solo till rebellbasen.</proof>
+        <reward>Detta uppdrag är värt 1600 krediter och dessutom Han Solos eviga tacksamhet.</reward>
+        <checkpoint checkpointID="cryochamber">
+          <name>Hittat cryochamber</name>
+        </checkpoint>
+        <checkpoint checkpointID="choosenBrother">
+          <name>Räddat Solo</name>
+        </checkpoint>
+        <resource type="backgroundImage">freesolo.jpg</resource>
+      </mission>
 
-		<mission missionID="genealogy">
-			<name>Släktforska åt Luke</name>
-			<description>Ingen varelse är komplett utan sin historia. Luke har i sina yngre dagar fuskat lite med släktforskningen och på sista tiden har det blivit lite konkigt att alls få någon tid över för detta.</description>
-			<proof>nØllan skall ta reda på vad Lukes far heter och meddela rebellbasen.</proof>
-			<reward>nØllans belöning kommer att bli, förutom att hela Rymden äntligen fått ett inkomplett släktträd mindre, 1000 krediter.</reward>
-			<checkpoint checkpointID="foundDecoder">
-					<name>Hittat avkodaren</name>
-			</checkpoint>
-			<resource type="backgroundImage">genealogy.jpg</resource>
-		</mission>
+      <mission missionID="bountyHunter">
+        <name>Prisjägare</name>
+        <description>Sedan huvudjägarna råkade åka vilse i hyperrymden finns det alltid för få prisjägare. Att mot betalning hämta in åtråvärda personer är tillräckligt lukrativt för att det flesta med kapacitet nog åtar sig såna uppdrag.</description>
+        <proof>nØllan skall visa huvudet de jagat i rebellbasen.</proof>
+        <reward>Belöningen består av, förutom känslan av att utfört ett hyggligt dagsverke, 2000 krediter.</reward>
+        <checkpoint checkpointID="startHunt">
+          <name>Jagar Joruus C'baoth</name>
+        </checkpoint>
+        <checkpoint checkpointID="foundHideout">
+          <name>Hittat Joruus C'baoth's gömställe</name>
+        </checkpoint>
+        <resource type="backgroundImage">bountyhunters.jpg</resource>
+      </mission>
 
-		<mission missionID="helpLuke">
-			<name>Hjälp Luke!</name>
-			<description>Luke Skywalker har en dålig ovana att försöka rädda Rymdprincessor och därigenom hamna i knipa. Han har dessutom en favör för skräpmat, men nu verkar han ha hamnat på en plats som allt för mycket liknar det där lilla hålet där han själv slänger resterna av sin McStar-meny när han tar sig ett kvällsmål på Mc Milkyway. Ni måste rädda Luke undan ett hemskt öde! Vår hjälte i historien är inte så mycket att ha om han är lika platt som Darth Vaders plånbok efter att han har köpt en påse hallon/lakrits-skallar en vanlig lördag kväll...</description>
-			<proof>Ta en bild på Luke när ni har hjälpt honom undan hans hemska öde och rapportera till Rebellbasen.</proof>
-			<reward>nØllan kan inkassera 800 krediter efter ett väl genomfört uppdrag.</reward>
-			<checkpoint checkpointID="stoppedPress">
-					<name>Stoppat pressen</name>
-			</checkpoint>
-			<resource type="backgroundImage">fixluke.jpg</resource>
-		</mission>
+      <mission missionID="smuggleSpices">
+        <name>Smuggla kryddor</name>
+        <description>I den rymd som hårt kontrolleras av Kejsarens lakejer finns det allt färre möjligheter att tjäna en ärlig hacka. Smugglingen har länge varit ett sätt för många att dryga ut hushållskassan. Nyligen kom ett kejserligt förbud enligt vilket det blivit förbjudet att krydda maten.</description>
+        <proof>nØllan har ett signerat bevis på att smugglingen lyckats.</proof>
+        <reward>Belöningen till nØllan kommer att, förutom glädjen i att veta att tusentals familjer återigen kommer kunna krydda sin mat, bestå av 2200 krediter.</reward>
+        <checkpoint checkpointID="gotSpice">
+          <name>Hämtat kryddorna</name>
+        </checkpoint>
+        <checkpoint checkpointID="leftSpice">
+          <name>Lämnat Kryddorna</name>
+        </checkpoint>
+        <resource type="backgroundImage">spices.jpg</resource>
+      </mission>
 
-	</dependency>
-</mission>
+      <mission missionID="genealogy">
+        <name>Släktforska åt Luke</name>
+        <description>Ingen varelse är komplett utan sin historia. Luke har i sina yngre dagar fuskat lite med släktforskningen och på sista tiden har det blivit lite konkigt att alls få någon tid över för detta.</description>
+        <proof>nØllan skall ta reda på vad Lukes far heter och meddela rebellbasen.</proof>
+        <reward>nØllans belöning kommer att bli, förutom att hela Rymden äntligen fått ett inkomplett släktträd mindre, 1000 krediter.</reward>
+        <checkpoint checkpointID="foundDecoder">
+          <name>Hittat avkodaren</name>
+        </checkpoint>
+        <resource type="backgroundImage">genealogy.jpg</resource>
+      </mission>
 
-	<event eventID="asteroides">
-		<name>Asteroider!</name>
-		<description>
+      <mission missionID="helpLuke">
+        <name>Hjälp Luke!</name>
+        <description>Luke Skywalker har en dålig ovana att försöka rädda Rymdprincessor och därigenom hamna i knipa. Han har dessutom en favör för skräpmat, men nu verkar han ha hamnat på en plats som allt för mycket liknar det där lilla hålet där han själv slänger resterna av sin McStar-meny när han tar sig ett kvällsmål på Mc Milkyway. Ni måste rädda Luke undan ett hemskt öde! Vår hjälte i historien är inte så mycket att ha om han är lika platt som Darth Vaders plånbok efter att han har köpt en påse hallon/lakrits-skallar en vanlig lördag kväll...</description>
+        <proof>Ta en bild på Luke när ni har hjälpt honom undan hans hemska öde och rapportera till Rebellbasen.</proof>
+        <reward>nØllan kan inkassera 800 krediter efter ett väl genomfört uppdrag.</reward>
+        <checkpoint checkpointID="stoppedPress">
+          <name>Stoppat pressen</name>
+        </checkpoint>
+        <resource type="backgroundImage">fixluke.jpg</resource>
+      </mission>
+    </dependency>
+  </mission>
+
+  <!-- All negative events -->
+  <event eventID="asteroides">
+    <name>Asteroider! (neg)</name>
+    <description>
 			Ni har gjort ett misslyckat hopp i hyperrymden. Felaktiga
 			koordinater ledde till att ni hamnade mitt i ett
 			asteroidfält. Detta innebär massiva reparationskostnader.
 			Leta upp den skickliga ingenjören Deppo som håller till i
-			Junkfort Station (dyrt nØllan).
-		</description>
-	</event>
-	<event eventID="epidemic">
-		<name>Epidemi</name>
-		<description>Din förste styrman upptäcker till sin förskräckelse att han har fått slut på mjällschampo. Om du inte genast fyller på lagret så hotas hela skeppet av mjällepidemi. Hitta handelsresande Gallandro i Roche Asteroid-bälte och köp mera schampo.</description></event>
-	<event eventID="starvation">
-		<name>Svält ombord</name>
-		<description>
+      Junkfort Station, vid Nar Shaddaa (dyrt nØllan).
+    </description>
+  </event>
+
+  <event eventID="epidemic">
+    <name>Epidemi (neg)</name>
+    <description>Din förste styrman upptäcker till sin förskräckelse att han har fått slut på mjällschampo. Om du inte genast fyller på lagret så hotas hela skeppet av mjällepidemi. Hitta handelsresande Gallandro i Roche Asteroid-bälte och köp mera schampo.</description>
+  </event>
+
+  <event eventID="starvation">
+    <name>Svält ombord (neg)</name>
+    <description>
 			Din förste styrman har gjort slut på sitt förråd av
-			&quot;Vov&quot; och slickar förtvivlat i hundskålen istället
+			&quot;VoV&quot; och slickar förtvivlat i hundskålen istället
 			för att styra skeppet. Bege dig till rymdfånen Latara i
 			Cloud City och köp mera hundmat.
-		</description>
-	</event>
-	<event eventID="jamming">
-		<name>Jammade vapen</name>
-		<description>Din förste skytt har fastnat med tandställningen i slutsycket till laserkanonen, detta försvårar målsökning på rörliga mål. Tala med Deppo i Junkfort Station.</description>
-	</event>
+    </description>
+  </event>
 
-	<event eventID="bribes">
-		<name>Mutor!</name>
-		<description>Du glömde stanna vid den röda jättestjärnan och rymdtrafikpolisen haffar dig i en rutinkontroll. Du måste muta dem för att slippa betala böterna. Ge mutan till Chief Muskov i Ljusgården i Corellia System. På platsen finns en person till, den andra är kryddsmugglaren Brasck. Du måste muta rätt person. Tänk på följande: Brasck ljuger alltid, medan Chief Muskov alltid  talar sanning. De kan bara svara på ja- och nej-frågor.</description></event>
-	<event eventID="kidnapping">
-		<name>Kidnappning</name>
-		<description>Skeppets förstestädare har blivit kidnappad av illvilliga Kowakianska Apödlor. Detta har lett till att skeppets interna volym har halverats på grund av allt skräp. Betala lösen till rymdskurken Big Bunji som brukar hålla till i baren i Mos Eisley.</description></event>
-	<event eventID="delays">
-		<name>Förseningar</name>
-		<description>Ni har glömt att lämna tillbaks videofilmen &quot;Tjejen som beamades för mycket&quot;. Dessutom har ni av misstag flugit ett okänt antal år in i framtiden. Förseningsavgiften blir inte nådig. Bege er till Mos Eisley så får ni veta hur nådig den inte blir.</description></event>
-	<event eventID="longnose">
-		<name>Långnäsa</name>
-		<description>Ni har blivit lurade av den legendariske rymdfånen Latara. Hon har sålt er hudkräm med vitamintillskott som inte alls uppfyllde det som utlovades i reklamen. Gå till Latara i Cloud City och kräv pengarna tillbaka.</description></event>
-	<event eventID="wounds">
-		<name>Skador</name>
-		<description>Er förste styrman har i fyllan utmanat Jabba the Hut på en sumo-match. Detta var ett stort misstag. Det är känt att Deppo på Junkfort Station är bevandrad i första hjälpen, men det blir inte billigt nØllan.</description></event>
+  <event eventID="jamming">
+    <name>Jammade vapen (neg)</name>
+    <description>Din förste skytt har fastnat med tandställningen i slutsycket till laserkanonen, detta försvårar målsökning på rörliga mål. Tala med Deppo i Junkfort Station, vid Nar Shaddaa.</description>
+  </event>
 
-	<role admin="true">	
-		<name>Rebel base</name>
-	</role>
+  <event eventID="bribes">
+    <name>Mutor! (neg)</name>
+    <description>Du glömde stanna vid den röda jättestjärnan och rymdtrafikpolisen haffar dig i en rutinkontroll. Du måste muta dem för att slippa betala böterna. Ge mutan till Chief Muskov i ljusgården i Corellia System. På platsen finns en person till, nämligen kryddsmugglaren Brasck. Du måste muta rätt person. Tänk på följande: Brasck ljuger alltid, medan Chief Muskov alltid talar sanning. De kan bara svara på ja- och nej-frågor.</description>
+  </event>
 
-	<role admin="false">
-		<name>R2D2 Vakt</name>
-		<checkpointref>leiaCell</checkpointref>		
-		<checkpointref>gotMotivator</checkpointref>	
-		<checkpointref>foundHideout</checkpointref>	
-		<checkpointref>foundDecoder</checkpointref>	
-		<checkpointref>foundArm</checkpointref>	
-		<checkpointref>foundDagobah</checkpointref>	
-	</role>
-	<role admin="false">
-		<name>Obi-wan Kenobi</name>
-	</role>
-	<role admin="false">
-		<name>Ewok</name>
-		<checkpointref>foundEwok</checkpointref>	
-	</role>	
-	<role admin="false">
-		<name>Deppo</name>
-		<checkpointref>findMotivator</checkpointref>	
-	</role>
-	<role admin="false">
-		<name>Latara</name>
-	</role>
-	<role admin="false">
-		<name>Brask</name>
-	</role>
-	<role admin="false">
-		<name>BigBunji</name>
-	</role>
-	<role admin="false">
-		<name>Bobba Fett</name>
-	</role>
-	<role admin="false">
-		<name>Stormtrooper</name>
-	</role>
-	<role admin="false">
-		<name>Han-Solo vakt</name>
-	</role>
-	<role admin="false">
-		<name>Leia</name>
-	</role>
-	<role admin="false">
-		<name>Mos Eisley</name>
-		<checkpointref>gotSpice</checkpointref>	
-	</role>
-	<role admin="false">
-	<name>Gallandro</name>
-		<checkpointref>soldBomb</checkpointref>
-	</role>
-	<role admin="false">
-	<name>Yoda</name>
-	</role>
-	<role admin="false">
-	<name>Latara</name>
-	<checkpointref>foundDeathstar</checkpointref>	
-	</role>
-	<role admin="false">
-		<name>Coyote (Övrig)</name>
-	</role>
+  <event eventID="kidnapping">
+    <name>Kidnappning (neg)</name>
+    <description>Skeppets förstestädare har blivit kidnappad av illvilliga Kowakianska Apödlor. Detta har lett till att skeppets interna volym har halverats på grund av allt skräp. Betala lösen till rymdskurken Big Bunji som brukar hålla till vid baren i Mos Eisley.</description>
+  </event>
 
-	
+  <event eventID="delays">
+    <name>Förseningar (neg)</name>
+    <description>Ni har glömt att lämna tillbaks videofilmen &quot;Tjejen som beamades för mycket&quot;. Dessutom har ni av misstag flugit ett okänt antal år in i framtiden. Förseningsavgiften blir inte nådig. Leta reda på Big Bunji i baren i Mos Eisley så får ni veta hur nådig den inte blir.</description>
+  </event>
 
-<!-- Overall resources - for the whole client -->
-<resource type="backgroundImage">bigBackground.jpg</resource>
-<resource type="titleFont">SF Distant Galaxy Outline.ttf</resource>
+  <event eventID="wounds">
+    <name>Skador (neg)</name>
+    <description>Er förste styrman har på fyllan utmanat Jabba the Hut på en sumo-match. Detta var ett stort misstag. Det är känt att Deppo på Junkfort Station, vid Nar Shaddaa, är bevandrad i första hjälpen, men det blir inte billigt nØllan.</description>
+  </event>
 
-<!-- Resources for the team info panel -->
-<resource type="teamInfoTopCap">teamInfoTopCap.png</resource>
-<resource type="teamInfoBottomCap">teamInfoBottomCap.png</resource>
-<resource type="teamInfoLeftCap">teamInfoLeftCap.png</resource>
-<resource type="teamInfoRightCap">teamInfoRightCap.png</resource>
-<resource type="teamInfoCellBackground">teamInfoCellBackground.png</resource>
-<resource type="teamInfoDivider">teamInfoDivider.png</resource>
-<resource type="teamProgressBarEmpty">teamProgressBarEmpty.png</resource>
-<resource type="teamProgressBarFull">teamProgressBarFull.png</resource>
+  <!-- All positive events -->
+  <event eventID="wanted">
+    <name>Efterlyst (pos)</name>
+    <description>Du skymtar den efterlyste Xim the Despot när han flyr in på ett utedass på planeten Churba. Denna information är värd pengar. Rapportera detta till Chief Muskov, som håller till i ljusgården i  Corellia System, och tjäna en hacka. Se upp så ni inte ger informationen till fel person (Brasck) för då får ni inga krediter alls. Chief Muskov talar alltid sanning, och Brasck ljuger konsekvent. Båda kan bara svara på ja- och nej-frågor.</description>
+  </event>
 
-<resource type="negEventIcon">negEvent.png</resource>
-<resource type="negEventCompletedIcon">negEventCompleted.png</resource>
+  <event eventID="jeopardy">
+    <name>Jeopardy (pos)</name>
+    <description>Gå in på baren i Mos Eisley och säg &quot;Vem i helvete är Arhul Hextrophon?&quot;, och inkassera förstapriset i Stjärn-Jeopardy.</description>
+  </event>
 
+  <event eventID="talent">
+    <name>Sångartalang (pos)</name>
+    <description>Du får ett erbjudande att bli solosångare i Max Rebo's jizz-wailing band då den ordinarie lead-sångaren Sy Snootles har blivit täppt i näsan. Bege dig till Mos Eisley och provsjung för barpersonalen för att tjäna en hacka.</description>
+  </event>
 
-<!-- Medals. Shared by MissionCell and TeamInfoCell atm. -->
-<resource type="goldMedalIcon">goldMedal.png</resource>
-<resource type="silverMedalIcon">silverMedal.png</resource>
-<resource type="bronzeMedalIcon">bronzeMedal.png</resource>
+  <event eventID="sniper">
+    <name>Sprickskytt (pos)</name>
+    <description>En av dina besättningsmän har vunnit den årliga prickskyttetävlingen &quot;Sikta mot Stjärnorna&quot;. Imponera på Boba Fett i Wild Space genom att visa honom detta kort.</description>
+  </event>
 
-<!-- The checkpoint icon, show in a team view MissionCell -->
-<resource type="checkpointIcon">checkpointIcon.png</resource>
+  <event eventID="humor">
+    <name>Tråkig humor (pos)</name>
+    <description>Rymdfånen Latara i Cloud City är känd för att ha en mycket torftig humor. Dra en godtycklig vits som innehåller orden &quot;tomat&quot; och &quot;går vi&quot; för henne så kommer ni att bli rikligt belönade.</description>
+  </event>
 
-<!-- Status bar icons -->
-<resource type="chatChangedIcon">exclamation.png</resource>
-<resource type="connectionLostIcon">stop.png</resource>
+  <event eventID="humor">
+    <name>Space'R'Us (pos)</name>
+    <description>Du har vunnit en slogan-tävling med bidraget &quot;Om det ryms I rymden så säljer vi det&quot; till hårdvarujätten Space'R'Us. Inkassera priset från handelsresande Gallandro I Roche Asteroidbälte.</description>
+  </event>
 
-<!-- Other background images -->
-<resource type="helpBackgroundImage">helpbg.jpg</resource>
-<resource type="chatBackgroundImage">chatbg.jpg</resource>
+  <event eventID="longnose">
+    <name>Långnäsa (pos)</name>
+    <description>Ni har blivit lurade av den legendariske rymdfånen Latara. Hon har sålt er hudkräm med vitamintillskott som inte alls uppfyllde det som utlovades i reklamen. Gå till Latara i Cloud City och kräv pengarna tillbaka.</description>
+  </event>
 
-<!-- Help text files -->
-<resource type="helpTextFunk">help_funk.txt</resource>
-<resource type="helpTextn0llan">help_n0llan.txt</resource>
-<resource type="helpTextRebelBase">help_rebelbase.txt</resource>
+  <!-- All roles -->
+  <role admin="true">
+    <name>Rebel base</name>
+  </role>
+
+  <role admin="false">
+    <name>R2D2 Vakt</name>
+    <checkpointref>leiaCell</checkpointref>
+    <checkpointref>gotMotivator</checkpointref>
+    <checkpointref>foundHideout</checkpointref>
+    <checkpointref>foundDecoder</checkpointref>
+    <checkpointref>foundArm</checkpointref>
+    <checkpointref>foundDagobah</checkpointref>
+  </role>
+
+  <role admin="false">
+    <name>Obi-wan Kenobi</name>
+  </role>
+
+  <role admin="false">
+    <name>Ewok</name>
+    <checkpointref>foundEwok</checkpointref>
+  </role>
+
+  <role admin="false">
+    <name>Deppo</name>
+    <checkpointref>findMotivator</checkpointref>
+  </role>
+
+  <role admin="false">
+    <name>Latara</name>
+  </role>
+
+  <role admin="false">
+    <name>Brask</name>
+  </role>
+
+  <role admin="false">
+    <name>BigBunji</name>
+  </role>
+
+  <role admin="false">
+    <name>Bobba Fett</name>
+  </role>
+
+  <role admin="false">
+    <name>Stormtrooper</name>
+  </role>
+
+  <role admin="false">
+    <name>Han-Solo vakt</name>
+  </role>
+
+  <role admin="false">
+    <name>Leia</name>
+  </role>
+
+  <role admin="false">
+    <name>Mos Eisley</name>
+    <checkpointref>gotSpice</checkpointref>
+  </role>
+
+  <role admin="false">
+    <name>Gallandro</name>
+    <checkpointref>soldBomb</checkpointref>
+  </role>
+
+  <role admin="false">
+    <name>Yoda</name>
+  </role>
+
+  <role admin="false">
+    <name>Latara</name>
+    <checkpointref>foundDeathstar</checkpointref>
+  </role>
+
+  <role admin="false">
+    <name>Coyote (Övrig)</name>
+  </role>
+
+  <!-- Overall resources - for the whole client -->
+  <resource type="backgroundImage">bigBackground.jpg</resource>
+  <resource type="titleFont">SF Distant Galaxy Outline.ttf</resource>
+
+  <!-- Resources for the team info panel -->
+  <resource type="teamInfoTopCap">teamInfoTopCap.png</resource>
+  <resource type="teamInfoBottomCap">teamInfoBottomCap.png</resource>
+  <resource type="teamInfoLeftCap">teamInfoLeftCap.png</resource>
+  <resource type="teamInfoRightCap">teamInfoRightCap.png</resource>
+  <resource type="teamInfoCellBackground">teamInfoCellBackground.png</resource>
+  <resource type="teamInfoDivider">teamInfoDivider.png</resource>
+  <resource type="teamProgressBarEmpty">teamProgressBarEmpty.png</resource>
+  <resource type="teamProgressBarFull">teamProgressBarFull.png</resource>
+
+  <resource type="negEventIcon">negEvent.png</resource>
+  <resource type="negEventCompletedIcon">negEventCompleted.png</resource>
+
+  <!-- Medals. Shared by MissionCell and TeamInfoCell atm. -->
+  <resource type="goldMedalIcon">goldMedal.png</resource>
+  <resource type="silverMedalIcon">silverMedal.png</resource>
+  <resource type="bronzeMedalIcon">bronzeMedal.png</resource>
+
+  <!-- The checkpoint icon, show in a team view MissionCell -->
+  <resource type="checkpointIcon">checkpointIcon.png</resource>
+
+  <!-- Status bar icons -->
+  <resource type="chatChangedIcon">exclamation.png</resource>
+  <resource type="connectionLostIcon">stop.png</resource>
+
+  <!-- Other background images -->
+  <resource type="helpBackgroundImage">helpbg.jpg</resource>
+  <resource type="chatBackgroundImage">chatbg.jpg</resource>
+
+  <!-- Help text files -->
+  <resource type="helpTextFunk">help_funk.txt</resource>
+  <resource type="helpTextn0llan">help_n0llan.txt</resource>
+  <resource type="helpTextRebelBase">help_rebelbase.txt</resource>
 </rules>

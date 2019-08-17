@@ -212,61 +212,92 @@
     </dependency>
   </mission>
 
-  <!-- All events -->
+  <!-- All negative events -->
   <event eventID="asteroides">
-    <name>Asteroider!</name>
+    <name>Asteroider! (neg)</name>
     <description>
 			Ni har gjort ett misslyckat hopp i hyperrymden. Felaktiga
 			koordinater ledde till att ni hamnade mitt i ett
 			asteroidfält. Detta innebär massiva reparationskostnader.
 			Leta upp den skickliga ingenjören Deppo som håller till i
-			Junkfort Station (dyrt nØllan).
+      Junkfort Station, vid Nar Shaddaa (dyrt nØllan).
     </description>
   </event>
 
   <event eventID="epidemic">
-    <name>Epidemi</name>
+    <name>Epidemi (neg)</name>
     <description>Din förste styrman upptäcker till sin förskräckelse att han har fått slut på mjällschampo. Om du inte genast fyller på lagret så hotas hela skeppet av mjällepidemi. Hitta handelsresande Gallandro i Roche Asteroid-bälte och köp mera schampo.</description>
   </event>
 
   <event eventID="starvation">
-    <name>Svält ombord</name>
+    <name>Svält ombord (neg)</name>
     <description>
 			Din förste styrman har gjort slut på sitt förråd av
-			&quot;Vov&quot; och slickar förtvivlat i hundskålen istället
+			&quot;VoV&quot; och slickar förtvivlat i hundskålen istället
 			för att styra skeppet. Bege dig till rymdfånen Latara i
 			Cloud City och köp mera hundmat.
     </description>
   </event>
 
   <event eventID="jamming">
-    <name>Jammade vapen</name>
-    <description>Din förste skytt har fastnat med tandställningen i slutsycket till laserkanonen, detta försvårar målsökning på rörliga mål. Tala med Deppo i Junkfort Station.</description>
+    <name>Jammade vapen (neg)</name>
+    <description>Din förste skytt har fastnat med tandställningen i slutsycket till laserkanonen, detta försvårar målsökning på rörliga mål. Tala med Deppo i Junkfort Station, vid Nar Shaddaa.</description>
   </event>
 
   <event eventID="bribes">
-    <name>Mutor!</name>
-    <description>Du glömde stanna vid den röda jättestjärnan och rymdtrafikpolisen haffar dig i en rutinkontroll. Du måste muta dem för att slippa betala böterna. Ge mutan till Chief Muskov i Ljusgården i Corellia System. På platsen finns en person till, den andra är kryddsmugglaren Brasck. Du måste muta rätt person. Tänk på följande: Brasck ljuger alltid, medan Chief Muskov alltid  talar sanning. De kan bara svara på ja- och nej-frågor.</description>
+    <name>Mutor! (neg)</name>
+    <description>Du glömde stanna vid den röda jättestjärnan och rymdtrafikpolisen haffar dig i en rutinkontroll. Du måste muta dem för att slippa betala böterna. Ge mutan till Chief Muskov i ljusgården i Corellia System. På platsen finns en person till, nämligen kryddsmugglaren Brasck. Du måste muta rätt person. Tänk på följande: Brasck ljuger alltid, medan Chief Muskov alltid talar sanning. De kan bara svara på ja- och nej-frågor.</description>
   </event>
 
   <event eventID="kidnapping">
-    <name>Kidnappning</name>
-    <description>Skeppets förstestädare har blivit kidnappad av illvilliga Kowakianska Apödlor. Detta har lett till att skeppets interna volym har halverats på grund av allt skräp. Betala lösen till rymdskurken Big Bunji som brukar hålla till i baren i Mos Eisley.</description>
+    <name>Kidnappning (neg)</name>
+    <description>Skeppets förstestädare har blivit kidnappad av illvilliga Kowakianska Apödlor. Detta har lett till att skeppets interna volym har halverats på grund av allt skräp. Betala lösen till rymdskurken Big Bunji som brukar hålla till vid baren i Mos Eisley.</description>
   </event>
 
   <event eventID="delays">
-    <name>Förseningar</name>
-    <description>Ni har glömt att lämna tillbaks videofilmen &quot;Tjejen som beamades för mycket&quot;. Dessutom har ni av misstag flugit ett okänt antal år in i framtiden. Förseningsavgiften blir inte nådig. Bege er till Mos Eisley så får ni veta hur nådig den inte blir.</description>
-  </event>
-
-  <event eventID="longnose">
-    <name>Långnäsa</name>
-    <description>Ni har blivit lurade av den legendariske rymdfånen Latara. Hon har sålt er hudkräm med vitamintillskott som inte alls uppfyllde det som utlovades i reklamen. Gå till Latara i Cloud City och kräv pengarna tillbaka.</description>
+    <name>Förseningar (neg)</name>
+    <description>Ni har glömt att lämna tillbaks videofilmen &quot;Tjejen som beamades för mycket&quot;. Dessutom har ni av misstag flugit ett okänt antal år in i framtiden. Förseningsavgiften blir inte nådig. Leta reda på Big Bunji i baren i Mos Eisley så får ni veta hur nådig den inte blir.</description>
   </event>
 
   <event eventID="wounds">
-    <name>Skador</name>
-    <description>Er förste styrman har i fyllan utmanat Jabba the Hut på en sumo-match. Detta var ett stort misstag. Det är känt att Deppo på Junkfort Station är bevandrad i första hjälpen, men det blir inte billigt nØllan.</description>
+    <name>Skador (neg)</name>
+    <description>Er förste styrman har på fyllan utmanat Jabba the Hut på en sumo-match. Detta var ett stort misstag. Det är känt att Deppo på Junkfort Station, vid Nar Shaddaa, är bevandrad i första hjälpen, men det blir inte billigt nØllan.</description>
+  </event>
+
+  <!-- All positive events -->
+  <event eventID="wanted">
+    <name>Efterlyst (pos)</name>
+    <description>Du skymtar den efterlyste Xim the Despot när han flyr in på ett utedass på planeten Churba. Denna information är värd pengar. Rapportera detta till Chief Muskov, som håller till i ljusgården i  Corellia System, och tjäna en hacka. Se upp så ni inte ger informationen till fel person (Brasck) för då får ni inga krediter alls. Chief Muskov talar alltid sanning, och Brasck ljuger konsekvent. Båda kan bara svara på ja- och nej-frågor.</description>
+  </event>
+
+  <event eventID="jeopardy">
+    <name>Jeopardy (pos)</name>
+    <description>Gå in på baren i Mos Eisley och säg &quot;Vem i helvete är Arhul Hextrophon?&quot;, och inkassera förstapriset i Stjärn-Jeopardy.</description>
+  </event>
+
+  <event eventID="talent">
+    <name>Sångartalang (pos)</name>
+    <description>Du får ett erbjudande att bli solosångare i Max Rebo's jizz-wailing band då den ordinarie lead-sångaren Sy Snootles har blivit täppt i näsan. Bege dig till Mos Eisley och provsjung för barpersonalen för att tjäna en hacka.</description>
+  </event>
+
+  <event eventID="sniper">
+    <name>Sprickskytt (pos)</name>
+    <description>En av dina besättningsmän har vunnit den årliga prickskyttetävlingen &quot;Sikta mot Stjärnorna&quot;. Imponera på Boba Fett i Wild Space genom att visa honom detta kort.</description>
+  </event>
+
+  <event eventID="humor">
+    <name>Tråkig humor (pos)</name>
+    <description>Rymdfånen Latara i Cloud City är känd för att ha en mycket torftig humor. Dra en godtycklig vits som innehåller orden &quot;tomat&quot; och &quot;går vi&quot; för henne så kommer ni att bli rikligt belönade.</description>
+  </event>
+
+  <event eventID="humor">
+    <name>Space'R'Us (pos)</name>
+    <description>Du har vunnit en slogan-tävling med bidraget &quot;Om det ryms I rymden så säljer vi det&quot; till hårdvarujätten Space'R'Us. Inkassera priset från handelsresande Gallandro I Roche Asteroidbälte.</description>
+  </event>
+
+  <event eventID="longnose">
+    <name>Långnäsa (pos)</name>
+    <description>Ni har blivit lurade av den legendariske rymdfånen Latara. Hon har sålt er hudkräm med vitamintillskott som inte alls uppfyllde det som utlovades i reklamen. Gå till Latara i Cloud City och kräv pengarna tillbaka.</description>
   </event>
 
   <!-- All roles -->
