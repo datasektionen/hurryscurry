@@ -1,68 +1,68 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <status>
 <team teamID="HanSolo">
-<mission missionID="freeLeia">
-<start>1566060655036</start>
+<mission missionID="leia">
+<start>1566073425282</start>
 </mission>
 </team>
 <team teamID="MonMothma">
-<mission missionID="getBomb">
-<start>1566060655036</start>
+<mission missionID="wmd">
+<start>1566073425282</start>
 </mission>
 </team>
 <team teamID="AdmiralAckbar">
-<mission missionID="smuggleSpices">
-<start>1566060655036</start>
+<mission missionID="kryddor">
+<start>1566073425282</start>
 </mission>
 </team>
 <team teamID="Chewbacca">
-<mission missionID="falcon">
-<start>1566060655036</start>
+<mission missionID="1000arsservice">
+<start>1566073425282</start>
 </mission>
 </team>
 <team teamID="Emperor">
 <mission missionID="genealogy">
-<start>1566060655036</start>
+<start>1566073425282</start>
 </mission>
 </team>
 <team teamID="JabbaTheHut">
-<mission missionID="findGoods">
-<start>1566060655036</start>
+<mission missionID="smuggelgods">
+<start>1566073425282</start>
 </mission>
 </team>
 <team teamID="ImperialStormtroopers">
-<mission missionID="helpLuke">
-<start>1566060655036</start>
+<mission missionID="luke">
+<start>1566073425282</start>
 </mission>
 </team>
 <team teamID="GeneralGrievous">
-<mission missionID="findC3PO">
-<start>1566060655036</start>
+<mission missionID="c3po">
+<start>1566073425282</start>
 </mission>
 </team>
 <team teamID="JarJarBinks">
-<mission missionID="findPlan">
-<start>1566060655036</start>
+<mission missionID="ritningar">
+<start>1566073425282</start>
 </mission>
 </team>
 <team teamID="DarthVader">
-<mission missionID="battleTech">
-<start>1566060655036</start>
+<mission missionID="stridsteknik">
+<start>1566073425282</start>
 </mission>
 </team>
 <team teamID="Kenobi">
-<mission missionID="findKenobi">
-<start>1566060655036</start>
+<mission missionID="kenobi">
+<start>1566073425282</start>
 </mission>
 </team>
 <team teamID="LandoCalrissian">
-<mission missionID="freeHanSolo">
-<start>1566060655036</start>
+<mission missionID="solo">
+<start>1566073425282</start>
 </mission>
 </team>
 <team teamID="BobaFett">
-<mission missionID="bountyHunter">
-<start>1566060655036</start>
+<mission missionID="prisjagare">
+<start>1566073425282</start>
 </mission>
 </team>
 </status>
