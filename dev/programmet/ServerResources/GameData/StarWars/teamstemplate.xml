@@ -48,7 +48,7 @@
 
 <team teamID="Emperor">
 <name>Emperor</name>
-<firstMission>genealogy</firstMission>
+<firstMission>kryddor</firstMission> <!-- Ska egentligen börja med händelse-->
 <resource type="backgroundImage">emperor_big.png</resource>
 <resource type="teamLogo">emperor_small.png</resource>
 </team>

@@ -188,17 +188,6 @@
         <resource type="backgroundImage">spices.jpg</resource>
       </mission>
 
-      <mission missionID="genealogy">
-        <name>Släktforska åt Luke</name>
-        <description>Ingen varelse är komplett utan sin historia. Luke har i sina yngre dagar fuskat lite med släktforskningen och på sista tiden har det blivit lite konkigt att alls få någon tid över för detta.</description>
-        <proof>nØllan skall ta reda på vad Lukes far heter och meddela rebellbasen.</proof>
-        <reward>nØllans belöning kommer att bli, förutom att hela Rymden äntligen fått ett inkomplett släktträd mindre, 1000 krediter.</reward>
-        <checkpoint checkpointID="foundDecoder">
-          <name>Hittat avkodaren</name>
-        </checkpoint>
-        <resource type="backgroundImage">genealogy.jpg</resource>
-      </mission>
-
       <mission missionID="luke">
         <name>Hjälp Luke</name>
         <description>Luke Skywalker har en dålig ovana att försöka rädda Rymdprinsessor och därigenom hamna i knipa. Nu har han återigen hamnat i knipa och ramlat ned i ett sopnedkast! Om det inte var nog illa att han följde med resterna av sin McStar-meny när han skulle kasta den så håller väggarna sakta men säkert på att mosa honom lika platt som Darth Vaders plånbok efter att han har köpt en påse hallon/lakrits-skallar en vanlig lördag kväll. Ni måste kvickt rädda Luke från detta hemska öde!</description>
