@@ -19,7 +19,7 @@ Observera att detta gör att tiden för första uppdraget startas när servern s
 I mappen `ServerResources/GameData/StarWars` finns alla filer för allt det grafiska i programmet och för data om grupperna och uppdragen.
 
 #### nØllegrupper
-`teamstemplate.xml` - Här är det specificerat vilka namn och startuppdrag varje nØllegrupp har. Varje år kommer man behöva gå in i denna fil och uppdatera gruppernas namn.
+`teamstemplate.xml` - Här är det specificerat vilka namn, ikon och startuppdrag varje nØllegrupp har. Vill ni ändra något av detta är det bara att redigera filen.
 > OBS! Se till att grupperna får samma uppdrag i sitt startkit som de faktiskt får via programmet, annars kan det bli knas
 
 #### Uppdragen
@@ -41,8 +41,6 @@ java -Xmx512M -jar HSRebelBaseClient.jar <IP> 4711 FuzzyKitten
 ```
 Skriv `-f` i slutet för att köra med fullscreen.
 
-Innan programmet startas kommer en inloggningsruta. Det bör inte spela någon roll vad du väljer för karaktär och användarnamn.
-
 ### Navigation
 I programmet kan man göra följande:
 - `F1` - Visa hjälptext
@@ -52,9 +50,13 @@ I programmet kan man göra följande:
 - Kom tillbaka till översikten genom att klicka någonstans i vänstra övre hörnet (till höger om listan med nØllegrupperna)
 - Visa ett lags progress genom att klicka på laget i listan
 - Visa information om ett uppdrag genom att högerklicka på det
-- De som behöver göra det kan högerklicka på uppdrag och klicka i
-checkpoints (vet inte om det är något vi använder dock).
 
+#### Vanlig klient
+Innan programmet startas kommer en inloggningsruta. Det bör inte spela någon roll vad du väljer för användarnamn. Olika karaktärer har olika möjlighet att fylla i att en grupp har klarat en checkpoint vid dem. För att göra det kan man gå in i vyn för ett lag och högerklicka på ett uppdrag.
+
+> Eftersom checkpoints inte brukar användas, och eftersom de inte är uppdaterade spelar det ingen roll vilken karaktär man loggar in som.
+
+#### Rebellbasen
 I rebellbasen kan man markera ett pågående uppdrag som avslutat
-genom att vänsterklicka på det. För att sedan starta ett nytt
-vänsterklickar man på det igen (när man är i lag-vyn). Man kan även högerklicka på ett uppdrag och få upp en meny där man kan välja att avbryta eller ändra tid för uppdraget.
+genom att vänsterklicka på det i lag-vyn. För att sedan starta ett nytt
+vänsterklickar man på det igen. Man kan även högerklicka på ett uppdrag och få upp en meny där man kan välja att avbryta eller ändra tid för uppdraget. Högerklickar man på ett lag i listan till vänster får man upp en meny för att påbörja händelser (positiva och negativa), avbryta dem eller markera dem som avklarade. Har en grupp en påbörjad händelse markeras detta med en vit rektangulär ikon (typ ett pappersark) vid deras lag i _laglistan_. 
