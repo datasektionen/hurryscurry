@@ -3,7 +3,7 @@
 	"main" : {
 		"title" : "Ny stridsteknik",
 		"background" : "Jedi-riddarna har stridit mot Imperiet länge och deras teknik är välkänd av den Mörka Sidan. När en stormtrooper blir rädd brukar den tappa saker, men nu tappar de aldrig saker längre. För att rebellerna fortfarande ska kunna utgöra ett hot måste de hitta nya sätt att strida på. Ryktet går att rymdpiraten och wärdshusägaren Maz Kanata har en effektiv stridsteknik att lära ut.",
-		"goal" : "nØllan måste lokalisera Maz Kanata och få henne att lära ut denna avancerade och effektiva stridsteknik. Denna teknik skall därefter utövas framför en Stormtrooper och nØllan ska därefter återvända med bildbevis på hur effektiv den var.",
+		"goal" : "nØllan måste lokalisera Maz Kanata och få henne att lära ut denna avancerade och effektiva stridsteknik. Denna teknik skall därefter utövas framför en Stormtrooper och nØllan ska därefter återvända med bevis (exempelvis något Stormtroopers tappat) på hur effektiv den var.",
 		"reward" : "Som om inte stridstekniken vore belöning nog så får nØllan även 1000 krediter för väl genomfört uppdrag.",
 		"hint" : "Senaste gången Maz Kanata skymtades var hon hårt arbetandes i sitt wärdshus, som ligger i Borderland Regions."
 	},
