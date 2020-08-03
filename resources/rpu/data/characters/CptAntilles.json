@@ -1,0 +1,12 @@
+{
+    "id": "CptAntilles",
+    "name": "Captain Antilles",
+    "location": "",
+    "area": "Rebellbasen",
+    "persona": "Antilles är en Kapten i rebellernas flotta och har nu fått det ärofyllda uppdraget att vakta rebellbasen",
+    "props": "Wireless lurar helst kopplat till HQ för att titel ska kunna säga åt Antilles att släppa in folk ",
+    "missions": [
+    ],
+    "events": [
+    ]
+}
