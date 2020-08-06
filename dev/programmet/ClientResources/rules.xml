@@ -279,7 +279,7 @@
     <description>Rymdfånen Latara i Cloud City är känd för att ha en mycket torftig humor. Dra en godtycklig vits som innehåller orden &quot;tomat&quot; och &quot;går vi&quot; för henne så kommer ni att bli rikligt belönade.</description>
   </event>
 
-  <event eventID="humor">
+  <event eventID="slogan">
     <name>Space'R'Us (pos)</name>
     <description>Du har vunnit en slogan-tävling med bidraget &quot;Om det ryms I rymden så säljer vi det&quot; till hårdvarujätten Space'R'Us. Inkassera priset från handelsresande Gallandro I Roche Asteroidbälte.</description>
   </event>
