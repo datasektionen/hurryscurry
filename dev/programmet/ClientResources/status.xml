@@ -2,226 +2,96 @@
 <status>
 <team teamID="HanSolo">
 <mission missionID="leia">
-<start>1596697856569</start>
+<start>1566146800145</start>
 </mission>
 </team>
 <team teamID="MonMothma">
 <mission missionID="wmd">
-<start>1596697856569</start>
+<start>1566146800145</start>
 </mission>
 </team>
 <team teamID="AdmiralAckbar">
-<mission missionID="kryddor">
-<start>1596697856569</start>
+<mission missionID="stridsteknik">
+<start>1566146903851</start>
+<stop>1566146904579</stop>
+</mission>
+<mission missionID="solo">
+<start>1566146906356</start>
+<stop>1566146907038</stop>
+</mission>
+<mission missionID="wmd">
+<start>1566146919471</start>
+<stop>1566146920250</stop>
+</mission>
+<mission missionID="c3po">
+<start>1566146922284</start>
+<stop>1566146922888</stop>
+</mission>
+<mission missionID="kenobi">
+<start>1566146924785</start>
+<stop>1566146925352</stop>
+</mission>
+<mission missionID="1000arsservice">
+<start>1566146926143</start>
+<stop>1566146927682</stop>
+</mission>
+<mission missionID="kraftfalt">
+<start>1566146931138</start>
+<stop>1566146931809</stop>
+</mission>
+<mission missionID="jeditraning">
+<start>1566146933156</start>
+<stop>1566146933624</stop>
 </mission>
 </team>
 <team teamID="Chewbacca">
 <mission missionID="1000arsservice">
-<start>1596697856569</start>
+<start>1566146800153</start>
 </mission>
 </team>
 <team teamID="Emperor">
 <mission missionID="kryddor">
-<start>1596697856569</start>
-<stop>1596698775959</stop>
-</mission>
-<mission missionID="c3po">
-<start>1596698612881</start>
-<stop>1596698614972</stop>
-</mission>
-<mission missionID="wmd">
-<start>1596698765104</start>
-<stop>1596698767673</stop>
-</mission>
-<mission missionID="kraftfalt">
-<start>1596698765980</start>
-<stop>1596698766193</stop>
-</mission>
-<mission missionID="kenobi">
-<start>1596698768519</start>
-<stop>1596698768684</stop>
-</mission>
-<mission missionID="1000arsservice">
-<start>1596698769683</start>
-<stop>1596698769848</stop>
-</mission>
-<mission missionID="jeditraning">
-<start>1596698771047</start>
-<stop>1596698771207</stop>
-</mission>
-<mission missionID="ritningar">
-<start>1596698772666</start>
-<stop>1596698772818</stop>
-</mission>
-<mission missionID="stridsteknik">
-<start>1596698773764</start>
-<stop>1596698773908</stop>
-</mission>
-<mission missionID="solo">
-<start>1596698774905</start>
-<stop>1596698775060</stop>
-</mission>
-<mission missionID="luke">
-<start>1596698777202</start>
-<stop>1596698777353</stop>
-</mission>
-<mission missionID="prisjagare">
-<start>1596698778399</start>
-<stop>1596698780072</stop>
-</mission>
-<mission missionID="leia">
-<start>1596698779260</start>
-<stop>1596698779412</stop>
-</mission>
-<mission missionID="smuggelgods">
-<start>1596698781126</start>
-<stop>1596698781279</stop>
-</mission>
-<mission missionID="dodsstjarnan">
-<start>1596698783259</start>
-<stop>1596698783404</stop>
+<start>1566146800153</start>
 </mission>
 </team>
 <team teamID="JabbaTheHut">
 <mission missionID="smuggelgods">
-<start>1596697856569</start>
+<start>1566146800153</start>
 </mission>
 </team>
 <team teamID="ImperialStormtroopers">
 <mission missionID="luke">
-<start>1596697856569</start>
+<start>1566146800153</start>
 </mission>
 </team>
 <team teamID="GeneralGrievous">
 <mission missionID="c3po">
-<start>1596697856569</start>
+<start>1566146800153</start>
 </mission>
 </team>
 <team teamID="JarJarBinks">
 <mission missionID="ritningar">
-<start>1596697856569</start>
-<stop>1596698720359</stop>
-</mission>
-<mission missionID="kenobi">
-<start>1596698724276</start>
-<stop>1596698724773</stop>
-</mission>
-<mission missionID="luke">
-<start>1596698728762</start>
-<stop>1596698729236</stop>
-</mission>
-<mission missionID="c3po">
-<start>1596698733163</start>
-<stop>1596698733674</stop>
-</mission>
-<mission missionID="wmd">
-<start>1596698736902</start>
-<stop>1596698737561</stop>
-</mission>
-<mission missionID="kraftfalt">
-<start>1596698740376</start>
-<stop>1596698740878</stop>
-</mission>
-<mission missionID="1000arsservice">
-<start>1596698743480</start>
-<stop>1596698743999</stop>
-</mission>
-<mission missionID="jeditraning">
-<start>1596698745478</start>
-<stop>1596698745918</stop>
-</mission>
-<mission missionID="dodsstjarnan">
-<start>1596698758910</start>
-<stop>1596698759721</stop>
+<start>1566146800153</start>
 </mission>
 </team>
 <team teamID="DarthVader">
 <mission missionID="stridsteknik">
-<start>1596697856570</start>
-<stop>1596698794306</stop>
-</mission>
-<event eventID="wanted">
-<start>1596698600153</start>
-</event>
-<mission missionID="luke">
-<start>1596698796151</start>
-<stop>1596698796688</stop>
-</mission>
-<mission missionID="kenobi">
-<start>1596698798524</start>
-<stop>1596698798991</stop>
-</mission>
-<mission missionID="1000arsservice">
-<start>1596698799683</start>
-<stop>1596698800256</stop>
-</mission>
-<mission missionID="c3po">
-<start>1596698801747</start>
-<stop>1596698802350</stop>
-</mission>
-<mission missionID="jeditraning">
-<start>1596698803854</start>
-<stop>1596698804396</stop>
-</mission>
-<mission missionID="wmd">
-<start>1596698805485</start>
-<stop>1596698806006</stop>
-</mission>
-<mission missionID="kraftfalt">
-<start>1596698807394</start>
-<stop>1596698808057</stop>
-</mission>
-<mission missionID="dodsstjarnan">
-<start>1596698809604</start>
-<stop>1596698809974</stop>
+<start>1566146800153</start>
 </mission>
 </team>
 <team teamID="Kenobi">
 <mission missionID="kenobi">
-<start>1596697856570</start>
+<start>1566146800153</start>
 </mission>
 </team>
 <team teamID="LandoCalrissian">
 <mission missionID="solo">
-<start>1596697856570</start>
+<start>1566146800153</start>
 </mission>
 </team>
 <team teamID="BobaFett">
 <mission missionID="prisjagare">
-<start>1596697856570</start>
-<stop>1596698675243</stop>
-</mission>
-<mission missionID="1000arsservice">
-<start>1596698679261</start>
-<stop>1596698681645</stop>
-</mission>
-<mission missionID="jeditraning">
-<start>1596698683601</start>
-<stop>1596698683778</stop>
-</mission>
-<mission missionID="c3po">
-<start>1596698689538</start>
-<stop>1596698690366</stop>
-</mission>
-<mission missionID="kraftfalt">
-<start>1596698691508</start>
-<stop>1596698691808</stop>
-</mission>
-<mission missionID="wmd">
-<start>1596698694519</start>
-<stop>1596698694872</stop>
-</mission>
-<mission missionID="kenobi">
-<start>1596698696480</start>
-<stop>1596698696764</stop>
-</mission>
-<mission missionID="ritningar">
-<start>1596698707241</start>
-<stop>1596698707629</stop>
-</mission>
-<mission missionID="dodsstjarnan">
-<start>1596698709793</start>
-<stop>1596698710347</stop>
+<start>1566146800153</start>
 </mission>
 </team>
 </status>
