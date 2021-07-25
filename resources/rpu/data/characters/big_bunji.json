@@ -15,7 +15,12 @@
             "id": "leia:1",
             "comment": "nØllan har fått veta att du är en väldigt otrevlig typ som hänger i Mos Eisley och att du kanske har hört något om Leia från de som reser genom staden. När nØllan frågar om Leia ska du leda dem till Luke genom att säga något i stil med följande.",
             "response": "Leia? Han Solo beskrev henne som ättrig och bortskämd. Dessutom verkade hon bara bry sig om den där Like, Lajka.. Luke? Ja, i alla fall så var det senaste jag hörde om deras lilla äventyr att prinsessan blev tillfångatagen och Luke hamnade i någon form av knipa. Han håller visst till någonstans djupt nere i Wild Space nu för tiden."
-        }
+        },
+        {
+          "id": "lasersvard:2",
+          "comment" : "var lite grumlig och ge förslag på olika fullständigt orimliga dealer (ju orimligare desto bättre, typ ni kan få intel för 50 000 krediter) innan du kommer att tänka på att du just nu faktiskt skulle vilja höra lite musik.",
+          "response" : "Här i krokarna spelar de bara skräpmusik. Jag skulle vilja höra min favoritmelodi i ljuv stämsång. Om ni letar upp ewoken Latara och ber henne om det vackraste stycket hon i galaxen, tar er tillbaks hit och framträder det för mig, då har ni en deal! Latara brukar hålla till i Cloud City."
+    			}
     ],
     "events": [
         {

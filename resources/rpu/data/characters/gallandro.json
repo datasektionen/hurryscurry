@@ -3,7 +3,7 @@
     "name": "Gallandro",
     "location": "Borggården",
     "area": "Roche Asteroidbälte",
-    "persona": "Cool person, handelsresande, skum och egen företagare. Trenchcoat och hatt eller nåt sånt. Om glasögon så attans coola sådana. Gatuförsäljarstilen, öppna rocken och visa dina varor!",
+    "persona": "Cool person, handelsresande, skum och egenföretagare. Trenchcoat och hatt eller nåt sånt. Om glasögon så attans coola sådana. Gatuförsäljarstilen, öppna rocken och visa dina varor!",
     "props": "13 ritningar på massförstörelsevapen/WMD/diskett, 13 påsar med schampo (små testexemplar liksom...), ca 2500 krediter och en penna att signera kort med. Sen skadar det inte om Gallandro har med sig alla möjliga nödvändiga och onödiga saker utöver de här, han är ju trots allt en “Go-to-guy”!",
     "missions": [
         {
@@ -15,6 +15,11 @@
             "id": "ritningar:2",
             "comment": "nØllan kommer att fråga dig om ritningarna till Dödsstjärnan. Du vet ingenting förrän du fått lite pengar (ca 300 krediter, förhandla!). Sen seger du att någon i Mos Eisley ska ha ritningarna, samt att de måste godkännas av Imperiets Ministerie för Inspektion och Övrig Hantering av Massförstörelsevapen och Laserbazookas i Cloud City.",
             "response": "“Det ryktas om att en en skum typ som brukar hänga i Mos Eisley har ritningarna i sin ägo. Om detta rykte skulle visa sig vara sant, så måste ni får ritningarna godkända Imperiets Ministerie för Inspektion och Övrig Hantering av Massförstörelsevapen och Laserbazookas i Cloud City”"
+        },
+        {
+          "id" : "lasersvard:1",
+    			"comment" : "När nØllan kommer och frågar om var man kan få tag på massor med lasersvärd hyschar du dem snabbt. Det är farligt att vara inblandad i att förse Motståndet med vapen, och därför kan du inte hjälpa dem alls förrän du blivit mutad (MINST 200 krediter). Efter att ha blivit mutad ger du din ledtråd.",
+    			"response" : "Lasersvärd? Alldeles för riskabelt för att vandra omkring med. Om det ska vara någon som vet något skulle det vara Big Bunji. Han brukar hålla till i Mos Eisley."
         }
     ],
     "events": [

@@ -15,7 +15,10 @@
             "id": "dodsstjarnan:3",
             "comment": "Om nØllan frågar efter koordinaterna till Dödsstjärnan förhandlar du så de betalar 100 krediter, sen berättar du dramatiskt att dödstjärnan finns vid solsystemet Endor.",
             "response": "“Dödsstjärnan kan skådas som något stort, mörkt och runt i solsystemet Endor.”"
-        }
+        },
+        {"id" : "lasersvard:3",
+  			"comment" : "När nØllan frågar om en melodi måste de först visa prov på sina musikaliska färdigheter för att du ska veta vilka du har att göra med. Typ framföra valfri låt. Viktigt att alla i gruppen är med och sjunger. Du frågar sedan vem det är som vill ha musikstycket, och säger din replik efter att ha fått reda på att det är Big Bunji. Du har ett kort med noter på. Det är blinka lilla stjärna. Du kan hjälpa till att spela den om du blir mutad, men det är verkligen under din värdighet att spela den melodin. Du avskyr den av hela ditt väsen",
+        "text" : "Här har ni den. Själv avskyr jag melodin, men alla kan ju inte ha min överlägsna musiksmak."}
     ],
     "events": [
       {
