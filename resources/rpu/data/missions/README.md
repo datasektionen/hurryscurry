@@ -12,6 +12,7 @@ Nedan följer en lista av aktuella uppdrag: (lägg märke till att denna lista k
 | Sök upp Obi-Wan Kenobi | kenobi | [data](kenobi.json) |
 | Dödsstjärnans Kraftfält | kraftfalt | [data](kraftfalt.json) |
 | Smuggla kryddor | kryddor | [data](kryddor.json) |
+| Införskaffa lasersvärd | lasersvard | [data](lasersvard.json) |
 | Rädda Prinsessan Leia | leia | [data](leia.json) |
 | Hjälp Luke | luke | [data](luke.json) |
 | Prisjägare | prisjagare | [data](prisjagare.json) |

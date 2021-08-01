@@ -109,4 +109,11 @@
 <resource type="teamLogo">mothmaFace.png</resource>
 </team>
 
+<team teamID="NahdonnisPraji">
+<name>Nahdonnis Praji</name>
+<firstMission>lasersvard</firstMission>
+<resource type="backgroundImage">Nahdonnis.png</resource>
+<resource type="teamLogo">NahdonnisFace.png</resource>
+</team>
+
 </teams>
