@@ -114,6 +114,14 @@
     </dependency>
 
     <dependency required="2">
+      <mission missionID="lasersvard">
+        <name>Införskaffa lasersvärd</name>
+        <description>Kampen mot imperiet pågår på många fronter. Motståndet rekryterar folk till höger och vänster men har inte tillräckligt med utrustning att sätta i de ivriga rebellernas händer. Uttrustning är dyr och svår att få tag på om man inte känner rätt person.</description>
+        <proof>Uppdraget redovisas genom att nØllan går tillbaka till rebellbasen och stolt visar upp kupongen.</proof>
+        <reward>nØllan kan efter slutfört uppdrag inkassera 500 krediter som tack för besväret.</reward>
+        <resource type="backgroundImage">battlePlan.jpg</resource>
+      </mission>
+
       <mission missionID="ritningar">
         <name>Hemliga ritningar</name>
         <description>Ett gäng tappra rebeller har kommit över ritningar till Dödsstjärnan, närmare bestämt de ritningar som exponerar dess svagheter. Tyvärr lyckades de inte sända ritningarna särskilt långt från Scarif då rymdspionen Latara kom över dem. Rebellbasen är i stort behov av dessa ritningar för att kunna oskadliggöra detta fruktansvärda vapen!</description>
