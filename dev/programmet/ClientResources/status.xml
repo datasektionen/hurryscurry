@@ -2,96 +2,72 @@
 <status>
 <team teamID="HanSolo">
 <mission missionID="leia">
-<start>1566146800145</start>
+<start>1627827047317</start>
 </mission>
 </team>
 <team teamID="MonMothma">
 <mission missionID="wmd">
-<start>1566146800145</start>
+<start>1627827047317</start>
 </mission>
 </team>
 <team teamID="AdmiralAckbar">
-<mission missionID="stridsteknik">
-<start>1566146903851</start>
-<stop>1566146904579</stop>
-</mission>
-<mission missionID="solo">
-<start>1566146906356</start>
-<stop>1566146907038</stop>
-</mission>
-<mission missionID="wmd">
-<start>1566146919471</start>
-<stop>1566146920250</stop>
-</mission>
-<mission missionID="c3po">
-<start>1566146922284</start>
-<stop>1566146922888</stop>
-</mission>
-<mission missionID="kenobi">
-<start>1566146924785</start>
-<stop>1566146925352</stop>
-</mission>
-<mission missionID="1000arsservice">
-<start>1566146926143</start>
-<stop>1566146927682</stop>
-</mission>
-<mission missionID="kraftfalt">
-<start>1566146931138</start>
-<stop>1566146931809</stop>
-</mission>
-<mission missionID="jeditraning">
-<start>1566146933156</start>
-<stop>1566146933624</stop>
+<mission missionID="kryddor">
+<start>1627827047317</start>
 </mission>
 </team>
 <team teamID="Chewbacca">
 <mission missionID="1000arsservice">
-<start>1566146800153</start>
+<start>1627827047317</start>
 </mission>
 </team>
 <team teamID="Emperor">
 <mission missionID="kryddor">
-<start>1566146800153</start>
+<start>1627827047317</start>
 </mission>
 </team>
 <team teamID="JabbaTheHut">
 <mission missionID="smuggelgods">
-<start>1566146800153</start>
+<start>1627827047317</start>
 </mission>
 </team>
 <team teamID="ImperialStormtroopers">
 <mission missionID="luke">
-<start>1566146800153</start>
+<start>1627827047317</start>
 </mission>
 </team>
 <team teamID="GeneralGrievous">
 <mission missionID="c3po">
-<start>1566146800153</start>
+<start>1627827047317</start>
 </mission>
 </team>
 <team teamID="JarJarBinks">
 <mission missionID="ritningar">
-<start>1566146800153</start>
+<start>1627827047318</start>
 </mission>
 </team>
 <team teamID="DarthVader">
 <mission missionID="stridsteknik">
-<start>1566146800153</start>
+<start>1627827047318</start>
+</mission>
+</team>
+<team teamID="NahdonnisPraji">
+<mission missionID="lasersvard">
+<start>1627827047318</start>
 </mission>
 </team>
 <team teamID="Kenobi">
 <mission missionID="kenobi">
-<start>1566146800153</start>
+<start>1627827047318</start>
 </mission>
 </team>
 <team teamID="LandoCalrissian">
 <mission missionID="solo">
-<start>1566146800153</start>
+<start>1627827047318</start>
 </mission>
 </team>
 <team teamID="BobaFett">
 <mission missionID="prisjagare">
-<start>1566146800153</start>
+<start>1627827047318</start>
 </mission>
 </team>
 </status>

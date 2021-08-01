@@ -110,7 +110,7 @@
 </team>
 
 <team teamID="NahdonnisPraji">
-<name>Praji, Nahdonnis</name>
+<name>Nahdonnis Praji</name>
 <firstMission>lasersvard</firstMission>
 <resource type="backgroundImage">Nahdonnis.png</resource>
 <resource type="teamLogo">NahdonnisFace.png</resource>

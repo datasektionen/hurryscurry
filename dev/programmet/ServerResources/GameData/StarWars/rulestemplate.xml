@@ -119,7 +119,7 @@
         <description>Kampen mot imperiet pågår på många fronter. Motståndet rekryterar folk till höger och vänster men har inte tillräckligt med utrustning att sätta i de ivriga rebellernas händer. Uttrustning är dyr och svår att få tag på om man inte känner rätt person.</description>
         <proof>Uppdraget redovisas genom att nØllan går tillbaka till rebellbasen och stolt visar upp kupongen.</proof>
         <reward>nØllan kan efter slutfört uppdrag inkassera 500 krediter som tack för besväret.</reward>
-        <resource type="backgroundImage">battlePlan.jpg</resource>
+        <resource type="backgroundImage">lasersvard.jpg</resource>
       </mission>
 
       <mission missionID="ritningar">
