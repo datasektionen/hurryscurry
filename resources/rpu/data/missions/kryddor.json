@@ -36,6 +36,6 @@
 	"meta" : {
 		"resolution" : "När nØllan kommer till ljusgården D-huset (plats 35) möts de av kryddsmugglaren Brasck och polisen Chief Muskov sittandes vid ett bord. nØllan skall genom att ställa en ja- eller nejfråga reda ut vem som är vem av de två. Om de tidigare frågat R2D2 om Brasck så har nØllan fått reda på att han alltid bär hatt och kan på så sätt sälja kryddorna till rätt person. Om nØllan försöker sälja kryddorna till Brasck så halar han fram 1200 krediter, köper kryddpåsen och signerar nØllans uppdragskort. Om nØllan däremot försöker sälja till Chief Muskov beslagtar han kryddorna och nØllan har misslyckats med sitt uppdrag. nØllan får hämta ny kryddpåse.",
 		"requirements" : "Uppdraget redovisas genom att visa upp sitt uppdragskort i rebellbasen signerat av kryddsmugglaren Brasck. Om det är lag »Lando Calrissian» som kommer tillbaka med ett signerat uppdragskort så får laget ytterligare 1000 krediter (utöver det som Brasck redan har betalat) eftersom det är deras favorituppdrag.",
-		"props" : "Till det här uppdraget behövs 13 tepåsar. I personväg behövs kryddsmugglaren Brasck, polisen Chief Muskov, en Jawa samt barpersonalen i Mos Eisley. De senare är dock ej specifika för uppdraget."
+		"props" : "Till det här uppdraget behövs 14 tepåsar. I personväg behövs kryddsmugglaren Brasck, polisen Chief Muskov, en Jawa samt barpersonalen i Mos Eisley. De senare är dock ej specifika för uppdraget."
 	}
 }
