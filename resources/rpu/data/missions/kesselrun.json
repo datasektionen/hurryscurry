@@ -1,0 +1,29 @@
+{
+	"id" : "kesselrun",
+	"main" : {
+		"title" : "Kessel Run racet",
+		"background" : "Kessel-leden är en farlig och svårnavigerad färdväg som länge har använts för att smuggla varor och andra farliga saker genom rymden. Det är även vida känt att Han Solo genomförde det ökända och extremt farliga Kessel-loppet på 12 parsecs",
+		"goal" : "nØllan måste transportera farliga vapen via Kessel-leden, och säkert leverera vapnena till rebellerna",
+		"reward" : "Förutom den eviga äran av att hjälpa rebellerna kan nØllan också eventuellt tjäna en hacka om de vågar vadslå några av sina krediter",
+		"hint" : "Vem mer förutom Han Solo vet hur man kör Kessel-leden snabbast? Tror det finns en hårig filur som håller till i karaokebaren i Correlia System som vet. Wookies tycker förövrigt det är artigast att hälsa på sitt modersmål"
+	},
+	"clues" : [
+		{
+			"id" : "1",
+			"text" : "Åh om jag bara hade haft Han Solo och Falken så hade jag kunnat hjälpa nØllan med att smuggla vapen, men utan dem kan jag inte göra kesselloppet. Tror dock att Gallandro känner någon skum typ som kanske kan hjälpa er, både med vapen och att smuggla det till rebellbasen. Han brukar hänga till i Roche Asteroidbältet.",
+			"comment" : "Den här ledtråden ger Chewbacca om nØllan hälsar på honom med wookieljud",
+			"characters" : []
+		},
+		{
+			"id" : "2",
+			"text" : "Självklart har jag vapen att sälja, men inget är gratis här i livet. Vad gäller att smuggla dem till rebellerna så kan jag inte hjälpa er, men Brasck kanske kan. Han brukar hålla till i Correlian System. Han är en väldigt slimmig typ, men ge honom mitt business card så kommer han att hjälpa er.",
+			"comment" : "Den här ledtråden ger Gallandro i Roches asteriodbälte om nØllan frågar om han säljer vapen/kan hjälpa dem med kessel run. Han säljer även något vapen i en kartong till dem för 500 krediter",
+			"characters" : []
+		}
+	],
+	"meta" : {
+		"resolution" : "När nØllan kommer till Brasck och Chief Muskov måste de lista ut vem de ska ge visitkortet till. Om nØllan råkar ge kortet till Muskov så ska han säga åt dem att det finns en skylt med instruktioner vid Endor. På skylten står det att nØllan tabbat till det och att de borde försöka igen. Ger de kortet till Brasck tar han med nØllan och visar dem banan för att racea den radiostyrda bilen. Han informerar om nuvarande banrekord, och informerar nØllan om att de kan vadslå krediter och vinna om de krossar banrekordet. När nØllan är klar med loppet stämplar Brasck paketet med en »laglig» stämpel. Har nØllan vadslagit och vunnit betalas vinsten ut här.",
+		"requirements" : "Uppdraget redovisas genom att visa upp kartongen med vapnena i till rebellbasen, med stämpeln om att de har »lagligt» importerats.",
+		"props" : "För det här uppdraget behövs 14 små kartonger för vapentransport, som Gallandro ska dela ut. Det behövs även 14 visitkort för Gallandro. Det behövs en stämpel eller markeringspenna för att sätta stämpel på smuggelgodset. Det behövs en radiostyrd bil eller liknande för att racea med, samt material för att markera ut en bana. Sist behövs det en skylt som sätts upp vid Endor, ifall nØllan ger visitkortet till cheif Muskov."
+	}
+}
