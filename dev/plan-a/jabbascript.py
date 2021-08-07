@@ -440,7 +440,7 @@ def sanity_check():
                 mission_id, clue_id = breakup_id(mission['id'])
                 clues = {c['id'] : c['characters'] for c in data['missions'][mission_id]['clues']}
 
-                if clue_id not in clues:
+                if not data['missions'][mission_id]:
                     # mission id did not refer to an existing mission
                     raise LookupError('Invalid mission id: %s' % mission['id'])
                 if char_id not in clues[clue_id]:
