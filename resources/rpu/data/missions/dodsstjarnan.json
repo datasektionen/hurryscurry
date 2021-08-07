@@ -11,20 +11,17 @@
 		{
 			"id" : "1",
 			"text" : "Aj! Ni brände tungan på det heta engelska teet! Fråga efter en “Death Star” med extra is i baren i Mos Eisley istället.",
-			"comment" : "Sitter som en lapp på en bänk i Engelska parken.",
-			"characters" : []
+			"comment" : "Sitter som en lapp på en bänk i Engelska parken."
 		},
 		{
 			"id" : "2",
 			"text" : "Här hittar ni inga “Death Stars”. Ni bör söka upp rymdspionen Latara i Cloud City om ni vill ha tag i Dödstjärnans rymdkoordinater, för att spränga den eller något liknande.",
-			"comment" : "Ges muntligt av barpersonalen i Mos Eisley",
-			"characters" : []
+			"comment" : "Ges muntligt av barpersonalen i Mos Eisley"
 		},
 		{
 			"id" : "3",
 			"text" : "Dödsstjärnan kan skådas som något stort, mörkt och runt i solsystemet Endor.",
-			"comment" : "Den här ledtråden ger Latara i Cloud City när nØllan frågar om Dödsstjärnan.",
-			"characters" : []
+			"comment" : "Den här ledtråden ger Latara i Cloud City när nØllan frågar om Dödsstjärnan."
 		}
 	],
 	"meta" : {

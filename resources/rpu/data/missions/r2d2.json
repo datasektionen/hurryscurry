@@ -11,14 +11,12 @@
 		{
 			"id" : "1",
 			"text" : "Det var ett par jawas från Tatooine som drog förbi med ett antal robotar på släp för tre månar sedan...",
-			"comment" : "Används till massvis av uppdrag. Ges av barpersonalen om R2D2 efterfrågas.",
-			"characters" : []
+			"comment" : "Används till massvis av uppdrag. Ges av barpersonalen om R2D2 efterfrågas."
 		},
 		{
 			"id" : "2",
 			"text" : "Här i trakterna finns det inte så många köpare, så vi lät vår vän Albeback ta robotarna norrut, han bör inte hunnit ut ur Correlia System än...",
-			"comment" : "Används till massvis av uppdrag. Ges av Jawas på Tatooine om R2D2 efterfrågas.",
-			"characters" : []
+			"comment" : "Används till massvis av uppdrag. Ges av Jawas på Tatooine om R2D2 efterfrågas."
 		}
 	],
 	"meta" : {

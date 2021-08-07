@@ -11,20 +11,17 @@
 		{
 			"id" : "1",
 			"text" : "Här i Mos Eisley är allting bra! Om du söker mig så gå in i baren i Mos Eisley och fråga efter adressen till Wookieleaks. Hälsningar Gallandro, vapenhandlare.",
-			"comment" : "Den här ledtråden skall skrivas på ett vykort som tejpas upp i valvet mellan E- och D-huset.",
-			"characters" : []
+			"comment" : "Den här ledtråden skall skrivas på ett vykort som tejpas upp i valvet mellan E- och D-huset."
 		},
 		{
 			"id" : "2",
 			"text" : "Gallandro håller till runt Roche Asteroidbälte och kanske kan sälja er en puffra, eller något mer effektivt än så…",
-			"comment" : "Den här ledtråden ger rebellagenten i Mos Eisley muntligen om någon frågar efter »Wookieleaks».",
-			"characters" : []
+			"comment" : "Den här ledtråden ger rebellagenten i Mos Eisley muntligen om någon frågar efter »Wookieleaks»."
 		},
 		{
 			"id" : "3",
 			"text" : "nØllan har nu ritningen. Nu måste nØllan bara få den godkänd av Imperiets Ministerie för Inspektion och Övrig Hantering av Massförstörelsevapen och Laserbazookas i Cloud City.",
-			"comment" : "Den här ledtråden ges av Gallandro efter att han har sålt ritningarna för 1000 krediter.",
-			"characters" : []
+			"comment" : "Den här ledtråden ges av Gallandro efter att han har sålt ritningarna för 1000 krediter."
 		}
 	],
 	"meta" : {

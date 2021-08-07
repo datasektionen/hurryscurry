@@ -11,20 +11,17 @@
 		{
 			"id" : "1",
 			"text" : "Deppo sitter med C3PO’s huvud och berättar för nØllan hur några jawas kommit och stulit C3PO’s resterande tre reservdelar då han skulle repareras. Deppo ber nØllan att hämta tillbaka delarna till honom så att han kan montera ihop C3PO igen. Han nämner även att jawas brukar hålla till på ökenplaneten Tatooine.",
-			"comment" : "Ges muntligen av Deppo när nØllan frågar. Deppo lämnar ifrån sig C3PO först när han är lagad.",
-			"characters" : []
+			"comment" : "Ges muntligen av Deppo när nØllan frågar. Deppo lämnar ifrån sig C3PO först när han är lagad."
 		},
 		{
 			"id" : "2",
 			"text" : "På Tatooine utsätts nØllan för 3 prövningar för att vinna jawasarnas respekt. På så sätt får de tillbaka C3PO’s delar, en för varje avklarad prövning. nØllan bör efter detta bege sig tillbaka till Deppo.",
-			"comment" : "Ges av Jawan efter att nØllan klarat de tre prövningarna.",
-			"characters" : []
+			"comment" : "Ges av Jawan efter att nØllan klarat de tre prövningarna."
 		},
 		{
 			"id" : "3",
 			"text" : "Deppo är tacksam för de återfunna delarna och reparerar C3PO med eltejp/silvertejp. Han lämnar därefter ifrån sig C3PO till nØllan och tackar åter för hjälpen.",
-			"comment" : "Deppo bör ha 14 stycken C3PO-huvuden på plats och någon bra form av tejp, då han efter varje reparation lämnar ifrån sig hela roboten till nØllan.",
-			"characters" : []
+			"comment" : "Deppo bör ha 14 stycken C3PO-huvuden på plats och någon bra form av tejp, då han efter varje reparation lämnar ifrån sig hela roboten till nØllan."
 		}
 	],
 	"meta" : {

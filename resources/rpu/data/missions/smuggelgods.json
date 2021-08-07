@@ -11,20 +11,17 @@
 		{
 			"id" : "1",
 			"text" : "Jag tog paketet i tron om att det var imperiets guldtackor, men jag hade fel. Ni måste ta hit guldtackorna innan jag ger er någonting! Jag skulle leta mellan Correlia System och Roche Asteroidbälte",
-			"comment" : "Ges muntligen av Obi-Wan.",
-			"characters" : []
+			"comment" : "Ges muntligen av Obi-Wan."
 		},
 		{
 			"id" : "2",
 			"text" : "Imperieguldet! Det kan dock hända att det ligger flera guldtackor här och i sådant fall skall nØllan bara ta med sig en av dem.",
-			"comment" : "Sitter uppe på väggen ovanför guldet.",
-			"characters" : []
+			"comment" : "Sitter uppe på väggen ovanför guldet."
 		},
 		{
 			"id" : "3",
 			"text" : "Ge hit guldtackorna, de är inte för nybörjare!.... Tyvärr har jag alltid varit svag för Ewoker. De kom och ville ha godset, och medan deras lurviga päls förtrollade mig, så lyckades de ta det ifrån mig. Det ryktas om att Ewokerna håller hus på sin hemplanet, Endors skogsmåne.",
-			"comment" : "Ges muntligen av Obi-Wan i utbyte mot guldet.",
-			"characters" : []
+			"comment" : "Ges muntligen av Obi-Wan i utbyte mot guldet."
 		}
 	],
 	"meta" : {

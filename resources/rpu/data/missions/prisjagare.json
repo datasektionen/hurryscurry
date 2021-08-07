@@ -11,32 +11,27 @@
 		{
 			"id" : "1",
 			"text" : "Jag vill att Joruus C'baoth skall röjas ur vägen. Leverera hans huvud till min kumpan i rebellbasen. Jag har hört att R2D2 vet var han befinner sig. Namnet Joruus C'baoth kanske kan väcka robotens minne till liv. R2D2 såg jag senast i baren i Mos Eisley.",
-			"comment" : "Det här ledtråden ger Boba Fett i Wild Space muntligen om nØllan frågar om prisjakt. ",
-			"characters" : []
+			"comment" : "Det här ledtråden ger Boba Fett i Wild Space muntligen om nØllan frågar om prisjakt. "
 		},
 		{
 			"id" : "2",
 			"text" : "Det var ett par jawas från Tatooine som drog förbi med ett antal robotar på släp för tre månar sedan...",
-			"comment" : "Den här ledtråden ges av barpersonalen i Mos Eisley och trycks på ett »Hitta R2D2»-ledtrådskort (via r2d2.json) så att de inte skall behöva fråga vilket uppdrag nØllan håller på med.",
-			"characters" : []
+			"comment" : "Den här ledtråden ges av barpersonalen i Mos Eisley och trycks på ett »Hitta R2D2»-ledtrådskort (via r2d2.json) så att de inte skall behöva fråga vilket uppdrag nØllan håller på med."
 		},
 		{
 			"id" : "3",
 			"text" : "Här i trakterna finns det inte så många köpare, så vi lät vår vän Albeback ta robotarna norrut, han bör inte hunnit ut ur Correlia System än...",
-			"comment" : "Den här ledtråden ges av Jawas på Tatooine och trycks på ett »Hitta R2D2»-ledtrådskort (via r2d2.json) så att de inte skall behöva fråga vilket uppdrag nØllan håller på med.",
-			"characters" : []
+			"comment" : "Den här ledtråden ges av Jawas på Tatooine och trycks på ett »Hitta R2D2»-ledtrådskort (via r2d2.json) så att de inte skall behöva fråga vilket uppdrag nØllan håller på med."
 		},
 		{
 			"id" : "4",
 			"text" : "Han gömmer sig i norra Borderland Regions och har en förkärlek till färgen brun.",
-			"comment" : "Den här ledtråden ges av R2D2 om man skriver in koden »joruus c'baoth».",
-			"characters" : []
+			"comment" : "Den här ledtråden ges av R2D2 om man skriver in koden »joruus c'baoth»."
 		},
 		{
 			"id" : "5",
 			"text" : "Grattis nØllan! Efter en hård strid tog ni slutligen kål på Joruus C'baoth. Ta med hans huvud till rebellbasen som bevis på att ni klarat uppdraget. Det kan hända att det ligger fler huvuden här och i sådant fall skall nØllan bara ta med sig ett av dem.",
-			"comment" : "Tillsammans med ledtråden ligger 14 stycken kålhuvuden.",
-			"characters" : []
+			"comment" : "Tillsammans med ledtråden ligger 14 stycken kålhuvuden."
 		}
 	],
 	"meta" : {

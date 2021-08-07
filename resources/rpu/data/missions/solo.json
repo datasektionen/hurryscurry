@@ -11,20 +11,17 @@
 		{
 			"id" : "1",
 			"text" : "Jag vet inte var Han Solo hålls fången, men jag har hört rykten om att det krävs en hemlig kod för att komma in i cellen. Om ni hittar koden kanske ni även kommer över cellens position. Leta reda på Luke, och fråga om han har koll på när Han Solo hade sin svensexa, jag tror att det datumet kan vara den första delen av koden. Ni hittar honom i hålet vid Wild Space.",
-			"comment" : "Ledtråden ges av Deppo om man frågar om Han Solo.",
-			"characters" : []
+			"comment" : "Ledtråden ges av Deppo om man frågar om Han Solo."
 		},
 		{
 			"id" : "2",
 			"text" : "När nØllan kommer förbi och frågar om svensexan känner du nostalgi kring den, men känner dig lite väl ledsen över att Han är borta för att kunna den där koden som nØllan vill ha till Han Solos fängelse. När nØllan ger dig en tillräckligt bra komplimang skiner du upp ger ut koden 750 samt att Boba Fett i Wild Space vet mer. KOM IHÅG DEN KODEN!!",
-			"comment" : "Efter komplimangen ger Luke det rätta svaret (750).",
-			"characters" : []
+			"comment" : "Efter komplimangen ger Luke det rätta svaret (750)."
 		},
 		{
 			"id" : "3",
 			"text" : "Svensexa. Juste, vi drog till Ice-bar! Jarjar och Joe Exotic drog hem tidigt, klena som de är. Luke hittade en riktigt snygg wookiebrud och drog hem, så det var bara jag och Han Solo kvar. Sen fastnade Han Solo med tungan på en vägg. Så jag gick hem, ingen har sett honom sedan dess. Konstigt. Ni kan hitta Ice-bar, som också går under namnet Cryochamber 5, i Corellia System.",
-			"comment" : "Ges av Boba Fett som börjar prata om svensexan när de nämner svensexan och mutar honom med 500 krediter.",
-			"characters" : []
+			"comment" : "Ges av Boba Fett som börjar prata om svensexan när de nämner svensexan och mutar honom med 500 krediter."
 		}
 	],
 	"meta" : {

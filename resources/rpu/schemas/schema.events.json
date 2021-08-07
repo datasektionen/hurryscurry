@@ -14,11 +14,6 @@
                 "additionalProperties": false,
                 "id": "/properties/events/items",
                 "properties": {
-                    "characters": {
-                        "id": "/properties/events/items/properties/characters",
-                        "items": {},
-                        "type": "array"
-                    },
                     "id": {
                         "id": "/properties/events/items/properties/id",
                         "type": "string"
@@ -35,7 +30,6 @@
                 "required": [
                     "text",
                     "id",
-                    "characters",
                     "title"
                 ],
                 "type": "object"

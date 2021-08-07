@@ -352,77 +352,9 @@ def sanity_check():
     failed = 0
     errors = 0
 
-    # check foreign key validity for the missions
-    print('Checking foreign key validity for %s' % colored(__path_to_missions['title'], attrs=['bold']))
-    # define some help functions for local pretty printing of missions
+    # define some help functions for local pretty printing
     mission_prompt_1 = lambda x: print('\t%s %s' % ('checking', colored(x, 'magenta', attrs=['bold'])))
     mission_prompt_2 = lambda x: print('\t%s%s %s ... ' % (' '*9, colored('+', 'magenta', attrs=['bold']), x), end='')
-
-    # Checking main mission
-    for mission_id, mission in sorted(data['missions'].items()):
-        mission_prompt_1(mission_id)
-
-        # check every clue in the current mission
-        for clue in mission['clues']:
-            clue_id = id_str(mission_id, clue['id'])
-            mission_prompt_2(clue_id)
-
-            try:
-                if not clue['characters']:
-                    # character lookup is not applicable
-                    raise AttributeError
-                for character in clue['characters']:
-                    if character not in data['characters']:
-                        # character id did not refer to an existing character
-                        raise LookupError('Invalid character id: %s' % character)
-                    if clue_id not in [m['id'] for m in data['characters'][character]['missions']]:
-                        # the specified character makes no mention of the current mission
-                        raise AssertionError('Character (%s) has no entry for clue: %s' % (character, clue_id))
-
-            except LookupError as e:
-                pretty_print.error()
-                log(suffix='sanity.errors', where=clue_id, message=str(e))
-                errors += 1
-            except AssertionError as e:
-                pretty_print.fail()
-                log(suffix='sanity.failed', where=clue_id, message=str(e))
-                failed += 1
-            except AttributeError:
-                pretty_print.na()
-            else:
-                pretty_print.ok()
-                passed += 1
-
-    # Checking foreign key validity in all events
-    print('Checking foreign key validity for %s' % colored(__path_to_events['title'], attrs=['bold']))
-
-    for event_id, event in sorted(data['events'].items()):
-        print('\t%s %s ... ' % ('checking', colored(event_id, 'magenta', attrs=['bold'])), end='')
-        try:
-            if not event['characters']:
-                # character lookup is not applicable
-                raise AttributeError
-            for character in event['characters']:
-                if character not in data['characters']:
-                    # character id did not refer to an existing character
-                    raise LookupError('Invalid character id: %s' % character)
-                if event_id not in [e['id'] for e in data['characters'][character]['events']]:
-                    # the specified character makes no mention of the current mission
-                    raise AssertionError('Character (%s) has no entry for mission: %s' % (character, event_id))
-
-        except LookupError as e:
-            pretty_print.error()
-            log(suffix='sanity.errors', where=event_id, message=str(e))
-            errors += 1
-        except AssertionError as e:
-            pretty_print.fail()
-            log(suffix='sanity.failed', where=event_id, message=str(e))
-            failed += 1
-        except AttributeError:
-            pretty_print.na()
-        else:
-            pretty_print.ok()
-            passed += 1
 
     # Checking foreign key validity in all characters' mission and event lists
     print('Checking foreign key validity for %s' % colored(__path_to_characters['title'], attrs=['bold']))
@@ -438,7 +370,6 @@ def sanity_check():
                 raise AttributeError
             for mission in character['missions']:
                 mission_id, clue_id = breakup_id(mission['id'])
-                clues = {c['id'] : c['characters'] for c in data['missions'][mission_id]['clues']}
 
                 if not data['missions'][mission_id]:
                     # mission id did not refer to an existing mission
@@ -446,9 +377,6 @@ def sanity_check():
                 if clue_id == '0':
                     # if the clue ID is 0 the mission as a whole is just referenced, which is alright.
                     continue
-                if char_id not in clues[clue_id]:
-                    # the specified mission makes no mention of the current character
-                    raise AssertionError('Mission (%s) has no entry for character: %s' % (mission['id'], char_id))
 
         except LookupError as e:
             pretty_print.error()
@@ -475,9 +403,6 @@ def sanity_check():
                 if event['id'] not in data['events']:
                     # event id did not refer to an existing event
                     raise LookupError('Invalid event id: %s' % event['id'])
-                if char_id not in data['events'][event['id']]['characters']:
-                    # the specified event makes no mention of the current character
-                    raise AssertionError('Event (%s) has no entry for character: %s' % (event['id'], char_id))
 
         except LookupError as e:
             pretty_print.error()
