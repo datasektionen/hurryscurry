@@ -443,6 +443,9 @@ def sanity_check():
                 if not data['missions'][mission_id]:
                     # mission id did not refer to an existing mission
                     raise LookupError('Invalid mission id: %s' % mission['id'])
+                if clue_id == '0':
+                    # if the clue ID is 0 the mission as a whole is just referenced, which is alright.
+                    continue
                 if char_id not in clues[clue_id]:
                     # the specified mission makes no mention of the current character
                     raise AssertionError('Mission (%s) has no entry for character: %s' % (mission['id'], char_id))
