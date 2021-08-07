@@ -3,15 +3,8 @@
     "name": "Captain Antilles",
     "location": "Datorsal Grå",
     "area": "Rebellbasen",
-    "persona": "Antilles är en Kapten i rebellernas flotta och har nu fått det ärofyllda uppdraget att vakta rebellbasen",
+    "persona": "Antilles är en Kapten i rebellernas flotta och har nu fått det ärofyllda uppdraget att vakta rebellbasen. När nØllan kommer se till att det bara är en nØllegrupp i rebelbasen samtidigt och att titel är redo att ta emot nØllan",
     "props": "Wireless lurar helst kopplat till HQ för att kunna komunicera med titel",
-    "missions": [
-               {
-            "id": "inget:0",
-            "comment": " När nØllan kommer se till att det bara är en nØllegrupp i rebelbasen samtidigt och att titel är redo att ta emot nØllan",
-            "response": "inget"
-        }
-    ],
-    "events": [
-    ]
+    "missions": [],
+    "events": []
 }
