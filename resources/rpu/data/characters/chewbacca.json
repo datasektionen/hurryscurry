@@ -20,6 +20,11 @@
             "id": "stridsteknik:2",
             "comment": "När nØllan kommer för att få en signerad bild på dig till Maz Kanata räcker du fram en av de signerade bilderna du har i din ägo väldigt nöjt och självsäkert.",
             "response": ""
+        },
+        {
+            "id": "kesselrun:3",
+            "comment": "När nØllan frågar om Falken informerar du dem att Han Solos vakter har tagit den och att nØllan måste besvara vaktens gåta.",
+            "response": ""
         }
     ],
     "events": [
