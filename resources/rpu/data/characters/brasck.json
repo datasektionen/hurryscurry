@@ -10,6 +10,11 @@
             "id": "kryddor:0",
             "comment": "Om nØllan ger dig kryddor betalar du dem med 1200 kred och signerar deras uppdragskort.",
             "response": ""
+        },
+        {
+            "id": "kesselrun:1",
+            "comment": "Denna händelse hör till Chief Muskov, men du bör känna till dem: Om nØllan ger dig nyckeln till falken ger du tillbaka den till dem och säger att deras nästa ledtråd finns på en skylt i Endor.",
+            "response": ""
         }
     ],
     "events": [
