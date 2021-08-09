@@ -11,20 +11,17 @@
 		{
 			"id" : "1",
 			"text" : "Det var någon skum typ som stal dom av mig! Gallandro vet kanske någonting om saken, senaste gången jag såg honom smög han runt i Roche Asteroidbälte.",
-			"comment" : "Ges muntligen av Latara när nØllan frågar om ritningarna.",
-			"characters" : []
+			"comment" : "Ges muntligen av Latara när nØllan frågar om ritningarna."
 		},
 		{
 			"id" : "2",
 			"text" : "Det ryktas om att en skum typ som brukar hänga i Mos Eisley har ritningarna i sin ägo. Fråga runt lite och se om ni kan hitta någon. Jag tvivlar dock på att ni får ritningarna gratis.",
-			"comment" : "Gallandro vet ingenting förrän han får lite pengar (ca 300 krediter, förhandla!).",
-			"characters" : []
+			"comment" : "Gallandro vet ingenting förrän han får lite pengar (ca 300 krediter, förhandla!)."
 		},
 		{
 			"id" : "3",
 			"text" : "Ritningarna har jag läckt till Wookieleaks.org, men ni måste få ritningarna godkända av Imperiets Ministerie för Inspektion och Övrig Hantering av Massförstörelsevapen och Laserbazookas i Cloud City innan de kan användas.",
-			"comment" : "Big Bunji säljer ritningarna för ca 700 krediter (förhandla!).",
-			"characters" : []
+			"comment" : "Big Bunji säljer ritningarna för ca 700 krediter (förhandla!)."
 		}
 	],
 	"meta" : {

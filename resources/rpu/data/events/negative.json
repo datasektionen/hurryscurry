@@ -5,50 +5,42 @@
         {
             "id" : "1",
             "title" : "Asteroider!",
-            "text" : "Ni har gjort ett misslyckat hopp I hyperrymden. Felaktiga koordinater ledde till att ni hamnade mitt i ett asteroidfält. Detta innebär massiva reparationskostnader. Leta upp den skickliga ingenjören Deppo som håller till i Junkfort Station, vid Nar Shaddaa (dyrt nØllan).",
-            "characters" : []
+            "text" : "Ni har gjort ett misslyckat hopp I hyperrymden. Felaktiga koordinater ledde till att ni hamnade mitt i ett asteroidfält. Detta innebär massiva reparationskostnader. Leta upp den skickliga ingenjören Deppo som håller till i Junkfort Station, vid Nar Shaddaa (dyrt nØllan)."
         },
         {
             "id" : "2",
             "title" : "Epidemi",
-            "text" : "Din förste styrman upptäcker till sin förskräckelse att han har fått slut på mjällschampo. Om du inte genast fyller på lagret så hotas hela skeppet av mjällepidemi. Hitta den handelsresande Gallandro i Roche Asteroid-bälte och köp mera schampo.",
-            "characters" : []
+            "text" : "Din förste styrman upptäcker till sin förskräckelse att han har fått slut på mjällschampo. Om du inte genast fyller på lagret så hotas hela skeppet av mjällepidemi. Hitta den handelsresande Gallandro i Roche Asteroid-bälte och köp mera schampo."
         },
         {
             "id" : "3",
             "title" : "Svält Ombord",
-            "text" : "Din förste styrman har gjort slut på sitt förråd av “VoV” och slickar förtvivlat i hundskålen istället för att styra skeppet. Bege dig till rymdfånen Latara i Cloud City och köp mer hundmat.",
-            "characters" : []
+            "text" : "Din förste styrman har gjort slut på sitt förråd av “VoV” och slickar förtvivlat i hundskålen istället för att styra skeppet. Bege dig till rymdfånen Latara i Cloud City och köp mer hundmat."
         },
         {
             "id" : "4",
             "title" : "Jammade vapen",
-            "text" : "Din förste skytt har fastnat med tandställningen i slutsycket till laserkanonen, detta försvårar målsökning på rörliga mål. Tala med Deppo i Junkfort Station, vid Nar Shaddaa.",
-            "characters" : []
+            "text" : "Din förste skytt har fastnat med tandställningen i slutsycket till laserkanonen, detta försvårar målsökning på rörliga mål. Tala med Deppo i Junkfort Station, vid Nar Shaddaa."
         },
         {
             "id" : "5",
             "title" : "Mutor!",
-            "text" : "Du glömde stanna vid den röda jättestjärnan och rymdtrafikpolisen haffar dig i en rutinkontroll. Du måste muta dem för att slippa betala böterna. Ge mutan till Chief Muskov i ljusgården i Corellia System. På platsen finns en person till, nämligen kryddsmugglaren Brasck. Du måste muta rätt person. Tänk på följande: Brasck ljuger alltid, medan Chief Muskov alltid talar sanning. De kan bara svara på ja- och nej-frågor.",
-            "characters" : []
+            "text" : "Du glömde stanna vid den röda jättestjärnan och rymdtrafikpolisen haffar dig i en rutinkontroll. Du måste muta dem för att slippa betala böterna. Ge mutan till Chief Muskov i ljusgården i Corellia System. På platsen finns en person till, nämligen kryddsmugglaren Brasck. Du måste muta rätt person. Tänk på följande: Brasck ljuger alltid, medan Chief Muskov alltid talar sanning. De kan bara svara på ja- och nej-frågor."
         },
         {
             "id" : "6",
             "title" : "Kidnappning",
-            "text" : "Skeppets förstestädare har blivit kidnappad av illvilliga Kowakianska Apödlor. Detta har lett till att skeppets interna volym har halverats på grund av allt skräp. Betala lösen till rymdskurken Big Bunji som brukar hålla till vid baren i Mos Eisley.",
-            "characters" : []
+            "text" : "Skeppets förstestädare har blivit kidnappad av illvilliga Kowakianska Apödlor. Detta har lett till att skeppets interna volym har halverats på grund av allt skräp. Betala lösen till rymdskurken Big Bunji som brukar hålla till vid baren i Mos Eisley."
         },
         {
             "id" : "7",
             "title" : "Förseningar",
-            "text" : "Ni har glömt att lämna tillbaks videofilmen “Tjejen som beamades för mycket”. Dessutom har ni av misstag flugit ett okänt antal år in i framtiden. Förseningsavgiften blir inte nådig. Leta reda på Big Bunji i baren i Mos Eisley så får ni veta hur nådig den inte blir.",
-            "characters" : []
+            "text" : "Ni har glömt att lämna tillbaks videofilmen “Tjejen som beamades för mycket”. Dessutom har ni av misstag flugit ett okänt antal år in i framtiden. Förseningsavgiften blir inte nådig. Leta reda på Big Bunji i baren i Mos Eisley så får ni veta hur nådig den inte blir."
         },
         {
             "id" : "8",
             "title" : "Skador",
-            "text" : "Er förste styrman har på fyllan utmanat Jabba the Hut på en sumo-match. Detta var ett stort misstag. Det är känt att Deppo på Junkfort Station, vid Nar Shaddaa, är bevandrad i första hjälpen, men det blir inte billigt nØllan.",
-            "characters" : []
+            "text" : "Er förste styrman har på fyllan utmanat Jabba the Hut på en sumo-match. Detta var ett stort misstag. Det är känt att Deppo på Junkfort Station, vid Nar Shaddaa, är bevandrad i första hjälpen, men det blir inte billigt nØllan."
         }
     ]
 }

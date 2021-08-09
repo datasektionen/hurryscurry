@@ -11,26 +11,22 @@
 		{
 			"id" : "1",
 			"text" : "Som första uppdrag ska ni ta er till baren i Mos Eisley och viska den överenskomna koden »Chubb Scutt skickade mig».",
-			"comment" : "Ledtråden ges av en Jawa om man frågar om att få smuggla kryddor.",
-			"characters" : []
+			"comment" : "Ledtråden ges av en Jawa om man frågar om att få smuggla kryddor."
 		},
 		{
 			"id" : "2",
 			"text" : "Ta med er ett paket exklusiv krydda och gå tillbaka för att prata med er smuggelkumpan...",
-			"comment" : "Om nØllan säger »Chubb Scutt skickade mig» till barpersonalen i Mos Eisley så langar de upp lådan och låter nØllan läsa ledtråden samt ta en kryddpåse.",
-			"characters" : []
+			"comment" : "Om nØllan säger »Chubb Scutt skickade mig» till barpersonalen i Mos Eisley så langar de upp lådan och låter nØllan läsa ledtråden samt ta en kryddpåse."
 		},
 		{
 			"id" : "3",
 			"text" : "Bege er till ljusgården Corellia System för avlämning.",
-			"comment" : "Ges muntligen av Jawa.",
-			"characters" : []
+			"comment" : "Ges muntligen av Jawa."
 		},
 		{
 			"id" : "4",
 			"text" : "Varning! Den intergalaktiska polisen är er på spåren och har placerat ut en spanare som håller sig i närheten av er kryddköpare. Polisen skulle nog gärna vilja ta er på bar gärning! Det enda ni har fått veta är att kryddköparen alltid ljuger, medan polisen alltid talar sanning och att båda två enbart kan besvara ja- eller nej frågor. Var alltså på er vakt när ni går fram till de två kortspelarna…",
-			"comment" : "Sitter synligt på väggen i ljusgården i Corelia System.",
-			"characters" : []
+			"comment" : "Sitter synligt på väggen i ljusgården i Corelia System."
 		}
 	],
 	"meta" : {

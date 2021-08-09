@@ -10,11 +10,6 @@
                 "additionalProperties": false,
                 "id": "/properties/clues/items",
                 "properties": {
-                    "characters": {
-                        "id": "/properties/clues/items/properties/characters",
-                        "items": {},
-                        "type": "array"
-                    },
                     "comment": {
                         "id": "/properties/clues/items/properties/comment",
                         "type": "string"
@@ -31,8 +26,7 @@
                 "required": [
                     "comment",
                     "text",
-                    "id",
-                    "characters"
+                    "id"
                 ],
                 "type": "object"
             },

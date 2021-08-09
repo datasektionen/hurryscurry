@@ -11,20 +11,17 @@
 		{
 			"id" : "1",
 			"text" : "Lasersvärd? Alldeles för riskabelt för att vandra omkring med. Om det ska vara någon som vet något skulle det vara Big Bunji. Han brukar hålla till i Mos Eisley.",
-			"comment" : "Ges muntligen av Gallandro när nØllan frågar.",
-			"characters" : []
+			"comment" : "Ges muntligen av Gallandro när nØllan frågar."
 		},
 		{
 			"id" : "2",
 			"text" : "Här i krokarna spelar de bara skräpmusik. Jag skulle vilja höra min favoritmelodi i ljuv stämsång. Om ni letar upp ewoken Latara och ber henne om det vackraste stycket hon i galaxen, tar er tillbaks hit och framträder det för mig, då har ni en deal! Latara brukar hålla till i Cloud City.",
-			"comment" : "Ges av Big Bunji i Mos Eisley efter lite grummel och förslag på lite andra fullständigt orimliga dealer (ju orimligare desto bättre).",
-			"characters" : []
+			"comment" : "Ges av Big Bunji i Mos Eisley efter lite grummel och förslag på lite andra fullständigt orimliga dealer (ju orimligare desto bättre)."
 		},
 		{
 			"id" : "3",
 			"text" : "Här har ni den. Själv avskyr jag melodin, men alla kan ju inte ha min överlägsna musiksmak.",
-			"comment" : "När nØllan frågar om melodin måste de först visa prov på sina musikaliska färdigheter för att konversationen ska förtsätta. Typ framföra valfri låt. Viktigt att alla i gruppen är med och sjunger. Latara frågar sedan vem det är som vill ha musikstycket, och säger sin replik efter att ha fått reda på att det är Big Bunji. Latara har ett kort med noter på. Det är blinka lilla stjärna. Kan hjälpa till att spela den om hon blir mutad, men det är verkligen under henne att spela den melodin.",
-			"characters" : []
+			"comment" : "När nØllan frågar om melodin måste de först visa prov på sina musikaliska färdigheter för att konversationen ska förtsätta. Typ framföra valfri låt. Viktigt att alla i gruppen är med och sjunger. Latara frågar sedan vem det är som vill ha musikstycket, och säger sin replik efter att ha fått reda på att det är Big Bunji. Latara har ett kort med noter på. Det är blinka lilla stjärna. Kan hjälpa till att spela den om hon blir mutad, men det är verkligen under henne att spela den melodin."
 		}
 	],
 	"meta" : {

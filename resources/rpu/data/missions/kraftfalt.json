@@ -11,20 +11,17 @@
 		{
 			"id" : "1",
 			"text" : "Vilse i skogen inser ni plötsligt att ni glömt skicka vykort till Maz Kanata. Den närmsta intergalaktiska brevlådan finns under det stora KTH-märket norr om solsystemet Endor.",
-			"comment" : "Ledtråden sitter på ett träd nära Östra stationen",
-			"characters" : []
+			"comment" : "Ledtråden sitter på ett träd nära Östra stationen"
 		},
 		{
 			"id" : "2",
 			"text" : "Just när ni ska posta era semesterselfies hör ni det omisskännliga ljudet av marscherande Stormtroopers! Spring och göm er i den stora krukan norr om Borderland Regions.",
-			"comment" : "Ledtråden sitter vid/på brevlådan under KTH-märket",
-			"characters" : []
+			"comment" : "Ledtråden sitter vid/på brevlådan under KTH-märket"
 		},
 		{
 			"id" : "3",
 			"text" : "Vad är ni för några krukor? Ligg inte här och tryck utan be Ewokerna om hjälp istället. De befinner sig på Ewokernas hemplanet Forest Moon of Endor.",
-			"comment" : "Ledtråden sitter på en kruka mellan Sing-sing och E-huset",
-			"characters" : []
+			"comment" : "Ledtråden sitter på en kruka mellan Sing-sing och E-huset"
 		}
 	],
 	"meta" : {
