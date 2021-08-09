@@ -427,7 +427,7 @@ def generate_all():
     generate_missions()
     generate_events()
     generate_drifters()
-    # generate-characters()
+    generate_characters()
 
 
 def json2pdf(template_path, destination, log_suffix, data):
