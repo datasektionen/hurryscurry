@@ -10,6 +10,11 @@
             "id": "kryddor:0",
             "comment": "nØllan kommer för att sälja kryddorna till Brasck. Om nØllan ger dig kryddor beslagtar du dem och skäller ut dem efter noter. Gör klart för dem att de har gett kryddorna till fel person och misslyckats med uppdraget, och får börja om genom att hämta en ny kryddpåse. ",
             "response": ""
+        },
+        {
+            "id": "kesselrun:1",
+            "comment": "När nØllan ger dig nyckeln tar du med dem till radiobilsbanan och låter de tävla mot banrekordet. Bra att veta är att om nØllan ger nyckeln till Brasck kommer han skicka ut dem till Endor där det finns en skylt som skickar tillbaka dem till dig. Fråga om de vill vadslå om lite krediter innan de börjar köra. Bryter de banrekordet skriver du upp nytt bästa resultat på whiteboarden. Oavsett om nØllan tar high score eller inte så ger du dem körkortet när nØllan tagit sig runt hela banan. Om nØllan vadslog pengar så betalar du ut det till dem. Skicka sen nØllan till rebellbasen för att visa upp sitt körkort.",
+            "response": ""
         }
     ],
     "events": [
