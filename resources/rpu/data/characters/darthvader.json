@@ -1,0 +1,10 @@
+{
+    "id": "darthvader",
+    "name": "Darth Vader",
+    "location": "Millespottan",
+    "area": "The Final Battlefield",
+    "persona": "Historiens minst faderliga faderfigur. Idag är du här för att ta över KTH. Du slåss tappert men blir besegrad av det vinnande laget. Sök upp RPU för mer information om hur det stora slaget går till",
+    "props": "Klassisk mundering med mask, cape, lasersvärd.",
+    "missions": [],
+    "events": []
+}
