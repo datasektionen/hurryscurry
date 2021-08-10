@@ -10,6 +10,11 @@
             "id": "solo:0",
             "comment": " När nØllan kommer fråga efter koden (750). Dock är ni givetvis öppen för mutor, särskilt i form av mat, och kan då tänka er att avslöja enstaka siffror i koden. När de gett dig rätt kod klagar en av er på att det är långtråkigt att vakta den nedfrysta Han Solo så nØllan måste tävla mot dig i din favoritsport podracing. Den som ska race:a tar med nØllan ut till banan på parkeringen utanför D (gå via utgången vid Örådet). Sen är det dags för podracing! När ni race:at färdigt släpper ni in nØllan i Cryo-chamber. Se till att de bara tar ett av isblocken och kolla att samma grupp inte kommer mer än en gång. Säg också att de inte får ut pappret i isblocket med våld, utan smälter blocket i ett handfat.",
             "response": "För all del, kom på något witty med att det är stentråkigt att vakta någon som är nedfryst."
+        },
+        {
+            "id": "kesselrun:1",
+            "comment": "När nØllan kommer ska du ställa dem gåtan “Vilken bil är Jedins favorit?“. Ge nØllan nyckeln om de svarar “Toy-yoda“. Har nØllan problem kan ni på något snyggt sätt hinta att det är en otroligt lättgooglad fråga. ",
+            "response": ""
         }
     ],
     "events": [
