@@ -122,6 +122,14 @@
         <resource type="backgroundImage">lasersvard.jpg</resource>
       </mission>
 
+      <mission missionID="kesselrun">
+        <name>Kessel Run racet</name>
+        <description>nØllan blev för en tid sen av med sitt rymdkörkort på grund av en incident med ett taskigt hopp in i hyper space. För att få tillbaka sitt körkort måste nØllan visa sina skills på den extremt farliga och svårnavigerade Kessel-leden. Det är vida känt att Han Solo genomförde det ökända och extremt farliga Kessel-loppet på 12 parsecs, kan nØllan slå detta?</description>
+        <proof>Uppdraget redovisas genom att nØllan visar upp sitt förnyade körkort.</proof>
+        <reward>nØllan måste först hitta nyckeln till Falken, det enda rymdskeppet som nØllan kan klara banan i. Därefter måste nØllan klara sin uppkörning med Cheif Muskov runt Kessel-leden för att få tillbaka sitt körkort och sin ära.</reward>
+        <resource type="backgroundImage">kesselrun.jpg</resource>
+      </mission>
+
       <mission missionID="ritningar">
         <name>Hemliga ritningar</name>
         <description>Ett gäng tappra rebeller har kommit över ritningar till Dödsstjärnan, närmare bestämt de ritningar som exponerar dess svagheter. Tyvärr lyckades de inte sända ritningarna särskilt långt från Scarif då rymdspionen Latara kom över dem. Rebellbasen är i stort behov av dessa ritningar för att kunna oskadliggöra detta fruktansvärda vapen!</description>

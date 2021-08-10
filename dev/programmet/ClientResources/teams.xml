@@ -15,105 +15,101 @@
 
 <teams>
 <team teamID="AdmiralAckbar">
-<name>Admiral Ackbar</name>
-<firstMission>kryddor</firstMission>
-<resource type="backgroundImage">AdmiralAck.png</resource>
-<resource type="teamLogo">ackbarFace.png</resource>
-<phonenumber>4711</phonenumber>
-<member>Nollan1</member>
-<member>Nollan2</member>
-<member>Nollan3... NOLLAN!</member>
+  <name>Admiral Ackbar</name>
+  <firstMission>kryddor</firstMission>
+  <resource type="backgroundImage">AdmiralAck.png</resource>
+  <resource type="teamLogo">ackbarFace.png</resource>
 </team>
 
 <team teamID="JarJarBinks">
-<name>Binks, Jar Jar</name>
-<firstMission>ritningar</firstMission>
-<resource type="backgroundImage">jarjarbinks.png</resource>
-<resource type="teamLogo">jar_jar_binks.png</resource>
+  <name>Binks, Jar Jar</name>
+  <firstMission>ritningar</firstMission>
+  <resource type="backgroundImage">jarjarbinks.png</resource>
+  <resource type="teamLogo">jar_jar_binks.png</resource>
 </team>
 
 <team teamID="Chewbacca">
-<name>Chewbacca</name>
-<firstMission>1000arsservice</firstMission>
-<resource type="backgroundImage">Chewbacca.jpg</resource>
-<resource type="teamLogo">chewbaccaFace.png</resource>
+  <name>Chewbacca</name>
+  <firstMission>1000arsservice</firstMission>
+  <resource type="backgroundImage">Chewbacca.jpg</resource>
+  <resource type="teamLogo">chewbaccaFace.png</resource>
 </team>
 
 <team teamID="DarthVader">
-<name>Darth Vader</name>
-<firstMission>stridsteknik</firstMission>
-<resource type="backgroundImage">darthvader_big.png</resource>
-<resource type="teamLogo">darthvader_small.png</resource>
+  <name>Darth Vader</name>
+  <firstMission>stridsteknik</firstMission>
+  <resource type="backgroundImage">darthvader_big.png</resource>
+  <resource type="teamLogo">darthvader_small.png</resource>
 </team>
 
 <team teamID="Emperor">
-<name>Emperor</name>
-<firstMission>kryddor</firstMission> <!-- Ska egentligen börja med händelse-->
-<resource type="backgroundImage">emperor_big.png</resource>
-<resource type="teamLogo">emperor_small.png</resource>
+  <name>Emperor</name>
+  <firstMission>kesselrun</firstMission>
+  <resource type="backgroundImage">emperor_big.png</resource>
+  <resource type="teamLogo">emperor_small.png</resource>
 </team>
 
 <team teamID="BobaFett">
-<name>Fett, Boba</name>
-<firstMission>prisjagare</firstMission>
-<resource type="backgroundImage">BobaFett.jpg</resource>
-<resource type="teamLogo">bobaFace.png</resource>
+  <name>Fett, Boba</name>
+  <firstMission>prisjagare</firstMission>
+  <resource type="backgroundImage">BobaFett.jpg</resource>
+  <resource type="teamLogo">bobaFace.png</resource>
 </team>
 
 <team teamID="GeneralGrievous">
-<name>General Grievous</name>
-<firstMission>c3po</firstMission>
-<resource type="backgroundImage">grevious_big.png</resource>
-<resource type="teamLogo">grevious_small.png</resource>
+  <name>General Grievous</name>
+  <firstMission>c3po</firstMission>
+  <resource type="backgroundImage">grevious_big.png</resource>
+  <resource type="teamLogo">grevious_small.png</resource>
 </team>
 
 <team teamID="HanSolo">
-<name>Han Solo</name>
-<firstMission>leia</firstMission>
-<resource type="backgroundImage">Solo.jpg</resource>
-<resource type="teamLogo">soloFace.png</resource>
+  <name>Han Solo</name>
+  <firstMission>leia</firstMission>
+  <resource type="backgroundImage">Solo.jpg</resource>
+  <resource type="teamLogo">soloFace.png</resource>
 </team>
 
 <team teamID="ImperialStormtroopers">
-<name>Imperial Stormtroopers</name>
-<firstMission>luke</firstMission>
-<resource type="backgroundImage">Stormtrooper_big.png</resource>
-<resource type="teamLogo">Stormtrooper_small.png</resource>
+  <name>Imperial Stormtroopers</name>
+  <firstMission>luke</firstMission>
+  <resource type="backgroundImage">Stormtrooper_big.png</resource>
+  <resource type="teamLogo">Stormtrooper_small.png</resource>
 </team>
 
 <team teamID="JabbaTheHut">
-<name>Jabba the Hut</name>
-<firstMission>smuggelgods</firstMission>
-<resource type="backgroundImage">jabbabig.png</resource>
-<resource type="teamLogo">jabbatiny.png</resource>
+  <name>Jabba the Hut</name>
+  <firstMission>smuggelgods</firstMission>
+  <resource type="backgroundImage">jabbabig.png</resource>
+  <resource type="teamLogo">jabbatiny.png</resource>
 </team>
 
 <team teamID="Kenobi">
-<name>Kenobi, Obi-Wan</name>
-<firstMission>kenobi</firstMission>
-<resource type="backgroundImage">ObiWanKenobi.jpg</resource>
-<resource type="teamLogo">kenobiFace.png</resource>
+  <name>Kenobi, Obi-Wan</name>
+  <firstMission>kenobi</firstMission>
+  <resource type="backgroundImage">ObiWanKenobi.jpg</resource>
+  <resource type="teamLogo">kenobiFace.png</resource>
 </team>
 
 <team teamID="LandoCalrissian">
-<name>Lando Calrissian</name>
-<firstMission>solo</firstMission>
-<resource type="backgroundImage">Lando.jpg</resource>
-<resource type="teamLogo">landoFace.png</resource>
+  <name>Lando Calrissian</name>
+  <firstMission>solo</firstMission>
+  <resource type="backgroundImage">Lando.jpg</resource>
+  <resource type="teamLogo">landoFace.png</resource>
 </team>
 
 <team teamID="MonMothma">
-<name>Mon Mothma</name>
-<firstMission>wmd</firstMission>
-<resource type="backgroundImage">MonMothma.jpg</resource>
-<resource type="teamLogo">mothmaFace.png</resource>
+  <name>Mon Mothma</name>
+  <firstMission>wmd</firstMission>
+  <resource type="backgroundImage">MonMothma.jpg</resource>
+  <resource type="teamLogo">mothmaFace.png</resource>
 </team>
 
 <team teamID="NahdonnisPraji">
-<name>Nahdonnis Praji</name>
-<firstMission>lasersvard</firstMission>
-<resource type="backgroundImage">Nahdonnis.png</resource>
-<resource type="teamLogo">NahdonnisFace.png</resource>
+  <name>Nahdonnis Praji</name>
+  <firstMission>lasersvard</firstMission>
+  <resource type="backgroundImage">Nahdonnis.png</resource>
+  <resource type="teamLogo">NahdonnisFace.png</resource>
 </team>
 
 </teams>
