@@ -9,22 +9,22 @@
         {
             "id": "kenobi:0",
             "comment": "Om nØllan knackar 5 ggr på axeln och viskar “Vill ni se min ljussnabel” svara med något passande för en jedi-riddare och ge nØllan en ljussabel.",
-            "response": "“Jag ser att kraften är med er”"
+            "response": "Jag ser att kraften är med er"
         },
         {
-            "id": "kenobi:3"
+            "id": "kenobi:3",
             "comment": "Den här ledtråden är intalad på en telefonsvarare (förslagsvis av den personen som spelar Obi Wan och på dennes telefon)."
             "response": "Hej! Du har kommit till Obi-Wans automatiska telefonsvarare. Jag är inte inne just nu, men om det verkligen är viktigt så sök mig i baren i Mos Eisley. Knacka mig fem gånger på axeln och viska »Vill du se min ljussnabel?» Må kraften vara med dig!"
         },
         {
             "id": "smuggelgods:1",
             "comment": "Om nØllan frågar efter smuggelgods så vill du inte ge dig det innan du fått tag i imperiets guldtackor som finns på Alderaan.",
-            "response": "“Jag tog paketet i tron om att det var imperiets guldtackor, men jag hade fel. Ni måste ta hit guldtackorna innan jag ger er någonting! Jag skulle leta på Alderaan”"
+            "response": "Jag tog paketet i tron om att det var imperiets guldtackor, men jag hade fel. Ni måste ta hit guldtackorna innan jag ger er någonting! Jag skulle leta på Alderaan"
         },
         {
             "id": "smuggelgods:3",
             "comment": "När nØllan kommer tillbaka med en guldtacka (sten målad guld) säger du att du gav smuggelgodset till de gulliga Ewoksen vid Forest Moon of Endor då du inte kunde motstå dem.",
-            "response": "“Ge hit guldtackorna, de är inte för nybörjare!.... Tyvärr har jag alltid varit svag för Ewoker. De kom och ville ha godset, och medan deras lurviga päls förtrollade mig, så lyckades de ta det ifrån mig. Det ryktas om att Ewokerna håller hus på sin hemplanet, Endors skogsmåne.”"
+            "response": "Ge hit guldtackorna, de är inte för nybörjare!.... Tyvärr har jag alltid varit svag för Ewoker. De kom och ville ha godset, och medan deras lurviga päls förtrollade mig, så lyckades de ta det ifrån mig. Det ryktas om att Ewokerna håller hus på sin hemplanet, Endors skogsmåne."
         }
     ],
     "events": [
