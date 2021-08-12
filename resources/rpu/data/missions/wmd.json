@@ -10,13 +10,13 @@
 	"clues" : [
 		{
 			"id" : "1",
-			"text" : "Här i Mos Eisley är allting bra! Om du söker mig så gå in i baren i Mos Eisley och fråga efter adressen till Wookieleaks. Hälsningar Gallandro, vapenhandlare.",
-			"comment" : "Den här ledtråden skall skrivas på ett vykort som tejpas upp i valvet mellan E- och D-huset."
+			"text" : "Om du söker mig så gå in i Mos Eisley och fråga om adressen till Mordor. Hälsningar Gallandro, vapenhandlare.",
+			"comment" : "Den här ledtråden skall tejpas upp i valvet mellan E- och D-huset, gärna skrivet på ett vykort."
 		},
 		{
 			"id" : "2",
 			"text" : "Gallandro håller till runt Roche Asteroidbälte och kanske kan sälja er en puffra, eller något mer effektivt än så…",
-			"comment" : "Den här ledtråden ger rebellagenten i Mos Eisley muntligen om någon frågar efter »Wookieleaks»."
+			"comment" : "Den här ledtråden ger rebellagenten i Mos Eisley muntligen om någon frågar efter »adressen till Mordor»."
 		},
 		{
 			"id" : "3",

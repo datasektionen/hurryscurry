@@ -1,0 +1,17 @@
+{
+    "id": "rebellagenten",
+    "name": "Rebellagenten",
+    "location": "Meta",
+    "area": "Mos Eisley",
+    "persona": "Du hjälper nØllan med allt de behöver och håller dig uppdaterad mot rebellbasen. Du har en rebellbasklient igång och kan tilldela grupper events. Om någon grupp ligger riktigt, riktigt illa till kan du erbjuda dem att lösa pusslet för lite immediate cash.",
+    "props": "Massa krediter, ett pussel. Telefon och dator är ett måste, gärna ett coolt headset också.",
+    "missions": [
+        {
+            "id": "wmd:2",
+            "comment": "Den här ledtråden ger rebellagenten i Mos Eisley muntligen om någon frågar efter »adressen till Mordor».",
+            "response": "Gallandro håller till runt Roche Asteroidbälte och kanske kan sälja er en puffra, eller något mer effektivt än så…"
+        },
+
+    ],
+    "events": []
+}
