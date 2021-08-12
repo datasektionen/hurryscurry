@@ -1,7 +1,7 @@
 {
     "id": "chief_muskov",
     "name": "Chief Muskov",
-    "location": "Ljusgården i D",
+    "location": "Ljusgården i E",
     "area": "Corellia System",
     "persona": "Muskov är intergalaktisk polis som ständigt är på spaning efter kryddsmugglare. Han ska se ut och agera som en typisk rymdpolis när han sitter och spelar kort med Brasck.\nnØllan kommer vid flera tillfällen vara tvungen att lista ut vem som är Brasck och vem som är Chief Muskov. De får då ställa ja- och nej-frågor till herrarna. Brasck ljuger alltid. Muskov talar alltid sanning. Belöna gärna nØllan (t.ex. med lite extra krediter för kryddorna) som klarar att avslöja identiteterna med endast en fråga (som inte är dum nog att fråga t.ex. “Om jag frågade dig om du är Chief Muskov, vad skulle du svara då?“).",
     "props": "Ca 1000 kred, penna att signera händelsekort med och en kortlek. ",
@@ -12,7 +12,7 @@
             "response": ""
         },
         {
-            "id": "kesselrun:1",
+            "id": "kesselrun:0",
             "comment": "När nØllan ger dig nyckeln tar du med dem till radiobilsbanan och låter de tävla mot banrekordet. Bra att veta är att om nØllan ger nyckeln till Brasck kommer han skicka ut dem till Endor där det finns en skylt som skickar tillbaka dem till dig. Fråga om de vill vadslå om lite krediter innan de börjar köra. Bryter de banrekordet skriver du upp nytt bästa resultat på whiteboarden. Oavsett om nØllan tar high score eller inte så ger du dem körkortet när nØllan tagit sig runt hela banan. Om nØllan vadslog pengar så betalar du ut det till dem. Skicka sen nØllan till rebellbasen för att visa upp sitt körkort.",
             "response": ""
         }
