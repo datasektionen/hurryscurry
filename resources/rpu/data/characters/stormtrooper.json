@@ -4,7 +4,7 @@
     "location": "Främst borggården, men egentligen överallt",
     "area": "Roche Asteroidbälte men snarare överallt.",
     "persona": "Typiska stormtroopers. Vit rustning, skarpladdade vapen (vattengevär) och taskig attityd. Dränk nØllan så fort det går (endast utomhus dock)!! Skräm skiten ur nØllan. Stormtroopers är jätteelaka. Var misstänksamma och skeptiska mot nØllan. -> Stormtroopers ska byta av med Leias vakter lite då och då, så att de också får ha lite roligt! Läs därför rollbeskrivningen för Leias vakter också! <-",
-    "props": "Ett ständigt fulladdat vattengevär. En påse med några popcorn, om popcornen tar slut under tiden, gå och fyll på!",
+    "props": "Ett ständigt fulladdat vattengevär. En påse med några popcorn, om popcornen tar slut under tiden, gå och fyll på! Påse med stormtrooperförklädnad till stormtrooper-omklädningsrummet (som nØllan ska använda)",
     "missions": [
         {
             "id": "stridsteknik:3",
