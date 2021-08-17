@@ -5,23 +5,23 @@
 		"background" : "Många är de rebeller som tappat huvudet och skadat sig svårt vid attacker mot Dödstjärnan. Sällan har det berott på bristande planering eller sviktande mod hos piloterna. Nej, allt som oftast har uppdragen gått åt fanders på grund av det inte så lite farliga kraftfält som omger det monstruösa bygget.",
 		"goal" : "nØllan ska finna koden som deaktiverar kraftfältet kring Dödsstjärnan.",
 		"reward" : "Förutom att den hemskaste av hemska stjärnor snart kommer ligga öppen för dissekering kommer nØllans belöning bestå av fett stort hål i plånboken.",
-		"hint" : "Dödsstjärnans kraftfält styrs från skogsmånen Endor. Ni beger er in bland träden i Endorsystemets södra del."
+		"hint" : "Dödsstjärnans kraftfält styrs från någonstans i närheten av Endor. Ni beger er in bland träden söder om solsystemet Endor."
 	},
 	"clues" : [
 		{
 			"id" : "1",
 			"text" : "Vilse i skogen inser ni plötsligt att ni glömt skicka vykort till Maz Kanata. Den närmsta intergalaktiska brevlådan finns under det stora KTH-märket norr om solsystemet Endor.",
-			"comment" : "Ledtråden sitter på ett träd nära Östra stationen"
+			"comment" : "Ledtråden sitter på ett träd nära Östra stationen i lilla parken nedanför Industrimonumentet/Millespottan"
 		},
 		{
 			"id" : "2",
-			"text" : "Just när ni ska posta era semesterselfies hör ni det omisskännliga ljudet av marscherande Stormtroopers! Spring och göm er i den stora krukan norr om Borderland Regions.",
-			"comment" : "Ledtråden sitter vid/på brevlådan under KTH-märket"
+			"text" : "Just när ni ska posta era semesterselfies hör ni det omisskännliga ljudet av marscherande Stormtroopers! Spring och göm er i den stora krukan i Roche Asteriodbältet.",
+			"comment" : "Ledtråden sitter under KTH-märket på E-huset"
 		},
 		{
 			"id" : "3",
 			"text" : "Vad är ni för några krukor? Ligg inte här och tryck utan be Ewokerna om hjälp istället. De befinner sig på Ewokernas hemplanet Forest Moon of Endor.",
-			"comment" : "Ledtråden sitter på en kruka mellan Sing-sing och E-huset"
+			"comment" : "Ledtråden sitter på stora krukan på borggården"
 		}
 	],
 	"meta" : {
