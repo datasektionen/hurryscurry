@@ -10,13 +10,13 @@
 	"clues" : [
 		{
 			"id" : "1",
-			"text" : "Leia? Han Solo beskrev henne som ättrig och bortskämd. Dessutom verkade hon bara bry sig om den där Like, Lajka.. Luke? Ja, i alla fall så var det senaste jag hörde om deras lilla äventyr att prinsessan blev tillfångatagen och Luke hamnade i någon form av knipa. Han håller visst till någonstans djupt nere i Wild Space nu för tiden.",
+			"text" : "Leia? Han Solo beskrev henne som ättrig och bortskämd. Dessutom verkade hon bara bry sig om den där Like, Lajka... Luke? Ja, i alla fall så var det senaste jag hörde om deras lilla äventyr att prinsessan blev tillfångatagen och Luke hamnade i någon form av knipa. Han håller visst till någonstans djupt nere i Wild Space nu för tiden.",
 			"comment" : "Den här ledtråden ges av Big Bunji om nØllan frågar om Leia."
 		},
 		{
 			"id" : "2",
 			"text" : "Koden är 'JUNGFRU MARIA'! Ta er till R2D2, han kan hjälpa er! Senast sågs han i Mos Eisley!",
-			"comment" : "Den här ledtråden ges av Luke när nØllan frågar om Leia. Han räcker fram lappar med bokstäver som nØllan ska lägga i en ordning som bildar lösenordet “Jungfru Maria”.  När nØllan har knäckt koden skickar Luke vidare nØllan till R2D2 via Mos Eisley."
+			"comment" : "Den här ledtråden ges av Luke när nØllan frågar om Leia. Han räcker fram lappar med bokstäver som nØllan ska lägga i en ordning som bildar lösenordet “Jungfru Maria”. När nØllan har knäckt koden skickar Luke vidare nØllan till R2D2 via Mos Eisley."
 		},
 		{
 			"id" : "3",
