@@ -3,12 +3,12 @@
     "name": "Deppo",
     "location": "Engelska parken-ish",
     "area": "Junkfort Station - Nar Shaddaa",
-    "persona": "Deppo är en mekaniker som går klädd i blåställ och gärna har lite skiftnycklar och skruvmejslar i fickor och händer. Oljig i ansiktet och kan prata i timmar om en förgasare. Deppo får höra en del från folk som kommer in med sina skepp för reparation och har därför ganska bra koll på vad som händer under radarn i cyberspace. ",
-    "props": "Silvertejp/eltejp, 14 st bokmärken (gärna söta änglar), 14 st plåster och 14 st 3CPO huvuden.",
+    "persona": "Deppo är en mekaniker som går klädd i blåställ och gärna har lite skiftnycklar och skruvmejslar i fickor och händer. Oljig i ansiktet och kan prata i timmar om en förgasare. Deppo får höra en del från folk som kommer in med sina skepp för reparation och har därför ganska bra koll på vad som händer under radarn i cyberspace.",
+    "props": "Silvertejp/eltejp, 12 st bokmärken (gärna söta änglar), 12 st plåster och 12 st 3CPO huvuden.",
     "missions": [
         {
             "id": "1000arsservice:2",
-            "comment": "Om nØllan ber att du ska utföra 1000-årsservice på falken skickar du dem vidare till R2D2 i Mos Eisley på jakt efter en »hyperdrive motivator». När nØllan återvänder med ett autentiskt pappersplan med sig så gör du en 1000-års service på Falken för 1000 krediter, signerar flygplanet och bockar av dess kod på listan du fått (E139GI485993, G293MER3984, IOP235667980, PLAN7146387, VIGG2988756, NO123495MN, FR0GG298347, SLAV12457690, GOOG2203452, KLÄG253401G, GMHRL249D14, NLS50106Q40, TJOS0256KFD).",
+            "comment": "Om nØllan ber att du ska utföra 1000-årsservice på falken skickar du dem vidare till R2D2 i Mos Eisley på jakt efter en »hyperdrive motivator». När nØllan återvänder med ett autentiskt pappersplan med sig så gör du en 1000-års service på Falken för 1000 krediter, signerar flygplanet och bockar av dess kod på listan du fått ((IOP235667980, PLAN7146387, VIGG2988756, NO123495MN, FR0GG298347, SLAV12457690, GOOG2203452, KLÄG253401G, GMHRL249D14, NLS50106Q40, TJOS0256KFD, JAS1337FLYG).",
             "response": "”Det enda som behövs är en ny »hyperdrive motivator». Skaffa en åt mig så kan jag laga ert skepp R2D2 vet förmodligen var ni kan få tag på en. Sist jag såg R2D2 var han i baren i Mos Eisley.”"
         },
         {
