@@ -4,7 +4,7 @@
     "location": "Meta",
     "area": "Baren i Mos Eisley",
     "persona": "En tvättäkta rymdskurk. Bunji är oärlig, skum och otrevlig. Gärna klädd i kåpa så att han inte visar ansiktet. Sitter och super eller spelar i Mos Eisley.",
-    "props": "14 kuponger för lasersvärd, 14 plastmuggar, en (liten) flaska YES, 14 st ritningar av dödsstjärnan, en penna att signera händelsekortet.",
+    "props": "12 kuponger för lasersvärd, 14 plastmuggar, en (liten) flaska YES, 14 st ritningar av dödsstjärnan, en penna att signera händelsekortet.",
     "missions": [
         {
             "id": "ritningar:3",
@@ -19,7 +19,7 @@
         {
           "id": "lasersvard:2",
           "comment" : "var lite grumlig och ge förslag på olika fullständigt orimliga dealer (ju orimligare desto bättre, typ ni kan få intel för 50 000 krediter) innan du kommer att tänka på att du just nu faktiskt skulle vilja höra lite musik.",
-          "response" : "Här i krokarna spelar de bara skräpmusik. Jag skulle vilja höra min favoritmelodi i ljuv stämsång. Om ni letar upp ewoken Latara och ber henne om det vackraste stycket hon i galaxen, tar er tillbaks hit och framträder det för mig, då har ni en deal! Latara brukar hålla till i Cloud City."
+          "response" : "Här i krokarna spelar de bara skräpmusik. Jag skulle vilja höra min favoritmelodi i ljuv stämsång. Om ni letar upp ewoken Latara och ber henne om det vackraste stycket i galaxen, tar er tillbaks hit och framträder det för mig, då har ni en deal! Latara brukar hålla till i Cloud City."
     			}
     ],
     "events": [

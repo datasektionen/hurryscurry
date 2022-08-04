@@ -17,9 +17,9 @@
             "response": "“Det ryktas om att en en skum typ som brukar hänga i Mos Eisley har ritningarna i sin ägo. Om detta rykte skulle visa sig vara sant, så måste ni får ritningarna godkända Imperiets Ministerie för Inspektion och Övrig Hantering av Massförstörelsevapen och Laserbazookas i Cloud City”"
         },
         {
-          "id" : "lasersvard:1",
-    			"comment" : "När nØllan kommer och frågar om var man kan få tag på massor med lasersvärd hyschar du dem snabbt. Det är farligt att vara inblandad i att förse Motståndet med vapen, och därför kan du inte hjälpa dem alls förrän du blivit mutad (MINST 200 krediter). Efter att ha blivit mutad ger du din ledtråd.",
-    			"response" : "Lasersvärd? Alldeles för riskabelt för att vandra omkring med. Om det ska vara någon som vet något skulle det vara Big Bunji. Han brukar hålla till i Mos Eisley."
+            "id" : "lasersvard:1",
+            "comment" : "När nØllan kommer och frågar om var man kan få tag på massor med lasersvärd hyschar du dem snabbt. Det är farligt att vara inblandad i att förse Motståndet med vapen, och därför kan du inte hjälpa dem alls förrän du blivit mutad (MINST 200 krediter). Efter att ha blivit mutad ger du din ledtråd.",
+            "response" : "Lasersvärd? Alldeles för riskabelt för att vandra omkring med. Om det ska vara någon som vet något skulle det vara Big Bunji. Han brukar hålla till i Mos Eisley."
         }
     ],
     "events": [
