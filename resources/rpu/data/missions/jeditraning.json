@@ -11,7 +11,7 @@
 		{
 			"id" : "1",
 			"text" : "Roboten R2D2 är en duktig navigatör och känner säkert till rymdkoordinaterna till Yodas hemplanet Dagobah. Fråga R2D2 om koordinaterna till ”Dagobah”, han sågs senast i baren i Mos Eisley",
-			"comment" : "När nØllan kommer till D2 och nämner jediträning/Yoda utmanar Chewie dem i armbrytning. När nØllan vinner över Chewie harklar han sig och ger ovanstående ledtråd."
+			"comment" : "När nØllan kommer till karaokebaren i Corellia System och nämner jediträning/Yoda utmanar Chewie dem i armbrytning. När nØllan vinner över Chewie harklar han sig och ger ovanstående ledtråd."
 		},
 		{
 			"id" : "2",
@@ -37,6 +37,6 @@
 	"meta" : {
 		"resolution" : "Väl framme i Wärdshuset hittar nØllan Yoda (ha gärna en skylt där det står »Yodas Jedi-gym Crashcourse». Hos Yoda blir nØllan tvungen att betala 1200 krediter, och efter det börjar JEDITRÄNINGEN! Nu måste nØllan klara av Yodas träning som består av att: En i gruppen tar på sig en hjälm som man inte ser ut genom och får en pingisboll som det står “bomb” på. Nu ska resten av gruppen guida personen genom en labyrint med hjälp av kraften, så att bomben kan släppas ner i en tratt i slutet av labyrinten. När nØllan är klar får de, efter lite spydigheter, kraften i form av två batterier till ljussnabeln (plastsvärdet).",
 		"requirements" : "Uppdraget redovisas genom att nØllan går tillbaka till rebellbasen och stolt visar upp sina batterier.",
-		"props" : "Till det här uppdraget behövs 42st AA batterier som passar i de ljussablar som Obi-Wan Kenobi bär runt på. Det kan också behövas »neonskyltar» som visar var Yoda sitter någonstans. Vidare behövs Yoda (specifik för uppdraget), Yodas best bud Maz Kanata, Chewie samt R2D2 med sin vakt, barpersonalen och Jawas på Tatooine (ej specifika för uppdraget). Sen behöver borden i klassrummet ordnas för att bilda en labyrint, det behövs en hjälm som man inte ser ut från och en pingisboll som det står “bomb” på. Det behövs även Wärdshus-skyltar så att nØllan hittar Wärdshusets ingång."
+		"props" : "Till det här uppdraget behövs 36st AA batterier som passar i de ljussablar som Obi-Wan Kenobi bär runt på. Det kan också behövas »neonskyltar» som visar var Yoda sitter någonstans. Vidare behövs Yoda (specifik för uppdraget), Yodas best bud Maz Kanata, Chewie samt R2D2 med sin vakt, barpersonalen och Jawas på Tatooine (ej specifika för uppdraget). Sen behöver borden i klassrummet ordnas för att bilda en labyrint, det behövs en hjälm som man inte ser ut från och en pingisboll som det står “bomb” på. Det behövs även Wärdshus-skyltar så att nØllan hittar Wärdshusets ingång."
 	}
 }
