@@ -11,7 +11,7 @@
 		{
 			"id" : "1",
 			"text" : "“Schysst att ni vill hjälpa mig! Jag verkar ha fastnat.. Bara R2D2 kan rädda mig från att dö i den här hålet, men för att han ska kunna stänga av väggarna som rör sig mot mig måste han veta i vilken sektor jag är. Kan ni hjälpa mig att ta reda på det och berätta för R2D2? R2D2 sågs senast i baren i Mos Eisley. Dessutom börjar den här ormen gå mig lite på nerverna. Den verkar vara permanent boende här i sektorn och är ganska kärlekskrank, se om ni kan hitta en kompis till den i baren när ni ändå är i farten.“",
-			"comment" : "Den här ledtråden ges av Luke när nØllan kommer dit för att hjälpa honom. "
+			"comment" : "Den här ledtråden ges av Luke när nØllan kommer dit för att hjälpa honom."
 		},
 		{
 			"id" : "2",
@@ -37,6 +37,6 @@
 	"meta" : {
 		"resolution" : "R2D2-vakten meddelar Luke att han är räddad! nØllan springer tillbaka för att se hur han mår och får ett tack-kort som bevis för hans tacksamhet. ",
 		"requirements" : "Uppdraget redovisas genom att nØllan visar upp tack-kortet för personalen i rebellbasen där de inkasserar 800 krediter.",
-		"props" : "För det här uppdraget krävs att Luke är på plats i arkitekthålet mellan Meta och Arkitekt. Det krävs även 14 st tackkort. Utöver det behövs en kontaktannons som kan sättas upp i Mos Eisley (finns från tidigare år), ambitionsnivån på den här kan variera men har man tiden gör man bäst i att fixa något som liknar ett tidningsark med “Kontaktannonser” skrivet i stora bokstäver. Där ska det även finnas fler kontaktannonser än just den här ormens. Kanske finns det en del för rymddjur söker rymddjur? Ej specifika för uppdraget krävs även barpersonalen i Mos Eisley, Jawas på Tatooine och en fungerade R2D2 med tillhörande vakt."
+		"props" : "För det här uppdraget krävs att Luke är på plats i arkitekthålet mellan Meta och Arkitekt. Det krävs även 12 st tackkort. Utöver det behövs en kontaktannons som kan sättas upp i Mos Eisley (finns från tidigare år), ambitionsnivån på den här kan variera men har man tiden gör man bäst i att fixa något som liknar ett tidningsark med “Kontaktannonser” skrivet i stora bokstäver. Där ska det även finnas fler kontaktannonser än just den här ormens. Kanske finns det en del för rymddjur söker rymddjur? Ej specifika för uppdraget krävs även barpersonalen i Mos Eisley, Jawas på Tatooine och en fungerade R2D2 med tillhörande vakt."
 	}
 }
