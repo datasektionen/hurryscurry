@@ -11,14 +11,12 @@
 		{
 			"id" : "1",
 			"text" : "Aaah Kessel-loppet, jag förstår! Vakterna tog nycklarna när de tillfångatog Han Solo! De är riktiga sluga skurkar, men jag tror att om ni kan svara på deras gåta så kanske de ger er nyckeln. De brukar hålla till någonstans här i närheten, vid Cryochamber 5.",
-			"comment" : "Den här ledtråden ger Chewbacca om nØllan hälsar på honom med wookieljud",
-			"characters" : []
+			"comment" : "Den här ledtråden ger Chewbacca om nØllan hälsar på honom med wookieljud"
 		},
 		{
 			"id" : "2",
 			"text" : "Vilken är jedin's favoritbil?",
-			"comment" : "Vakten ger nØllan nyckeln om de svarar toy-yoda",
-			"characters" : []
+			"comment" : "Vakten ger nØllan nyckeln om de svarar toy-yoda"
 		}
 	],
 	"meta" : {
