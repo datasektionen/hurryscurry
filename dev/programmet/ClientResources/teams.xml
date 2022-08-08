@@ -98,7 +98,7 @@
   <resource type="teamLogo">landoFace.png</resource>
 </team>
 
-<team teamID="MonMothma">
+<!-- <team teamID="MonMothma">
   <name>Mon Mothma</name>
   <firstMission>wmd</firstMission>
   <resource type="backgroundImage">MonMothma.jpg</resource>
@@ -110,6 +110,6 @@
   <firstMission>lasersvard</firstMission>
   <resource type="backgroundImage">Nahdonnis.png</resource>
   <resource type="teamLogo">NahdonnisFace.png</resource>
-</team>
+</team> -->
 
 </teams>

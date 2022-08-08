@@ -5,11 +5,11 @@
 <start>1628582248740</start>
 </mission>
 </team>
-<team teamID="MonMothma">
+<!-- <team teamID="MonMothma">
 <mission missionID="wmd">
 <start>1628582248740</start>
 </mission>
-</team>
+</team> -->
 <team teamID="AdmiralAckbar">
 <mission missionID="kryddor">
 <start>1628582248740</start>
@@ -50,11 +50,11 @@
 <start>1628582248740</start>
 </mission>
 </team>
-<team teamID="NahdonnisPraji">
+<!-- <team teamID="NahdonnisPraji">
 <mission missionID="lasersvard">
 <start>1628582248740</start>
 </mission>
-</team>
+</team> -->
 <team teamID="Kenobi">
 <mission missionID="kenobi">
 <start>1628582248740</start>
