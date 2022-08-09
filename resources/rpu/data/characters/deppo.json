@@ -22,7 +22,7 @@
         }, {
             "id": "solo:1",
             "comment": "Om nØllan frågar dig om Han Solo hjälper du dem med lite information kring Solos fångenskap och att en hemlig kod behövs för att nå hans cell. Sen skickar du dem vidare till hålet i Wild Space och Luke som var med på Han Solos svensexa. Se response för ordagran replik.",
-            "response": "“Jag vet inte var Han Solo hålls fången, men jag har hört rykten om att det krävs en hemlig kod för att komma in i cellen. Om ni hittar koden kanske ni även kommer över cellens position. Leta reda på Luke, och fråga honom om han vet mer om koden och var Han Solo är fångad. Ni hittar honom i hålet vid Wild Space.“"
+            "response": "“Jag vet inte var Han Solo försvunnit men senast jag hörde försvann han i samband med sin svensexa. Jag har hört några rykten om att han blivit tillfångatagen och sitter i en cell med hemlig kod. Luke ska ha varit med på svensexan. Kanske vet han var Han Solo befinner sig nu eller kan ge er någon hjälp på vägen? Ni hittar Luke i hålet vid Wild Space.“"
         }
     ],
     "events": [

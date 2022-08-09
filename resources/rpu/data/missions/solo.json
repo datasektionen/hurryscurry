@@ -10,17 +10,17 @@
 	"clues" : [
 		{
 			"id" : "1",
-			"text" : "Jag vet inte var Han Solo hålls fången, men jag har hört rykten om att det krävs en hemlig kod för att komma in i cellen. Om ni hittar koden kanske ni även kommer över cellens position. Leta reda på Luke, och fråga om han har koll på när Han Solo hade sin svensexa, jag tror att det datumet kan vara den första delen av koden. Ni hittar honom i hålet vid Wild Space.",
+			"text" : "Jag vet inte var Han Solo försvunnit men senast jag hörde försvann han i samband med sin svensexa. Jag har hört några rykten om att han blivit tillfångatagen och sitter i en cell med hemlig kod. Luke ska ha varit med på svensexan. Kanske vet han var Han Solo befinner sig nu eller kan ge er någon hjälp på vägen? Ni hittar Luke i hålet vid Wild Space.",
 			"comment" : "Ledtråden ges av Deppo om man frågar om Han Solo."
 		},
 		{
 			"id" : "2",
-			"text" : "Åhhh svensexan, den var trevlig den. Det var då jag Bobba Fett, Jarjar Binks, Pitbull och Han Solo avnjöt en romantisk trapetskväll under stjärnorna. Vi drack champagne, åt jordgubbar och fiskade fiskdamm på McSpace. Det var en fin dag, en mörk dag, det var den, eller vänta? Varför berättar jag detta? Jag känner mig plötsligt väldigt ledsen över Han, om jag ska kunna minnas denna viktiga kod behöver jag nog uppmuntras lite. OOH Jo juste 750!. Boba fett minns kanske mer från den kvällen. Ni hittar honom i Wild Space. KOM IHÅG DEN KODEN!!",
-			"comment" : "När nØllan kommer förbi och frågar om svensexan känner du nostalgi kring den, men känner dig lite väl ledsen över att Han är borta för att kunna den där koden som nØllan vill ha till Han Solos fängelse. När nØllan ger dig en tillräckligt bra komplimang skiner du upp ger ut koden 750 samt att Boba Fett i Wild Space vet mer. KOM IHÅG DEN KODEN!!"
+			"text" : "Åhhh svensexan, den var trevlig den. Det var då jag Bobba Fett, Jarjar Binks, Gordon Ramsey och Han Solo avnjöt en romantisk trapetskväll under stjärnorna. Vi drack champagne, åt jordgubbar och fiskade fiskdamm på McSpace. Det var en fin dag, en mörk dag, det var den, eller vänta? Varför berättar jag detta? Jag känner mig plötsligt väldigt ledsen. Ryktena är sanna, Han (Solo) sitter inlåst i en cell skyddad med hemlig kod. Jag har dock hittat koden. Men hur ska jag kunna komma ihåg den när jag är så här ledsen? Om jag ska kunna minnas denna viktiga kod behöver jag nog uppmuntras lite. OOH Jo juste 750!. Boba fett minns kanske mer från den kvällen och kan berätta var Han försvann. Ni hittar honom i Wild Space. KOM IHÅG KODEN!!",
+			"comment" : "När nØllan kommer förbi och frågar om svensexan känner du nostalgi kring den, men känner dig lite väl ledsen över att Han är borta för att kunna den där koden som nØllan vill ha till Han Solos fängelse. När nØllan ger dig en tillräckligt bra komplimang skiner du upp ger ut koden 750 samt att Boba Fett i Wild Space vet mer. KOM IHÅG KODEN!!"
 		},
 		{
 			"id" : "3",
-			"text" : "Svensexa. Juste, vi drog till Ice-bar! Jarjar och Pitbull drog hem tidigt, klena som de är. Luke hittade en riktigt snygg wookiebrud och drog hem, så det var bara jag och Han Solo kvar. Sen fastnade Han Solo med tungan på en vägg. Så jag gick hem, ingen har sett honom sedan dess. Konstigt. Ni kan hitta Ice-bar, som också går under namnet Cryochamber 5, i Corellia System.",
+			"text" : "Svensexa. Juste, vi drog till Ice-bar! Jarjar och Gordon Ramsey drog hem tidigt, klena som de är. Luke hittade en riktigt snygg wookiebrud och drog hem, så det var bara jag och Han Solo kvar. Sen fastnade Han Solo med tungan på en vägg, så jag gick hem. Ingen har sett honom sedan dess. Konstigt. Ni kan hitta Ice-bar, som också går under namnet Cryochamber 5, i Corellia System.",
 			"comment" : "Ges av Boba Fett som börjar prata om svensexan när de nämner svensexan och mutar honom med 500 krediter."
 		}
 	],
