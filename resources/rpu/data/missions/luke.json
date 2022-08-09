@@ -10,13 +10,13 @@
 	"clues" : [
 		{
 			"id" : "1",
-			"text" : "“Schysst att ni vill hjälpa mig! Jag verkar ha fastnat.. Bara R2D2 kan rädda mig från att dö i den här hålet, men för att han ska kunna stänga av väggarna som rör sig mot mig måste han veta i vilken sektor jag är. Kan ni hjälpa mig att ta reda på det och berätta för R2D2? R2D2 sågs senast i baren i Mos Eisley. Dessutom börjar den här ormen gå mig lite på nerverna. Den verkar vara permanent boende här i sektorn och är ganska kärlekskrank, se om ni kan hitta en kompis till den i baren när ni ändå är i farten.“",
+			"text" : "“Schysst att ni vill hjälpa mig! Jag verkar ha fastnat.. Bara R2D2 kan rädda mig från att dö i den här hålet. Han stänga av väggarna som rör sig mot mig om han vet vilken sektor jag är i! Ta er till hjälpcentret i Mos Eisley och be rebellagenten kolla upp sektornumret på deras övervakningskameror!",
 			"comment" : "Den här ledtråden ges av Luke när nØllan kommer dit för att hjälpa honom."
 		},
 		{
 			"id" : "2",
-			"text" : "Kurvig orm söker livskamrat som vill sväva fram på moln av svavel med mig! Jag bor för närvarande i ett skräpschakt på en av rymdflottans skepp i Wild Space. De senaste dagarna har jag haft en kompis över men jag börjar få en känsla av att två-beningen inte gillar mig.. Söker en ståtlig orm med livsglädjen kvar som vill åla sig fram till en samba i solnedgången. //Kramar från Tulózza, sektor GE2130",
-			"comment" : "Den här ledtråden sitter i en tidning med kontaktannonser som är uppsatta i Mos Eisley. nØllan ska anteckna sektornumret och fortsätta leta efter R2D2."
+			"text" : "Jag ser att Luke sitter fast i ett skräpshakt i sektor GE2130! R2D2 kan hjälpa er rädda Luke, jag såg honom senast i baren.",
+			"comment" : "Den här ledtråden ges av rebellagenten i Mos Eisley. nØllan ska anteckna sektornumret och fortsätta leta efter R2D2."
 		},
 		{
 			"id" : "3",
