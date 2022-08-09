@@ -13,8 +13,8 @@
         },
         {
             "id": "luke:1",
-            "comment": "När nØllan kommer för att rädda dig undan ditt hemska öde (du sitter ju faktiskt fast i en soprumspress) är du väldigt tacksam. Du ber de finna en kompis till ormen (jätteviktigt!) och finna R2D2 i Mos Eisley.",
-            "response": "“Schysst att ni vill hjälpa mig! Jag verkar ha fastnat... Bara R2D2 kan rädda mig från att dö i den här hålet, men för att han ska kunna stänga av väggarna som rör sig mot mig måste han veta i vilken sektor jag är. Kan ni hjälpa mig att ta reda på det och berätta för R2D2? R2D2 sågs senast i baren i Mos Eisley. Dessutom börjar den här ormen gå mig lite på nerverna. Den verkar vara permanent boende här i sektorn och är ganska kärlekskrank, se om ni kan hitta en kompis till den i baren när ni ändå är i farten.“"
+            "comment": "När nØllan kommer för att rädda dig undan ditt hemska öde (du sitter ju faktiskt fast i en soprumspress) är du väldigt tacksam.",
+            "response": "“Schysst att ni vill hjälpa mig! Jag verkar ha fastnat.. Bara R2D2 kan rädda mig från att dö i den här hålet. Han stänga av väggarna som rör sig mot mig om han vet vilken sektor jag är i! Ta er till hjälpcentret i Mos Eisley och be rebellagenten kolla upp sektornumret på deras övervakningskameror!"
         },
         {
             "id": "luke:0",
