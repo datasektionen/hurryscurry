@@ -99,10 +99,10 @@ R2D2Container extends Container implements ActionListener
   {
     this.lookup = lookup;
    
-    Font nameFont = new Font("Monospace", Font.BOLD, 10);
+    Font nameFont = new Font("Monospace", Font.BOLD, 20);
     
     this.setFont ( nameFont );
-    this.setForeground ( Color.white );
+    this.setForeground ( Color.black );
     this.setBackground ( Color.black );
     this.setLayout ( new GridLayout ( 1 , 2 ) );
 
@@ -126,12 +126,12 @@ R2D2Container extends Container implements ActionListener
     Container p2;
     p2 = new Container ( );
     p2.setLayout ( new BorderLayout ( 5,5 ) );
-    p2.add (    ml = new MultiLineLabel ( "fdslsdklsdkfösdkö\ngdfggdffgdf\n" ,
+    p2.add (    ml = new MultiLineLabel ( "Blipp blopp, bleep!\nBeeop bopp bopp\n" ,
 			      MultiLineLabel.LEFT ) , "Center" );
     p2.add ( p , "North" );
     p2.add ( new Label ( "   " ) , "West" );
-    ml.setFont ( new Font ( "times" , Font.PLAIN , 10 ) );
-    ml.setForeground ( Color.white );
+    ml.setFont ( new Font ( "Monospace" , Font.PLAIN , 20 ) );
+    ml.setForeground ( Color.black );
 
     mindre.add ( new DummyComponent ( ) );
     mindre.add ( p2 );
@@ -172,7 +172,7 @@ R2D2Container extends Container implements ActionListener
     {
       w = ((Word) lookup.get ( searchword ));
       if ( w == null )
-	ml.setLabel ( "Jag förstod nog inte riktigt vad\n" + searchword + " betyder .. " );
+	ml.setLabel ( "Jag fï¿½rstod nog inte riktigt vad\n" + searchword + " betyder .. " );
       else
 	ml.setLabel ( w.text );
     }
