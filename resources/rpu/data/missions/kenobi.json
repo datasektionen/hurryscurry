@@ -10,13 +10,13 @@
 	"clues" : [
 		{
 			"id" : "1",
-			"text" : "Obi-Wan jobbar ibland på plan 6 i södra Borderlands Regions. Gå dit och kolla om han är inne!",
+			"text" : "Obi-Wan jobbar ibland i södra Borderlands Regions. Gå dit och kolla om han är inne!",
 			"comment" : "Sitter på trädet mellan D-huset och Mattetornet"
 		},
 		{
 			"id" : "2",
 			"text" : "Obi-Wan Kenobi – Inte inne – Kan nås på tel 073 - 503 28 88",
-			"comment" : "Lapp uppe på plan 6 i E-huset."
+			"comment" : "Lapp i ljusgården i E-huset."
 		},
 		{
 			"id" : "3",
