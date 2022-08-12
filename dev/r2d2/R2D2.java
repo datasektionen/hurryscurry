@@ -156,7 +156,7 @@ R2D2Container extends Container implements ActionListener
 
   public Dimension getPreferredSize()
   {
-    return new Dimension ( 300,300 );
+    return new Dimension ( 1200,800 );
   }
 
   public void

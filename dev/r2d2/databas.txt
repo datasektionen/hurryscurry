@@ -1,5 +1,6 @@
 #jungfru maria
-Leia sitter i cell 2187, Detention Block AA-23, area E33 i södra Borderland Regions.
+Leia sitter i cell 2187, Detention Block AA-23,
+area E51 i södra Borderland Regions.
 @
 #2d1352~2d1353
 Tor tog armen och flög iväg mot Wild Space.
@@ -374,5 +375,6 @@ George Lucas är förmodligen världens mest
 DN i torsdags så fattar ni.
 @
 #ge2130~ge 2130~sektor ge2130
-Avfallspressen i sektor GE2130 har stoppats. Hälsa Luke från mig!
+Avfallspressen i sektor GE2130 har stoppats.
+Hälsa Luke från mig!
 @
