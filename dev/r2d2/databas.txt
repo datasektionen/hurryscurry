@@ -1,5 +1,6 @@
 #jungfru maria
-Leia sitter i cell 2187, Detention Block AA-23, area E33 i södra Borderland Regions.
+Leia sitter i cell 2187, Detention Block AA-23,
+area E51 i södra Borderland Regions.
 @
 #2d1352~2d1353
 Tor tog armen och flög iväg mot Wild Space.
@@ -159,6 +160,12 @@ Ställd inför valet att möta den ambidextiösa Han
 med fel arm så valde han att ge upp.
 Senaste kända vistelsen: Roches Asteroidbälte.
 @
+#hej
+Bleep bloop :)
+@
+#hejdå~hej då~goodbye~bye
+Bleep bloop bye :)
+@
 #jabba hutt
 Jabba the Hutt är en korpulent, överviktig, fet,
 rymdskurk med dålig moral och munhygien.
@@ -254,7 +261,7 @@ under hans uppväxt. Luke trodde att Owen var hans
 riktiga farbror, men i själva verket var han Ben
 Kenobis bror.
 @
-#r2d2~artoo-detoo~r2-d2
+#r2d2~artoo-detoo~r2-d2~r2
 Det är ju jag!
 @
 #rancor
@@ -367,6 +374,7 @@ George Lucas är förmodligen världens mest
 överskattade (och rikaste) regissör. Läs
 DN i torsdags så fattar ni.
 @
-#ge2130~ge 2130
-Avfallspressen i sektor GE2130 har stoppats. Hälsa Luke från mig!
+#ge2130~ge 2130~sektor ge2130
+Avfallspressen i sektor GE2130 har stoppats.
+Hälsa Luke från mig!
 @
