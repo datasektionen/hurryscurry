@@ -1,7 +1,7 @@
 {
     "id": "latara",
     "name": "Latara",
-    "location": "Norra delen av E i en korridor på våning 4 eller 5",
+    "location": "Se översiktsdokument på Drive",
     "area": "Cloud City",
     "persona": "Latara är en kvinnlig rymdfåne som tycker om att prata skit och ljuga. Hon är en Ewok, och som alla sådana ser hon ut som en teddybjörn. Latara spelar flöjt så fort hon får chansen. Prata gärna som en ewok, dvs pipig och grinig. Latara ska argumentera och pruta när det gäller pengar, samt vara lite hetsig när hon berättar att hon har blivit bestulen!",
     "props": "Kattmat, en flöjt, ca 7000 krediter. ",
@@ -10,11 +10,6 @@
             "id": "ritningar:1",
             "comment": "När nØllan kommer till dig och frågar om ritningarna till Dödsstjärnan blir du upprörd och berättar att det var någon skum typ som stal dom av dig! Gallandro vet kanske någonting om saken, senaste gången du såg honom smög han runt i Roche Asteroidbälte.",
             "response": "“Det var någon skum typ som stal dom av mig! Gallandro vet kanske någonting om saken, senaste gången jag såg honom smög han runt i Roche Asteroidbälte.”"
-        },
-        {
-            "id": "dodsstjarnan:3",
-            "comment": "Om nØllan frågar efter koordinaterna till Dödsstjärnan förhandlar du så de betalar 100 krediter, sen berättar du dramatiskt att dödstjärnan finns vid solsystemet Endor.",
-            "response": "“Dödsstjärnan kan skådas som något stort, mörkt och runt i solsystemet Endor.”"
         },
         {
           "id" : "lasersvard:3",

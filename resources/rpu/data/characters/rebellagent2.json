@@ -1,0 +1,17 @@
+{
+    "id": "rebellagent2",
+    "name": "Rebellagent2",
+    "location": "Se översiktsdokument i Drive",
+    "area": "Rebellbasen",
+    "persona": "Du kör programmet och ger nØllan nya uppdrag. Du ser till att ingen sitter för fast och har kontakt med de andra agenterna i galaxen.",
+    "props": "Massa krediter, ett pussel. Telefon och dator är ett måste, gärna ett coolt headset också.",
+    "missions": [
+        {
+            "id": "dodsstjarnan:0",
+            "comment": "nØllan ska snart få möta Darth Vader! Förbered dem väl :)",
+            "response": "[insert förklaring till nØllan här]"
+        }
+
+    ],
+    "events": []
+}
