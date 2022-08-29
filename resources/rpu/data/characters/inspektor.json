@@ -1,7 +1,7 @@
 {
     "id": "inspektor",
     "name": "Imperiets inspektör",
-    "location": "Våning 4, i trapphuset i Es norra del",
+    "location": "Se översiktsdokument på Drive",
     "area": "Längst ned i Cloud City",
     "persona": "Inspektör. Livrädd för att göra något fel som skulle få honnom ansvarig för något. Agerar bara på underskrivna order eller om nØllan lyckas övertala honom att han inte kommer att bli anmäld ifall han gör fel. Ursäktar sig ofta om byråkratin som krävs för att få bomber inspekterade (“Men tänk om folk använde bomber som inte är godkända! Vart skulle vårt samhälle gå då?”)",
     "props": "Penna och “Order om Inspektion-papper”. 24 kopior (alltså 24*2 papper).",

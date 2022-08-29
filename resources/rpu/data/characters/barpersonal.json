@@ -15,11 +15,6 @@
             "id": "kryddor:2",
             "comment": "Om nØllan säger »Chubb Scutt skickade mig» så langar du upp lådan och låter nØllan läsa ledtråden samt ta en kryddpåse.",
             "response": "“Ta med er ett paket exklusiv krydda och gå tillbaka för att prata med er smuggelkumpan...”"
-        },
-        {
-            "id": "dodsstjarnan:2",
-            "comment": "Om nØllan frågar efter en “Death Star” så svarar ni att ni inte känner till Dödstjärnans rymdkoordinater, men det vet däremot rymdspionen Latara i Cloud City.",
-            "response": "“Här hittar ni inga “Death Stars”. Ni bör söka upp rymdspionen Latara i Cloud City om ni vill ha tag i Dödstjärnans rymdkoordinater, för att spränga den eller något liknande.”"
         }
     ],
     "events": [
