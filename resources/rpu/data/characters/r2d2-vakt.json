@@ -10,6 +10,22 @@
             "id": "luke:5",
             "comment": "När nØllan skrivit in koden “GE2130” eller “sektor GE2130” så MÅSTE du meddela Luke (sms eller Slack) att det har hänt. R2D2 kommer att säga att avfallspressen har stoppats.",
             "response": ""
+        }, {
+            "id" : "leia:5",
+			"comment" : "Den här ledtråden ges av R2D2 om man skriver in koden »jungfru maria». Dubell-trippelkolla att databasen skriver rätt area (sal, allstå)!",
+			"response" : "Leia sitter i cell 2187, Detention Block AA-23, area E52 i södra Borderland Regions."
+        }, {
+            "id" : "prisjagare:4",
+			"comment" : "Den här ledtråden ges av R2D2 om man skriver in koden »joruus c'baoth».",
+            "response" : "Han gömmer sig i norra Borderland Regions och har en förkärlek till färgen brun."
+        }, {
+            "id" : "jeditraning:4",
+			"comment" : "Den här ledtråden ges av R2D2 om man skriver in koden »dagobah».",
+            "response" : "Planeten Dagobah ligger i södra Borderland Regions."
+        }, {
+            "id" : "1000arsservice:5",
+			"comment" : "Den här ledtråden ges av R2D2 om man skriver in koden »hyperdrive motivator».",
+            "response" : "Tydligen har Chewbacca också varit på vift i stjärnrymden och letat efter en hyperdrive motivator. Men han verkar visst ha blivit distraherad av några cyber-synthar. Gå till karaokebaren i södra delen av Correlia System och hjälp honom!"
         }
     ],
     "events": [
