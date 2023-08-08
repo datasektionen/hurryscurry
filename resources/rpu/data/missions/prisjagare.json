@@ -31,12 +31,12 @@
 		{
 			"id" : "5",
 			"text" : "Grattis nØllan! Efter en hård strid tog ni slutligen kål på Joruus C'baoth. Ta med hans huvud till rebellbasen som bevis på att ni klarat uppdraget. Det kan hända att det ligger fler huvuden här och i sådant fall skall nØllan bara ta med sig ett av dem.",
-			"comment" : "Tillsammans med ledtråden ligger 12 stycken kålhuvuden."
+			"comment" : "Tillsammans med ledtråden ligger 13 stycken kålhuvuden."
 		}
 	],
 	"meta" : {
 		"resolution" : "nØllan tar med sig ett kålhuvud från plats 56 och beger sig mot rebellbasen.",
 		"requirements" : "Uppdraget redovisas genom att nØllan lämnar in kålhuvudet i rebellbasen och inkasserar 2000 krediter.",
-		"props" : "För det här uppdraget krävs 12st kålhuvuden (eller 12st halva kålhuvuden) som skall symbolisera Joruus C'baoths huvud. Vidare behövs Boba Fett i Wild Space samt en fungerande R2D2 med tillhörande vakter, barpersonalen i Mos Eisley och Jawas på Tatooine. Dessa är dock ej specifika för uppdraget."
+		"props" : "För det här uppdraget krävs 13st kålhuvuden (eller 13st halva kålhuvuden) som skall symbolisera Joruus C'baoths huvud. Vidare behövs Boba Fett i Wild Space samt en fungerande R2D2 med tillhörande vakter, barpersonalen i Mos Eisley och Jawas på Tatooine. Dessa är dock ej specifika för uppdraget."
 	}
 }
