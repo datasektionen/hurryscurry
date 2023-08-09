@@ -4,7 +4,7 @@
     "location": "Se översiktsdokument på Drive",
     "area": "Högst upp i Cloud City",
     "persona": "Administratör, lämpligen av den mycket strikta sorten. Det enda som är viktigt är papper. Utan dig slutar imperiet att fungera. Gör det klart för nØllan att du är en mycket viktig och högt uppsatt person. De papper som du skriver är grunden som imperiet står på. Allt måste skötas enligt regelboken. Administratören är rätt så dryg och kan till exempel be nØllan ställa upp sig på led sorterade exempelvis efter mellannamn medan de väntar på en underskrift. ",
-    "props": "Penna och “Ansökan om order av Inspektion-papper”. Lämpligtvis 24 kopior (alltså 24*2 papper).",
+    "props": "Penna och “Ansökan om order av Inspektion-papper”. Lämpligtvis 26 kopior (alltså 26*2 papper).",
     "missions": [
         {
             "id": "ritningar:0",
