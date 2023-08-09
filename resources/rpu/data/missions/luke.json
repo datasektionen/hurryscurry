@@ -10,7 +10,7 @@
 	"clues" : [
 		{
 			"id" : "1",
-			"text" : "“Schysst att ni vill hjälpa mig! Jag verkar ha fastnat.. Bara R2D2 kan rädda mig från att dö i den här hålet. Han stänga av väggarna som rör sig mot mig om han vet vilken sektor jag är i! Ta er till hjälpcentret i Mos Eisley och be rebellagenten kolla upp sektornumret på deras övervakningskameror!",
+			"text" : "“Schysst att ni vill hjälpa mig! Jag verkar ha fastnat.. Bara R2D2 kan rädda mig från att dö i det här hålet. Han kan hstänga av väggarna som rör sig mot mig om han vet vilken sektor jag är i! Ta er till hjälpcentret i Mos Eisley och be rebellagenten kolla upp sektornumret på deras övervakningskameror!",
 			"comment" : "Den här ledtråden ges av Luke när nØllan kommer dit för att hjälpa honom."
 		},
 		{
@@ -25,7 +25,7 @@
 		},
 		{
 			"id" : "4",
-			"text" : "Här i trakterna finns det inte så många köpare, så vi lät vår vän Albeback ta robotarna norrut, han bör inte hunnit ut ur Correlia System än...",
+			"text" : "Här i trakterna finns det inte så många köpare, så vi lät vår vän Albeback ta robotarna västerut, han bör inte hunnit ut ur Correlia System än...",
 			"comment" : "Den här ledtråden ges av Jawas på Tatooine och trycks på ett »Hitta R2D2»-ledtrådskort (via r2d2.json) så att de inte skall behöva fråga vilket uppdrag nØllan håller på med."
 		},
 		{
@@ -37,6 +37,6 @@
 	"meta" : {
 		"resolution" : "R2D2-vakten meddelar Luke att han är räddad! nØllan springer tillbaka för att se hur han mår och får ett tack-kort som bevis för hans tacksamhet. ",
 		"requirements" : "Uppdraget redovisas genom att nØllan visar upp tack-kortet för personalen i rebellbasen där de inkasserar 800 krediter.",
-		"props" : "För det här uppdraget krävs att Luke är på plats i arkitekthålet mellan Meta och Arkitekt. Det krävs även 12 st tackkort. Utöver det behövs en kontaktannons som kan sättas upp i Mos Eisley (finns från tidigare år), ambitionsnivån på den här kan variera men har man tiden gör man bäst i att fixa något som liknar ett tidningsark med “Kontaktannonser” skrivet i stora bokstäver. Där ska det även finnas fler kontaktannonser än just den här ormens. Kanske finns det en del för rymddjur söker rymddjur? Ej specifika för uppdraget krävs även barpersonalen i Mos Eisley, Jawas på Tatooine och en fungerade R2D2 med tillhörande vakt."
+		"props" : "För det här uppdraget krävs att Luke är på plats i arkitekthålet mellan Meta och Arkitekt. Det krävs även 13 st tackkort. Utöver det behövs en kontaktannons som kan sättas upp i Mos Eisley (finns från tidigare år), ambitionsnivån på den här kan variera men har man tiden gör man bäst i att fixa något som liknar ett tidningsark med “Kontaktannonser” skrivet i stora bokstäver. Där ska det även finnas fler kontaktannonser än just den här ormens. Kanske finns det en del för rymddjur söker rymddjur? Ej specifika för uppdraget krävs även barpersonalen i Mos Eisley, Jawas på Tatooine och en fungerade R2D2 med tillhörande vakt."
 	}
 }
