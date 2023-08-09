@@ -3,7 +3,7 @@
 	"main" : {
 		"title" : "Rädda Prinsessan Leia",
 		"background" : "Prinsessan Leia Organa har blivit tillfångatagen av en Imperial Star Destroyer. Skeppet fördes av Darth Vader i egen hög person. Hon stoppades när hon var på väg till Obi-Wan Kenobi för att övertala honom att samarbeta med rebellerna. Hon har sett ritningarna till dödsstjärnan och är dessutom en riktig snygging.",
-		"goal" : "nØllan måste lokalisera Leias cell och komma på något sätt att ta sig förbi hennes vakter. Ju längre nØllan väntar desto mer otäck och obehaglig tortyr utsätts hon för. Om inte annat så är hon värd att räddas för sina läckra flätor och sin, inte så lite, sensuella mun.",
+		"goal" : "nØllan måste lokalisera Leias cell och komma på något sätt att ta sig förbi hennes vakter. Ju längre nØllan väntar desto mer otäck och obehaglig tortyr utsätts hon för. Om inte annat så är hon värd att räddas för sina läckra flätor och sitt coola familjeträd.",
 		"reward" : "Om nØllan lyckas med det här uppdraget så belönas nØllan med, utöver prinsessan Leias gunst, 1100 krediter.",
 		"hint" : "Big Bunji är en ganska otrevlig typ som brukar hänga i baren i Mos Eisley. Han får höra en hel del från folk som stannar i stan för att fylla på med nebulamunkar och annat mumsigt, han kan veta något som hjälper er att hitta Leia."
 	},
@@ -25,12 +25,12 @@
 		},
 		{
 			"id" : "4",
-			"text" : "Här i trakterna finns det inte så många köpare, så vi lät vår vän Albeback ta robotarna norrut, han bör inte hunnit ut ur Correlia System än...",
+			"text" : "Här i trakterna finns det inte så många köpare, så vi lät vår vän Albeback ta robotarna västerut, han bör inte hunnit ut ur Correlia System än...",
 			"comment" : "Den här ledtråden ges av Jawas på Tatooine och trycks på ett »Hitta R2D2»-ledtrådskort (via r2d2.json) så att de inte skall behöva fråga vilket uppdrag nØllan håller på med."
 		},
 		{
 			"id" : "5",
-			"text" : "Leia sitter i cell 2187, Detention Block AA-23, area E52 i södra Borderland Regions.",
+			"text" : "Leia sitter i cell 2187, Detention Block AA-23, area E34 i södra Borderland Regions.",
 			"comment" : "Den här ledtråden ges av R2D2 om man skriver in koden »jungfru maria»."
 		}
 	],
