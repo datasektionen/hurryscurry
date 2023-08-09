@@ -21,12 +21,12 @@
 		{
 			"id" : "3",
 			"text" : "Deppo är tacksam för de återfunna delarna och reparerar C3PO med eltejp/silvertejp. Han lämnar därefter ifrån sig C3PO till nØllan och tackar åter för hjälpen.",
-			"comment" : "Deppo bör ha 12 stycken C3PO-huvuden på plats och någon bra form av tejp, då han efter varje reparation lämnar ifrån sig hela roboten till nØllan."
+			"comment" : "Deppo bör ha 13 stycken C3PO-huvuden på plats och någon bra form av tejp, då han efter varje reparation lämnar ifrån sig hela roboten till nØllan."
 		}
 	],
 	"meta" : {
 		"resolution" : "nØllan återvänder till rebellbasen där de visar upp sin nya kompanjon.",
 		"requirements" : "Uppdraget redovisas genom att visa upp en komplett och ihopsatt C3PO i rebellbasen. Om det är lag »C3PO» som klarat uppdraget får de 1000 krediter som belöning.",
-		"props" : "Uppdraget kräver 12 stycken exemplar av C3PO i fyra delar. Dessa skapas genom att printa ut C3PO i A4-storlek, som sedan plastas in och skärs upp i de 4 delarna (huvud, armar, mage och ben). De personer som behövs är jawas vid Tatooine och Deppo i Junkfort Station vid Nar Shaddaa. Deppo ska ha alla C3PO-huvuden samt eltejp/silvertejp för reparation av C3PO. Jawas ska ha de resterande C3PO-delarna. För de 3 prövningar hos jawas krävs 3 ögonbindlar och 3 hinkar. I varje hink ska det finnas 12 st av en slags C3PO-del, samt någon slags icky stuff. Låt kreativiteten flöda när det kommer till icky stuff, men tidigare har det i alla fall använts havregrynsgröt, lingonsylt+flingor+vatten och ägg+vatten. Dessutom behövs engångshandskar till när n0llan ska gräva i hinkarna"
+		"props" : "Uppdraget kräver 13 stycken exemplar av C3PO i fyra delar. Dessa skapas genom att printa ut C3PO i A4-storlek, som sedan plastas in och skärs upp i de 4 delarna (huvud, armar, mage och ben). De personer som behövs är jawas vid Tatooine och Deppo i Junkfort Station vid Nar Shaddaa. Deppo ska ha alla C3PO-huvuden samt eltejp/silvertejp för reparation av C3PO. Jawas ska ha de resterande C3PO-delarna. För de 3 prövningar hos jawas krävs 3 ögonbindlar och 3 hinkar. I varje hink ska det finnas 13 st av en slags C3PO-del, samt någon slags icky stuff. Låt kreativiteten flöda när det kommer till icky stuff, men tidigare har det i alla fall använts havregrynsgröt, lingonsylt+flingor+vatten och ägg+vatten. Dessutom behövs engångshandskar till när n0llan ska gräva i hinkarna"
 	}
 }
