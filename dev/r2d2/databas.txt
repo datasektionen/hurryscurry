@@ -101,7 +101,7 @@ Systemet är mest känt för sina snabba skepp och
 sina skickliga handelsmän.
 @
 #dadderiet
-31 kramgoa och snuttiga teknologer som aldrig
+39 kramgoa och snuttiga teknologer som aldrig
 skulle spränga någonting ..
 @
 #death star~dödsstjärnan
@@ -219,6 +219,9 @@ Imperiet.
 En ljussabel är det eleganta vapen som Jedi-
 riddarna bär.
 @
+#ljussnabel
+En ljussnabel är som en ljussabel men lite mer snablig.
+@
 #millenium falcon~årtusende falken~falken~falcon
 Årtusende falken är Han Solos rymdskepp. Det är
 ett ombyggt fraktskepp på ungefär 26 meter. Det
@@ -298,7 +301,7 @@ Anakin efter Lukes och Leias far.
 Imperiets soldater som är kejsaren lojala.
 @
 #tatooine
-Tatooine äe huvudplaneten i stjärnsystemet med
+Tatooine är huvudplaneten i stjärnsystemet med
 samma namn. Det var i denna värld som Luke
 Skywalker växte upp.
 @
