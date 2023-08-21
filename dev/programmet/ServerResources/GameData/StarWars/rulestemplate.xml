@@ -182,10 +182,10 @@
         <proof>Uppdraget redovisas genom att nØllan lämnar in kålhuvudet i rebellbasen.</proof>
         <reward>Belöningen består av, förutom känslan av att utfört ett hyggligt dagsverke, 2000 krediter.</reward>
         <checkpoint checkpointID="startHunt">
-          <name>Jagar Joruus C'baoth</name>
+          <name>Jagar Gungi</name>
         </checkpoint>
         <checkpoint checkpointID="foundHideout">
-          <name>Hittat Joruus C'baoth's gömställe</name>
+          <name>Hittat Gungi's gömställe</name>
         </checkpoint>
         <resource type="backgroundImage">bountyhunters.jpg</resource>
       </mission>
