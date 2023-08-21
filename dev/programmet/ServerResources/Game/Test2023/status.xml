@@ -66,10 +66,6 @@
 <team teamID="BobaFett">
 <mission missionID="prisjagare">
 <start>1692605355650</start>
-<team teamID="MonMothma">
-<mission missionID="wmd">
-<start>1628582248740</start>
-</mission>
 </mission>
 </team>
 </status>
