@@ -3,6 +3,9 @@
 * Program för att generera uppdrag, ledtrådar, händelser och drifvaruppdrag automatiskt i form av Word-dokument.
 * Skrivet av Albin Remnestål (i all (m)hast), Augusti 2016
 * Vid frågor, kontakta mig på <albinre@kth.se>
+*
+* Lite ändrad av Toshihide Sakao Oktober 2023
+* kan kontakta mig via sakao@kth.se
 */
 
 var fs = require('fs');
@@ -14,14 +17,20 @@ const emph = chalk.bold;
 const ok = chalk.green;
 const err = chalk.red;
 
-_version = "20160818";
+_version = "20231031";
 
-_printPath = "../Tryck";
+_printPath = "../Tryck-b";
 _printSubDirs = ["/Uppdrag", "/Händelser", "/Drifvaruppdrag"];
 
-_missionPath = "../Uppdrag/";
-_eventPath = "../Händelser/";
-_drifterPath = "../Drifvaruppdrag/";
+// _missionPath = "../rpu/Uppdrag/";
+// _eventPath = "../rpu/Händelser/";
+// _drifterPath = "../rpu/Drifvaruppdrag/";
+
+_datadir = "../../resources/rpu/data";
+
+_missionPath =  _datadir + "/missions/";
+_eventPath =  _datadir + "/events/";
+_drifterPath = _datadir + "/drifters/";
 
 var main = new function() {
 
@@ -63,7 +72,9 @@ var main = new function() {
 };
 
 function generateMissions() {
-    var missions = getDirectories(_missionPath);
+    var missions = fs.readdirSync(_missionPath).filter(function(file) {
+        return file != 'README.md';
+    });
     var jsonDict;
 
     console.log("\nTillgängliga uppdrag:");
@@ -76,32 +87,33 @@ function generateMissions() {
         console.log(pad1(missionIndex < missions.length-1, " ") + " "
             + emph(missions[missionIndex]));
 
-        var json = readJSON(_missionPath + missions[missionIndex] + "/data.json");
+        var json = readJSON(_missionPath + missions[missionIndex]);
+        var missionName = missions[missionIndex].substring(0, missions[missionIndex].length - 5);
 
         jsonDict = {
-            "titel" : json.uppdrag.titel.toUpperCase(),
-            "bakgrund" : json.uppdrag.bakgrund,
-            "mål" : json.uppdrag.mål,
-            "belöning" : json.uppdrag.belöning,
-            "jakten_kan_börja" : json.uppdrag.jakten_kan_börja
+            "titel" : json.main.title.toUpperCase(),
+            "bakgrund" : json.main.background,
+            "mål" : json.main.goal,
+            "belöning" : json.main.reward,
+            "jakten_kan_börja" : json.main.hint
         };
 
-        var missionDir = "../Tryck/Uppdrag/" + missions[missionIndex];
+        var missionDir = "../Tryck-b/Uppdrag/" + missionName;
         if (!fs.existsSync(missionDir)) {
             fs.mkdirSync(missionDir);
         }
 
-        generateWord(jsonDict, "./mallar/Mall-uppdrag.docx", missionDir + "/" + missions[missionIndex]);
+        generateWord(jsonDict, "./mallar/Mall-uppdrag.docx", missionDir + "/" + missionName);
         console.log(pad1(true, pad2(missionIndex < missions.length-1, " ") + "   ")
-                + " " + ok(missions[missionIndex] + ".docx"));
+                + " " + ok(missionName + ".docx"));
 
-        var clues = json.ledtrådar;
+        var clues = json.clues;
         for (var clueIndex in clues) {
             var clueID = json.id + ":" + clues[clueIndex].id;
             var clueID_verbose = json.id + "_ledtråd_" + clues[clueIndex].id;
             jsonDict = {
                 "id" : clueID,
-                "titel" : json.uppdrag.titel.toUpperCase(),
+                "titel" : json.main.title.toUpperCase(),
                 "text" : clues[clueIndex].text
             };
 
@@ -119,15 +131,18 @@ function generateMissions() {
 
 function generateEvents() {
 
-    var generalEventDir = "../Tryck/Händelser";
+    var generalEventDir = "../Tryck-b/Händelser";
     if (!fs.existsSync(generalEventDir)) {
         fs.mkdirSync(generalEventDir);
     }
 
     console.log("\nPåbörjar generering av händelsefiler.");
 
-    generateFor("Positiva", true);
-    generateFor("Negativa", false);
+    // generateFor("Positiva", true);
+    // generateFor("Negativa", false);
+
+    generateFor("positive", true);
+    generateFor("negative", false);
 
     function generateFor(eventType, padding) {
 
@@ -138,17 +153,17 @@ function generateEvents() {
 
         console.log(pad1(padding, " ") + " " + emph(eventType + " händelser"));
 
-        var events = readJSON(_eventPath + eventType + "/data.json").händelser;
+        var events = readJSON(_eventPath + eventType + ".json").events;
         var jsonDict;
 
         for (var eventIndex in events) {
 
             jsonDict = {
-                "titel" : events[eventIndex].titel.toUpperCase(),
+                "titel" : events[eventIndex].title.toUpperCase(),
                 "text" : events[eventIndex].text
             };
 
-            var fileName = events[eventIndex].titel.split(" ").join("_");
+            var fileName = events[eventIndex].title.split(" ").join("_");
             generateWord(jsonDict, "./mallar/Mall-händelser.docx", eventDir + "/" + fileName);
             console.log(pad1(eventIndex < events.length-1, pad2(padding, " ") + "   ")
                 + " " + ok(fileName + ".docx"));
@@ -160,12 +175,12 @@ function generateEvents() {
 
 function generateDrifters() {
 
-    var drifters = readJSON(_drifterPath + "/data.json").uppdrag;
+    var drifters = readJSON(_drifterPath + "/hitta.json").missions;
     var jsonDict;
 
     console.log("\nPåbörjar generering av drifvaruppdragsfiler.");
 
-    var drifterDir = "../Tryck/Drifvaruppdrag";
+    var drifterDir = "../Tryck-b/Drifvaruppdrag";
     if (!fs.existsSync(drifterDir)) {
         fs.mkdirSync(drifterDir);
     }
@@ -173,11 +188,10 @@ function generateDrifters() {
     for (var drifterIndex in drifters) {
 
         jsonDict = {
-            "namn" : drifters[drifterIndex].namn.toUpperCase(),
-            "mål" : drifters[drifterIndex].mål
+            "namn" : drifters[drifterIndex].name.toUpperCase(),
+            "goal" : drifters[drifterIndex].goal
         };
-
-        generateWord(jsonDict, "./mallar/Mall-drifvare.docx", drifterDir + "/" + drifters[drifterIndex].id);
+        generateWord(jsonDict, "./mallar/Mall-drifvare.docx", drifterDir + "/" + "hitta" + drifterIndex);
         console.log(pad1(drifterIndex < drifters.length-1, " ") + " " + ok(drifters[drifterIndex].id + ".docx"));
 
     };
@@ -224,6 +238,7 @@ function getDirectories(srcPath) {
 function readJSON(file) {
     var content = fs.readFileSync(file, 'utf8');
     var jsonContent = JSON.parse(content);
+    // console.log(jsonContent);
     return jsonContent;
 };
 
