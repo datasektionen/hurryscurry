@@ -20,8 +20,8 @@
 		}
 	],
 	"meta" : {
-		"resolution" : "När nØllan kommer till Brasck och Chief Muskov måste de lista ut vem de ska ge nyckeln till. Om nØllan råkar ge nyckeln till Brasck så ska han säga åt dem att det finns en skylt med instruktioner vid the forrest moon of Endor. På skylten står det att nØllan tabbat till det och att de borde försöka igen. Ger de nyckeln till Muskov tar han med nØllan och visar dem banan för att racea den radiostyrda bilen. Han informerar om nuvarande banrekord, och informerar nØllan om att de kan vadslå krediter och vinna om de krossar banrekordet. När nØllan är klar med loppet ger Muskrov nØllan deras körkort, som de tar med till rebellbasen. Har nØllan vadslagit och vunnit betalas vinsten ut här.",
+		"resolution" : "När nØllan kommer till Brasck och Chief Muskov måste de lista ut vem de ska ge nyckeln till. Om nØllan råkar ge nyckeln till Brasck så ska han säga åt dem att det finns en skylt med instruktioner vid the Forest Moon of Endor. På skylten står det att nØllan tabbat till det och att de borde försöka igen. Ger de nyckeln till Muskov tar han med nØllan och visar dem banan för att racea den radiostyrda bilen. Han informerar om nuvarande banrekord, och informerar nØllan om att de kan vadslå krediter och vinna om de krossar banrekordet. När nØllan är klar med loppet ger Muskrov nØllan deras körkort, som de tar med till rebellbasen. Har nØllan vadslagit och vunnit betalas vinsten ut här.",
 		"requirements" : "Uppdraget redovisas genom att visa upp körkortet i rebellbasen.",
-		"props" : "För det här uppdraget behövs 13 körkort och 13 nycklar. Det behövs 1st radiostyrd bil eller liknande för att racea med, samt material för att markera ut en bana. Sist behövs det en skylt som sätts upp vid Endor, ifall nØllan ger visitkortet till cheif Muskov."
+		"props" : "För det här uppdraget behövs 12 körkort och 12 nycklar. Det behövs 1st radiostyrd bil eller liknande för att racea med, samt material för att markera ut en bana. Sist behövs det en skylt som sätts upp vid Endor, ifall nØllan ger visitkortet till cheif Muskov."
 	}
 }
