@@ -12,26 +12,26 @@
             "response": "“Det var någon skum typ som stal dom av mig! Gallandro vet kanske någonting om saken, senaste gången jag såg honom smög han runt i Roche Asteroidbälte.”"
         },
         {
-          "id" : "lasersvard:3",
-  			"comment" : "När nØllan frågar om en melodi måste de först visa prov på sina musikaliska färdigheter för att du ska veta vilka du har att göra med. Typ framföra valfri låt. Viktigt att alla i gruppen är med och sjunger. Du frågar sedan vem det är som vill ha musikstycket, och säger din replik efter att ha fått reda på att det är Big Bunji. Du har ett kort med noter på. Det är blinka lilla stjärna. Du kan hjälpa till att spela den om du blir mutad, men det är verkligen under din värdighet att spela den melodin. Du avskyr den av hela ditt väsen",
-        "response" : "Här har ni den. Själv avskyr jag melodin, men alla kan ju inte ha min överlägsna musiksmak."
-      }
+            "id" : "lasersvard:3",
+  		    "comment" : "När nØllan frågar om en melodi måste de först visa prov på sina musikaliska färdigheter för att du ska veta vilka du har att göra med. Typ framföra valfri låt. Viktigt att alla i gruppen är med och sjunger. Du frågar sedan vem det är som vill ha musikstycket, och säger din replik efter att ha fått reda på att det är Big Bunji. Du har ett kort med noter på. Det är blinka lilla stjärna. Du kan hjälpa till att spela den om du blir mutad, men det är verkligen under din värdighet att spela den melodin. Du avskyr den av hela ditt väsen",
+            "response" : "Här har ni den. Själv avskyr jag melodin, men alla kan ju inte ha min överlägsna musiksmak."
+        }
     ],
     "events": [
-      {
-          "id": "negative:3",
-          "comment": "nØllan vill köpa hundmat. De får då köpa en Frolic-bit (fast kattmat) för ca 100 kred. Tjafsa gärna om priset men ta inte för mycket (inte mer än 300 kred).",
-          "response" : ""
-      },
-      {
-          "id": "positive:5",
-          "comment": "nØllan ska berätta en rolig historia som innehåller orden 'tomat' och 'går vi'. Beroende på hur roliga och fantasifulla nØllan är belönar du dem med ett asgarv och 200-500 kred. Signera sedan deras händelsekort.",
-          "response" : ""
-      },
-      {
-          "id": "positive:7",
-          "comment": "nØllan kommer och kräver pengarna tillbaka på en hudkräm som du har sålt dem. Efter lite tjafs och tjat ger du dem 200 kred och signerar händelsekortet.",
-          "response" : ""
-      }
+        {
+            "id": "negative:3",
+            "comment": "nØllan vill köpa hundmat. De får då köpa en Frolic-bit (fast kattmat) för ca 100 kred. Tjafsa gärna om priset men ta inte för mycket (inte mer än 300 kred).",
+            "response" : ""
+        },
+        {
+            "id": "positive:5",
+            "comment": "nØllan ska berätta en rolig historia som innehåller orden 'tomat' och 'går vi'. Beroende på hur roliga och fantasifulla nØllan är belönar du dem med ett asgarv och 200-500 kred. Signera sedan deras händelsekort.",
+            "response" : ""
+        },
+        {
+            "id": "positive:7",
+            "comment": "nØllan kommer och kräver pengarna tillbaka på en hudkräm som du har sålt dem. Efter lite tjafs och tjat ger du dem 200 kred och signerar händelsekortet.",
+            "response" : ""
+        }
     ]
 }
