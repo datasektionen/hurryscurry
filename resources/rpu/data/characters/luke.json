@@ -4,7 +4,7 @@
     "location": "Se översiktsdokument på Drive",
     "area": "Wild Space",
     "persona": "Luke Skywalker är en nyfiken och härlig kille som för det mesta leker jediriddare. Han är oftast glad och trevlig. Dock verkar han sitta fast med en orm runt benet djupt i något som skulle kunna vara ett sopprum fullt av vatten, men han håller humöret uppe ändå!",
-    "props": "Inplastade lappar med bokstäver som bildar “Jungfru Maria”, en gosedjursorm att ha runt benet och en telefon nära till hands, 13 stycken tack-kort. ",
+    "props": "Inplastade lappar med bokstäver som bildar “Jungfru Maria”, en gosedjursorm att ha runt benet och en telefon nära till hands, 12 stycken tack-kort. ",
     "missions": [
         {
             "id": "solo:2",
@@ -14,7 +14,7 @@
         {
             "id": "luke:1",
             "comment": "När nØllan kommer för att rädda dig undan ditt hemska öde (du sitter ju faktiskt fast i en soprumspress) är du väldigt tacksam.",
-            "response": "“Schysst att ni vill hjälpa mig! Jag verkar ha fastnat.. Bara R2D2 kan rädda mig från att dö i den här hålet. Han stänga av väggarna som rör sig mot mig om han vet vilken sektor jag är i! Ta er till hjälpcentret i Mos Eisley och be rebellagenten kolla upp sektornumret på deras övervakningskameror!"
+            "response": "Schysst att ni vill hjälpa mig! Jag verkar ha fastnat.. Bara R2D2 kan rädda mig från att dö i den här hålet. Han stänga av väggarna som rör sig mot mig om han vet vilken sektor jag är i! Ta er till hjälpcentret i Mos Eisley och be rebellagenten kolla upp sektornumret på deras övervakningskameror!"
         },
         {
             "id": "luke:0",
