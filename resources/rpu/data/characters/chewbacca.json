@@ -4,17 +4,12 @@
     "location": "Se översiktsdokument på Drive",
     "area": "Karaokebaren i Corellia System",
     "persona": "Chewbacca, även kallad Chewie, är hyfsat glad och lurvig 200-år gammal Wookie som är bästis med Han Solo. Han ska se riktigt hårig ut och gärna vara målad i samma stil med ansiktsfärg för att få den rätta looken. Du kommer aldrig prata riktig svenska, utan bara göra Wookie-ljud.",
-    "props": "En dator att köra kareoke ifrån, 13 st pappersflygplan med serienummer på de som hör till 1000-års uppdraget, 13 st autografbilder och ett lämpligt bord för armbrytning.",
+    "props": "En dator att köra karaoke ifrån, 12 st pappersflygplan med serienummer på de som hör till 1000-års uppdraget, 12 st autografbilder och ett lämpligt bord för armbrytning.",
     "missions": [
         {
             "id": "1000arsservice:0",
             "comment": "Både nØllan och du har varit på jakt efter en hyperdrive motivator för att kunna reparera falken. Men svag som du är för rymdsynthar så fastnade du vid en karaokebar och blev distraherad från att ta med reservdelen till Deppo som är mekaniker. nØllan kommer till dig för att hämta reservdelen, men först måste de sjunga en duett med dig på SingStar! När ni har sjungit en låt av dignitet så får nØllan ta med sig ett av de pappersplan som finns på plats. De ska då ta med sig planet tillbaka till Deppo för att kunna avsluta uppdraget. Prata och sjung gärna så mycket du kan och var helt oförståelig när du pratar med nØllan! Till det här uppdraget borde det gå att instruera nØllan vad som ska göras med hjälp av gester och lite humor. ",
             "response": ""
-        },
-        {
-            "id": "jeditraning:1",
-            "comment": "När nØllan kommer till dig för att hitta Yoda blir du eld och lågor när de nämner en jediträning/Yoda! Eftersom att du har vunnit över alla jediriddare i armbrytning och du misstänker att nØllan är på väg att bli en så måste nØllan bryta arm med dig innan du berättar vad Yoda är. När du låter nØllan vinna i armbrytning harklar du dig säger att R2D2 känner till var Yodas hemplanet Dagobah är, se replik.",
-            "response": "”Roboten R2D2 är en duktig navigatör och känner säkert till rymdkoordinaterna till Yodas hemplanet Dagobah. Fråga R2D2 om koordinaterna till ”Dagobah”, han sågs senast i baren i Mos Eisley”"
         },
         {
             "id": "stridsteknik:2",
@@ -28,5 +23,10 @@
         }
     ],
     "events": [
+        {
+            "id": "negative:9",
+            "comment": "nØllan har startat en konflikt på rymd-twitter och du har utmanat de på armbrytning. Om nØllan vinner betalar de inget, om de förlorar betalar de 200 krediter. Hur mycket du vill försöka är upp till dig",
+            "response": ""
+        }
     ]
 }
