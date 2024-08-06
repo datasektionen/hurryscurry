@@ -98,12 +98,12 @@
   <resource type="teamLogo">landoFace.png</resource>
 </team>
 
-<team teamID="MonMothma">
+<!--<team teamID="MonMothma">
   <name>Mon Mothma</name>
   <firstMission>wmd</firstMission>
   <resource type="backgroundImage">MonMothma.jpg</resource>
   <resource type="teamLogo">mothmaFace.png</resource>
-</team>
+</team> -->
 
 <!-- <team teamID="NahdonnisPraji">
   <name>Nahdonnis Praji</name>
