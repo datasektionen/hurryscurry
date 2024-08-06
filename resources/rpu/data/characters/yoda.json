@@ -4,11 +4,11 @@
     "location": "Se översiktsdokument på Drive",
     "area": "Dagobah / Maz Kanatas Wärdshus / Borderland Regions",
     "persona": "Som en grön nyfödd skrynklig mupp i brun kappa. Plira på nØllan, försök sno saker av den och gnäll oerhört om de klagar. Pratar alltid med taskig grammatik och häver ur sig det ena obegripliga visdomsordet efter det andra (kolla bibeln för exempel).",
-    "props": "39 AA batterier (3 st per nollegrupp), pingisboll som det står “bomb” på, hjäml som man inte ser ut ifrån",
+    "props": "12st ljussablar med batterier (36 AA), pingisboll som det står “bomb” på, hjälm som man inte ser ut ifrån",
     "missions": [
         {
             "id": "jeditraning:0",
-            "comment": "Om nØllan ger dig 1200 krediter (och kanske något ätbart - inte nödvändigt) så kan träningen börja! En i gruppen tar på sig en hjälm som man inte ser igenom och får en pingisboll i handen som det står “bomb” på. Nu ska resten av gruppen guida personen genom en labyrint byggd av bord med hjälp av kraften, så att bomben kan släppas ner i en tratt i slutet av labyrinten. När nØllan är klar får de KRAFTEN i form av två batterier till ljussabeln (plastsvärdet).",
+            "comment": "Om nØllan ger dig 1200 krediter (och kanske något ätbart - inte nödvändigt) så kan träningen börja! En i gruppen tar på sig en hjälm som man inte ser igenom och får en pingisboll i handen som det står “bomb” på. Nu ska resten av gruppen guida personen genom en labyrint byggd av bord med hjälp av kraften, så att bomben kan släppas ner i en tratt i slutet av labyrinten. När nØllan är klar får de KRAFTEN i form av ljussabeln (plastsvärdet).",
             "response": "Pratar för all del med den taskigaste grammatik du kan, så länge nØllan förstår"
         }
     ],
