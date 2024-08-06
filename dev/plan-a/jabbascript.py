@@ -434,31 +434,30 @@ def json2pdf(template_path, destination, log_suffix, data):
     print('\tGenerating: %s ... ' % colored(destination, 'magenta', attrs=['bold']), end='')
     sys.stdout.flush()
 
-    jobname = 'tex/autogen'
+    # Define the jobname and command
+    jobname = 'autogen'  # Adjusted to remove 'tex/' since it's handled in cwd
     cmd = [
-    'latexmk',
-    '-gg',
-    '-cd',
-    '-quiet',
-    '-xelatex',
-    '-jobname=%s' % jobname,
-    __path_to_tex_temp
+        'xelatex',
+        '-interaction=nonstopmode',
+        '-jobname=%s' % jobname,
+        'temp.tex'  # Adjusted to remove 'tex/' since it's handled in cwd
     ]
 
     try:
-        # load the template file
+        # Load the template file
         with open(template_path, 'r') as myfile:
-            template=myfile.read()
+            template = myfile.read()
 
-        # replace tags with the appropriate data
+        # Replace tags with the appropriate data
         with open(__path_to_tex_temp, mode='w+') as out:
             for tag, value in data.items():
                 template = re.sub(r'{{%s}}' % tag, value, template)
             out.write(template)
 
-        # run latexmk to generate the pdf
+        # Run xelatex in the tex directory
+        tex_dir = './tex'
         FNULL = open(os.devnull, 'w')
-        with Popen(cmd, stdout=FNULL, stderr=FNULL, preexec_fn=os.setsid) as process:
+        with Popen(cmd, cwd=tex_dir, stdout=FNULL, stderr=FNULL, preexec_fn=os.setsid) as process:
             try:
                 process.communicate(timeout=30)
             except TimeoutExpired as e:
@@ -466,9 +465,11 @@ def json2pdf(template_path, destination, log_suffix, data):
                 process.communicate()
                 raise Exception(e)
             else:
+                # Ensure the destination directory exists
                 if not os.path.exists(os.path.dirname(destination)):
                     os.makedirs(os.path.dirname(destination))
-                shutil.copy2('./%s.pdf' % jobname, destination)
+                # Copy the generated PDF to the destination
+                shutil.copy2(os.path.join(tex_dir, '%s.pdf' % jobname), destination)
 
     except IOError as e:
         pretty_print.error()
@@ -478,6 +479,7 @@ def json2pdf(template_path, destination, log_suffix, data):
         log(suffix='%s.errors' % log_suffix, where=destination, message=str(e))
     else:
         pretty_print.ok()
+
 
 """
 Generates the mission resources, as well as their respective clues, as pdf documents
