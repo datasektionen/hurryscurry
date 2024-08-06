@@ -4,11 +4,11 @@
     "location": "Se översiktsdokument på Drive",
     "area": "Tatooine - Corellia System",
     "persona": "Jawas är sandfolk som är kända för att bedra andra i sin omgivning. De är ohederliga varelser som livnär sig på att stjäla/lägga vantarna på robotar och teknik som de sedan kan sälja.\nEn jawa är till utseendet kort och klädd i en brun rock med en huva som kastar skuggor över ansiktet. Hemlighetsfull och svårtydig. ",
-    "props": "C3PO-delar (13 set), eltejp/silvertejp, 3 hinkar, havregrynsgröt, lingonsylt, ett paket med flingor, några kannor med vatten och ett eller flera paket med ägg. Papper behövs också, samt 3 ögonbindlar och lock av något slag till hinkarna. Dessutom engåndshandskar för corona-safety",
+    "props": "C3PO-delar (12 set), eltejp/silvertejp, 3 hinkar, havregrynsgröt, lingonsylt, ett paket med flingor, några kannor med vatten och ett eller flera paket med ägg. Papper behövs också, samt 3 ögonbindlar och lock av något slag till hinkarna. Dessutom engåndshandskar för corona-safety",
     "missions": [
         {
             "id": "r2d2:2",
-            "comment": "När nØllan kommer och frågar om R2D2 (kommer hända 13 ggr) så hänvisar du dem till din buddy Albeback som tagit ut R2D2 för att säljas i norra Corellia System",
+            "comment": "När nØllan kommer och frågar om R2D2 (kommer hända 12 ggr) så hänvisar du dem till din buddy Albeback som tagit ut R2D2 för att säljas i norra Corellia System",
             "response": "“Här i trakterna finns det inte så många köpare, så vi lät vår vän Albeback ta robotarna norrut, han bör inte hunnit ut ur Corelia System än...”"
         },
         {
