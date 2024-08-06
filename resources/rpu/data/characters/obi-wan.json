@@ -1,20 +1,15 @@
 {
     "id": "obi-wan",
     "name": "Obi-Wan Kenobi",
-    "location": "Meta",
+    "location": "META",
     "area": "Mos Eisley",
-    "persona": "Lång, klok gammal man. Klär sig i ökenfärgad kåpa. Gärna vitt hår och skägg. Obi Wan ska ligga ganska lågt i baren när nØllan är där. Han ska vara hemlig och nØllan måste leta upp honom. Önska nØllan lycka till och upprepa “må kraften vara med dig”. Om nØllan säger fel kodord, ignorera dem och verka mystisk. Det finns ett annat uppdrag som involverar lasersvärd (lasersvärdskuponger för att vara mer exakt), de ska prata med Big Bunji för att få rabattkuponger, inte dig.",
-    "props": "En ljussabel (lysande plastsvärd från Buttericks eller motsvarande) för varje lag (13 st) och ett inspelat röstmeddelande som säger att de har nått Obi-Wan Kenobi.",
+    "persona": "Lång, klok gammal man. Klär sig i ökenfärgad kåpa. Gärna vitt hår och skägg. Obi Wan ska ligga ganska lågt i baren när nØllan är där. Han ska vara hemlig och nØllan måste leta upp honom. Önska nØllan lycka till och upprepa “må kraften vara med dig”. Det finns ett annat uppdrag som involverar lasersvärd (lasersvärdskuponger för att vara mer exakt), de ska prata med Big Bunji för att få rabattkuponger, inte dig.",
+    "props": "En ljussabel.",
     "missions": [
         {
-            "id": "kenobi:0",
-            "comment": "Om nØllan knackar 5 ggr på axeln och viskar “Vill ni se min ljussnabel” svara med något passande för en jedi-riddare och ge nØllan en ljussabel.",
-            "response": "Jag ser att kraften är med er"
-        },
-        {
-            "id": "kenobi:3",
-            "comment": "Den här ledtråden är intalad på en telefonsvarare (förslagsvis av den personen som spelar Obi Wan och på dennes telefon).",
-            "response": "Hej! Du har kommit till Obi-Wans automatiska telefonsvarare. Jag är inte inne just nu, men om det verkligen är viktigt så sök mig i baren i Mos Eisley. Knacka mig fem gånger på axeln och viska »Vill du se min ljussnabel?» Må kraften vara med dig!"
+            "id": "jeditraining:1",
+            "comment": "nØllan kommer och vill lära sin om Jedi träning/Yoda. Du ska vara tveksam att dela med information tills du blir mutad eller frågad flera gånger",
+            "response": "Roboten R2D2 är en duktig navigatör och känner säkert till rymdkoordinaterna till Yodas hemplanet Dagobah. Fråga R2D2 om koordinaterna till ”Dagobah”, han sågs senast i tillsammans med ett par Jawas på Tatooine. Må kraften vara med er!"
         },
         {
             "id": "smuggelgods:1",
