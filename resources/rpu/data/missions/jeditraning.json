@@ -1,36 +1,37 @@
 {
-	"id" : "jeditraning",
-	"main" : {
-		"title" : "Genomgå Jediträning",
-		"background" : "För att nØllan ska ha en chans att klara av allt som en rebell kan stå inför så måste nØllan träna för att bli en Jedi-riddare. Det finns en liten konstig krumelur vid namn Yoda som vet ganska mycket om detta. nØllan måste hitta denne man för att få instruktioner och utbildning. Om nØllan lyssnar noga kanske nØllan kan lära sig något om Kraften.",
-		"goal" : "nØllans mål är att lokalisera Yoda och att från honom erhålla kraften. Kraften är mycket användbar.",
-		"reward" : "Om nØllan lyckas så belönas nØllan med den inte så lite värdefulla kraften.",
-		"hint" : "Det finns en mystisk gammal man i en kappa i Mos Eisley som ryktas ha koppling till Jedi-ordern, han kanske har svaren ni letar efter"
-	"clues" : [
+	"id": "jeditraning",
+	"main": {
+		"title": "Genomgå Jediträning",
+		"background": "För att nØllan ska ha en chans att klara av allt som en rebell kan stå inför så måste nØllan träna för att bli en Jedi-riddare. Det finns en liten konstig krumelur vid namn Yoda som vet ganska mycket om detta. nØllan måste hitta denne man för att få instruktioner och utbildning. Om nØllan lyssnar noga kanske nØllan kan lära sig något om Kraften.",
+		"goal": "nØllans mål är att lokalisera Yoda och att från honom erhålla kraften. Kraften är mycket användbar.",
+		"reward": "Om nØllan lyckas så belönas nØllan med den inte så lite värdefulla kraften.",
+		"hint": "Det finns en mystisk gammal man i en kappa i Mos Eisley som ryktas ha koppling till Jedi-ordern, han kanske har svaren ni letar efter"
+	},
+	"clues": [
 		{
-			"id" : "1",
-			"text" : "Roboten R2D2 är en duktig navigatör och känner säkert till rymdkoordinaterna till Yodas hemplanet Dagobah. Fråga R2D2 om koordinaterna till ”Dagobah”, han sågs senast i tillsammans med ett par Jawas på Tatooine. Må kraften vara med er!",
-			"comment" : "När nØllan kommer till Mos Eisley och nämner jediträning/Yoda låtsas Obi-Wan först som att han inte vet. Efter att ha frågats ett par gånger eller mutats ger han ledtråden."
+			"id": "1",
+			"text": "Roboten R2D2 är en duktig navigatör och känner säkert till rymdkoordinaterna till Yodas hemplanet Dagobah. Fråga R2D2 om koordinaterna till ”Dagobah”, han sågs senast i tillsammans med ett par Jawas på Tatooine. Må kraften vara med er!",
+			"comment": "När nØllan kommer till Mos Eisley och nämner jediträning/Yoda låtsas Obi-Wan först som att han inte vet. Efter att ha frågats ett par gånger eller mutats ger han ledtråden."
 		},
 		{
-			"id" : "2",
-			"text" : "Här i trakterna finns det inte så många köpare, så vi lät vår vän Albeback ta robotarna västerut, han bör inte hunnit ut ur Correlia System än...",
-			"comment" : "Den här ledtråden ges av Jawas på Tatooine och trycks på ett »Hitta R2D2»-ledtrådskort (via r2d2.json) så att de inte skall behöva fråga vilket uppdrag nØllan håller på med."
+			"id": "2",
+			"text": "Här i trakterna finns det inte så många köpare, så vi lät vår vän Albeback ta robotarna västerut, han bör inte hunnit ut ur Correlia System än...",
+			"comment": "Den här ledtråden ges av Jawas på Tatooine och trycks på ett »Hitta R2D2»-ledtrådskort (via r2d2.json) så att de inte skall behöva fråga vilket uppdrag nØllan håller på med."
 		},
 		{
-			"id" : "3",
-			"text" : "Planeten Dagobah ligger i norra Borderland Regions.",
-			"comment" : "Den här ledtråden ges av R2D2 om man skriver in koden »dagobah»."
+			"id": "3",
+			"text": "Planeten Dagobah ligger i norra Borderland Regions.",
+			"comment": "Den här ledtråden ges av R2D2 om man skriver in koden »dagobah»."
 		},
 		{
-			"id" : "4",
-			"text" : "På vägen till Dagobah kraschar ert rymdskepp i ett träsk! Det enda stället där man inte sjunker ned till midjan verkar vara huset med neonskylten »Maz Kanatas Wärdshus».",
-			"comment" : "Den här ledtråden kan behöva akompanjeras av skyltar som visar var Wärdshuset är om det ligger olämpligt till."
+			"id": "4",
+			"text": "På vägen till Dagobah kraschar ert rymdskepp i ett träsk! Det enda stället där man inte sjunker ned till midjan verkar vara huset med neonskylten »Maz Kanatas Wärdshus».",
+			"comment": "Den här ledtråden kan behöva akompanjeras av skyltar som visar var Wärdshuset är om det ligger olämpligt till."
 		}
 	],
-	"meta" : {
-		"resolution" : "Väl framme i Wärdshuset hittar nØllan Yoda (ha gärna en skylt där det står »Yodas Jedi-gym Crashcourse». Hos Yoda blir nØllan tvungen att betala 1200 krediter, och efter det börjar JEDITRÄNINGEN! Nu måste nØllan klara av Yodas träning som består av att: En i gruppen tar på sig en hjälm som man inte ser ut genom och får en pingisboll som det står “bomb” på. Nu ska resten av gruppen guida personen genom en labyrint med hjälp av kraften, så att bomben kan släppas ner i en tratt i slutet av labyrinten. När nØllan är klar får de, efter lite spydigheter, kraften i form av två batterier till ljussnabeln (plastsvärdet).",
-		"requirements" : "Uppdraget redovisas genom att nØllan går tillbaka till rebellbasen och stolt visar upp sina batterier.",
-		"props" : "Till det här uppdraget behövs 12st ljussablar och 36st AA batterier. Det kan också behövas »neonskyltar» som visar var Yoda sitter någonstans. Vidare behövs Yoda (specifik för uppdraget), Yodas best bud Maz Kanata, Chewie samt R2D2 med sin vakt och Jawas på Tatooine (ej specifika för uppdraget). Sen behöver borden i klassrummet ordnas för att bilda en labyrint, det behövs en hjälm som man inte ser ut från och en pingisboll som det står “bomb” på. Det behövs även Wärdshus-skyltar så att nØllan hittar Wärdshusets ingång."
+	"meta": {
+		"resolution": "Väl framme i Wärdshuset hittar nØllan Yoda (ha gärna en skylt där det står »Yodas Jedi-gym Crashcourse». Hos Yoda blir nØllan tvungen att betala 1200 krediter, och efter det börjar JEDITRÄNINGEN! Nu måste nØllan klara av Yodas träning som består av att: En i gruppen tar på sig en hjälm som man inte ser ut genom och får en pingisboll som det står “bomb” på. Nu ska resten av gruppen guida personen genom en labyrint med hjälp av kraften, så att bomben kan släppas ner i en tratt i slutet av labyrinten. När nØllan är klar får de, efter lite spydigheter, kraften i form av två batterier till ljussnabeln (plastsvärdet).",
+		"requirements": "Uppdraget redovisas genom att nØllan går tillbaka till rebellbasen och stolt visar upp sina batterier.",
+		"props": "Till det här uppdraget behövs 12st ljussablar och 36st AA batterier. Det kan också behövas »neonskyltar» som visar var Yoda sitter någonstans. Vidare behövs Yoda (specifik för uppdraget), Yodas best bud Maz Kanata, Chewie samt R2D2 med sin vakt och Jawas på Tatooine (ej specifika för uppdraget). Sen behöver borden i klassrummet ordnas för att bilda en labyrint, det behövs en hjälm som man inte ser ut från och en pingisboll som det står “bomb” på. Det behövs även Wärdshus-skyltar så att nØllan hittar Wärdshusets ingång."
 	}
 }

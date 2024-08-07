@@ -7,7 +7,7 @@
     "props": "En ljussabel.",
     "missions": [
         {
-            "id": "jeditraining:1",
+            "id": "jeditraning:1",
             "comment": "nØllan kommer och vill lära sin om Jedi träning/Yoda. Du ska vara tveksam att dela med information tills du blir mutad eller frågad flera gånger",
             "response": "Roboten R2D2 är en duktig navigatör och känner säkert till rymdkoordinaterna till Yodas hemplanet Dagobah. Fråga R2D2 om koordinaterna till ”Dagobah”, han sågs senast i tillsammans med ett par Jawas på Tatooine. Må kraften vara med er!"
         },
